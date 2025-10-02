@@ -323,33 +323,33 @@ class PASCALPart_annotations:
                     self.annotations[filename]['objects'][str(0)]['x_2'] = int(xmax)
                     self.annotations[filename]['objects'][str(0)]['y_2'] = int(ymax)
                 
-    def toYOLO(self, name):
+    def toYOLO(self, name, split):
         class_codes = get_class_codes()
         for filename in self.annotations.keys():
-            yolo_filename = filename + '.txt'
-            km_filename = filename + '.km'
+            yolo_filename = os.path.join(name, f"Annotations_{split}", filename + ".txt")
+            km_filename = os.path.join(name, f"Annotations_{split}", filename + ".km")
             width = self.annotations[filename]['width']
             height = self.annotations[filename]['height']
             with open( yolo_filename, 'w', encoding='utf-8') as yolo_file:
-                for object_id in self.annotations[filename]['objects'].keys():
-                    object_class = class_codes[self.get_obj_class(filename, object_id)]
-                    x_lu, y_lu, x_rb, y_rb = self.get_bounding_box( filename, object_id)
-                    x_c = float(x_rb + x_lu) / (2.0 * width)
-                    y_c = float(y_rb + y_lu) / (2.0 * height)
-                    w = float(x_rb - x_lu) / width
-                    h = float(y_rb - y_lu) / height
-                    yolo_line = str(object_class) + ' ' + str(x_c) + ' ' + str(y_c) + ' ' + str(w) + ' ' + str(h) + '\n'
-                    yolo_file.write( yolo_line)
-                    container = self.get_whole_ids(filename, object_id)
-                    if (container != None):
-                        with open( km_filename, 'w', encoding='utf-8') as km_file:
-                            km_line = str(object_class)
+                with open( km_filename, 'w', encoding='utf-8') as km_file:
+                    for object_id in self.annotations[filename]['objects'].keys():
+                        object_class = class_codes[self.get_obj_class(filename, object_id)]
+                        x_lu, y_lu, x_rb, y_rb = self.get_bounding_box( filename, object_id)
+                        x_c = float(x_rb + x_lu) / (2.0 * width)
+                        y_c = float(y_rb + y_lu) / (2.0 * height)
+                        w = float(x_rb - x_lu) / width
+                        h = float(y_rb - y_lu) / height
+                        yolo_line = str(object_class) + ' ' + str(x_c) + ' ' + str(y_c) + ' ' + str(w) + ' ' + str(h) + '\n'
+                        yolo_file.write( yolo_line)
+                        km_line = str(object_class)
+                        container = self.get_whole_ids(filename, object_id) 
+                        if (container != None):
                             while (container != None):
                                 container_class = class_codes[self.get_obj_class(filename, container)]
                                 km_line = km_line + ' ' + str(container_class)
                                 container = self.get_whole_ids(filename, container)
-                            km_line = km_line + '\n'
-                            km_file.write(km_line)
+                        km_line = km_line + '\n'
+                        km_file.write(km_line)
 
     def toRDF(self, name=""):
         print("RDF conversion ...")
@@ -405,8 +405,8 @@ if __name__ == '__main__':
     #ann.load_data(split="test")
     #ann_rdf = ann.toRDF("test")
     ann.load_data(split="trainval")
-    ann.toYOLO("trainval")
+    ann.toYOLO("semanticPascalPart","trainval")
     
     ann = PASCALPart_annotations()
     ann.load_data(split="test")
-    ann.toYOLO("test")
+    ann.toYOLO("semanticPascalPart","test")
