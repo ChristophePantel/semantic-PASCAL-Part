@@ -1,0 +1,74 @@
+path: Semantic_Pascal_Part
+
+train :
+  - train/images
+
+val :
+  - val/images
+
+test :
+  - test/images
+
+# Classes
+name :
+  00 : Aeroplane
+  01 : Animal_Wing
+  02 : Animal
+  03 : Arm
+  04 : Artifact_Wing
+  05 : Beak
+  06 : Bicycle
+  07 : Bird
+  08 : Boat
+  09 : Body
+  10 : Bodywork
+  11 : Bottle
+  12 : Bus
+  13 : Cap
+  14 : Car
+  15 : Cat
+  16 : Chain_Wheel
+  17 : Chair
+  18 : Coach
+  19 : Cow
+  20 : Dining_Table
+  21 : Dog
+  22 : Door
+  23 : Ear
+  24 : Eyebrow
+  25 : Engine
+  26 : Eye
+  27 : Foot
+  28 : Hair
+  29 : Hand
+  30 : Handlebar
+  31 : Head
+  32 : Headlight
+  33 : Hoof
+  34 : Horn
+  35 : Horse
+  36 : Leg
+  37 : License_Plate
+  38 : Locomotive
+  39 : Mirror
+  40 : Motorbike
+  41 : Mouth
+  42 : Muzzle
+  43 : Neck
+  44 : Nose
+  45 : Person
+  46 : Plant
+  47 : Pot
+  48 : Potted_Plant
+  49 : Saddle
+  50 : Screen
+  51 : Sheep
+  52 : Sofa
+  53 : Stern
+  54 : Tail
+  55 : Torso
+  56 : Train
+  57 : Television_Monitor
+  58 : Vehicle
+  59 : Wheel
+  60 : Window
