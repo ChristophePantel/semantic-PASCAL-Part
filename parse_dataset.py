@@ -343,6 +343,7 @@ class PASCALPart_annotations:
                 
     def toYOLO(self, name, split):
         class_codes = get_class_codes()
+        refined_classes_codes = get_refined_classes()
         for filename in self.annotations.keys():
             yolo_filename = os.path.join(name, f"Annotations_{split}", filename + ".txt")
             km_filename = os.path.join(name, f"Annotations_{split}", filename + ".km")
@@ -362,7 +363,15 @@ class PASCALPart_annotations:
                         yolo_line = str(object_class) + ' ' + str(x_c) + ' ' + str(y_c) + ' ' + str(w) + ' ' + str(h) + '\n'
                         yolo_file.write( yolo_line)
                         km_line = str(object_class)
-                        container = self.get_whole_ids(filename, object_id) 
+                        object_class_refined_classes = refined_classes_codes[object_class]
+
+                        # Handling specialization / generalization relations
+                        if object_class_refined_classes.has(object_class):
+                            for refined_class in object_class_refined_classes:
+                                km_line = km_line + ' ' + refined_class
+                            container = self.get_whole_ids(filename, object_id) 
+                        
+                        # Handling composition / decomposition relations 
                         if (container != None):
                             while (container != None):
                                 container_class = class_codes[self.get_obj_class(filename, container)]
