@@ -363,13 +363,12 @@ class PASCALPart_annotations:
                         yolo_line = str(object_class) + ' ' + str(x_c) + ' ' + str(y_c) + ' ' + str(w) + ' ' + str(h) + '\n'
                         yolo_file.write( yolo_line)
                         km_line = str(object_class)
-                        object_class_refined_classes = refined_classes_codes[object_class]
 
                         # Handling specialization / generalization relations
-                        if object_class_refined_classes.has(object_class):
-                            for refined_class in object_class_refined_classes:
-                                km_line = km_line + ' ' + refined_class
-                            container = self.get_whole_ids(filename, object_id) 
+                        object_class_refined_classes = refined_classes_codes.get(object_class,[])
+                        for refined_class in object_class_refined_classes:
+                            km_line = km_line + ' ' + str(refined_class)
+                        container = self.get_whole_ids(filename, object_id) 
                         
                         # Handling composition / decomposition relations 
                         if (container != None):
