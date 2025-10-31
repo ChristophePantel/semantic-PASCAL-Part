@@ -12,7 +12,15 @@ from tensorflow.python.keras.utils import object_identity
 def get_refined_classes():
     refined_classes = {
         7 : [ 2 ],
-        15 : [ 2 ]
+        15 : [ 2 ],
+        19 : [ 2 ],
+        21 : [ 2 ],
+        35 : [ 2 ],
+        51 : [ 2 ],
+        0 : [ 58 ], 
+        6 : [ 58 ],
+        8 : [ 58 ],
+        56 : [ 58 ],
         }
     return refined_classes
 
