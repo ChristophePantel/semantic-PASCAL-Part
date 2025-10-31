@@ -159,6 +159,12 @@ def get_class_codes():
         }
     return codes
 
+def add_refined_classes(refined_classes_codes, object_class):
+    object_class_refined_classes = refined_classes_codes.get(object_class,[])
+    for refined_class in object_class_refined_classes:
+        km_line = km_line + ' ' + str(refined_class)
+    return km_line
+
 def extract_bb_coordinates(id, ann_dict):
 	if id > -1:
 		x_1 = int(ann_dict[id]['polygon']['pt'][0]['x'])
@@ -340,7 +346,7 @@ class PASCALPart_annotations:
                     self.annotations[filename]['objects'][str(0)]['y_1'] = int(ymin)
                     self.annotations[filename]['objects'][str(0)]['x_2'] = int(xmax)
                     self.annotations[filename]['objects'][str(0)]['y_2'] = int(ymax)
-                
+
     def toYOLO(self, name, split):
         class_codes = get_class_codes()
         refined_classes_codes = get_refined_classes()
@@ -365,9 +371,7 @@ class PASCALPart_annotations:
                         km_line = str(object_class)
 
                         # Handling specialization / generalization relations
-                        object_class_refined_classes = refined_classes_codes.get(object_class,[])
-                        for refined_class in object_class_refined_classes:
-                            km_line = km_line + ' ' + str(refined_class)
+                        km_line = km_line + ' ' + add_refined_classes(refined_classes_codes, object_class)
                         container = self.get_whole_ids(filename, object_id) 
                         
                         # Handling composition / decomposition relations 
@@ -375,6 +379,7 @@ class PASCALPart_annotations:
                             while (container != None):
                                 container_class = class_codes[self.get_obj_class(filename, container)]
                                 km_line = km_line + ' ' + str(container_class)
+                                km_line = km_line + ' ' + add_refined_classes(refined_classes_codes, container_class)
                                 container = self.get_whole_ids(filename, container)
                         km_line = km_line + '\n'
                         km_file.write(km_line)
