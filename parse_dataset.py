@@ -9,6 +9,13 @@ from rdflib import Namespace
 import numpy as np
 from tensorflow.python.keras.utils import object_identity
 
+def get_refined_classes():
+    refined_classes = {
+        7 : [ 2 ],
+        15 : [ 2 ]
+        }
+    return refined_classes
+
 def get_class_names():
     classes = {
         0 : "Aeroplane",
