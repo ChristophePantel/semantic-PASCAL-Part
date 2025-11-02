@@ -11,21 +11,69 @@ from tensorflow.python.keras.utils import object_identity
 
 def get_refined_classes():
     refined_classes = {
-        7 : [ 2 ],
-        15 : [ 2 ],
-        19 : [ 2 ],
-        21 : [ 2 ],
-        35 : [ 2 ],
-        45 : [ 2 ],
-        51 : [ 2 ],
-        0 : [ 58 ], 
-        6 : [ 58 ],
-        8 : [ 58 ],
-        14 : [ 58 ],
-        40 : [ 58 ],
-        56 : [ 58 ]
+        "Bird" : [ "Animals" ],
+        "Cat" : [ "Animals" ],
+        "Cow" : [ "Animals" ],
+        "Dog" : [ "Animals" ],
+        "Horse" : [ "Animals" ],
+        "Person" : [ "Animals" ],
+        "Sheep" : [ "Animals" ],
+        "Aeroplane" : [ "Vehicle" ], 
+        "Bicylcle" : [ "Vehicle" ],
+        "Boat" : [ "Vehicle" ],
+        "Car" : [ "Vehicle" ],
+        "Motorbike" : [ "Vehicle" ],
+        "Train" : ["Vehicle"]
         }
     return refined_classes
+
+
+def get_component_classes():
+    component_classes = {
+        "Animals" : [ "Eye", "Head", "Leg", "Neck", "Torso" ],
+        "Bird" : ["Animal_Wing", "Beak", "Tail"],
+        "Cat" : ["Ear", "Tail"],
+        "Cow" : ["Ear", "Horn", "Muzzle", "Tail"],
+        "Dog" : ["Ear", "Muzzle", "Nose", "Tail"],
+        "Horse" : ["ear", "Hoof", "Muzzle", "Tail"],
+        "Person" : ["Arm", "Ear", "Ebrow", "Foot", "Hair", "Hand", "Mouth", "Nose"],
+        "Sheep" : ["Ear", "Horn", "Muzzle", "Tail"],
+        "Bottle" : ["Body", "Cap"],
+        "Pottedplant" : ["Plant", "Pot"],
+        "Tvmonitor" : ["Screen"],
+        "Aeroplane" : ["Artifact_Wing", "Body", "Engine", "Stern", "Wheel"],
+        "Bicycle" : ["Chain_Wheel", "Handlebar", "Headlight", "Saddle", "Wheel"],
+        "Bus" : ["Bodywork", "Door", "Headlight", "License_plate", "Mirror", "Wheel", "Window"],
+        "Car" : ["Bodywork", "Door", "Headlight", "License_plate", "Mirror", "Wheel", "Window"],
+        "Motorbike" : ["Handlebar", "Headlight", "Saddle", "Wheel"],
+        "Train" : [ "Coach", "Headlight", "Locomotive" ]
+        }
+    return component_classes
+
+# ensemble de classes
+# returns : dictionnaire 
+def associate_number_to_class_and_class_to_number(classe_names):
+    dictionnary_number_to_class = {}
+    dictionnary_class_to_number = {}
+    indice = 0
+    for element in classe_names:
+        dictionnary_number_to_class[indice] = element
+        dictionnary_class_to_number[element] = indice
+        indice += 1
+    return dictionnary_number_to_class, dictionnary_class_to_number
+
+def associate_codes_to_hierarchies(codes, named_hierarchy):
+    coded_named_hierarchy = {}
+    for key in named_hierarchy:
+        values = named_hierarchy.get(key)
+        coded_values = []
+        for element in values:
+            element_code = codes.get(element)
+            coded_values.append(element_code)
+        coded_key = codes.get(key)
+        coded_named_hierarchy[coded_key] = coded_values
+
+    return coded_named_hierarchy
 
 def get_class_names():
     classes = {
@@ -57,6 +105,7 @@ def get_class_names():
         25 : "Engine",
         26 : "Eye",
         27 : "Foot",
+        # num : "Furniture"
         28 : "Hair",
         29 : "Hand",
         30 : "Handlebar",
