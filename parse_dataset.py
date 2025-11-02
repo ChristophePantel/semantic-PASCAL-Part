@@ -397,9 +397,13 @@ class PASCALPart_annotations:
                     self.annotations[filename]['objects'][str(0)]['x_2'] = int(xmax)
                     self.annotations[filename]['objects'][str(0)]['y_2'] = int(ymax)
 
-    def toYOLO(self, name, split):
-        class_codes = get_yolo_class_codes()
-        refined_classes_codes = get_refined_classes()
+    def toYOLO(self, name, split, classes, part_hierarchy, class_hierarchy):
+        dictionnary_number_to_class, dictionnary_class_to_number = associate_number_to_class_and_class_to_number(classes)
+        coded_part_hierarchy = associate_codes_to_hierarchies(dictionnary_class_to_number, part_hierarchy)
+        coded_class_hierarchy = associate_codes_to_hierarchies(dictionnary_class_to_number, class_hierarchy)
+
+        # class_codes = get_yolo_class_codes()
+        # refined_classes_codes = get_refined_classes()
         for filename in self.annotations.keys():
             yolo_filename = os.path.join(name, f"Annotations_{split}", filename + ".txt")
             km_filename = os.path.join(name, f"Annotations_{split}", filename + ".km")
@@ -408,7 +412,7 @@ class PASCALPart_annotations:
             with open( yolo_filename, 'w', encoding='utf-8') as yolo_file:
                 with open( km_filename, 'w', encoding='utf-8') as km_file:
                     for object_id in self.annotations[filename]['objects'].keys():
-                        object_class = class_codes[self.get_obj_class(filename, object_id)]
+                        object_class = dictionnary_class_to_number[self.get_obj_class(filename, object_id)]
                         x_lu, y_lu, x_rb, y_rb = self.get_bounding_box( filename, object_id)
                         if ((x_lu == x_rb) or (y_lu == y_rb)):
                             print(f"Object {object_id} in image {filename} is too small (left upper ({x_lu}, {y_lu}) right bottom ({x_rb}, {y_rb})")
@@ -421,15 +425,15 @@ class PASCALPart_annotations:
                         km_line = str(object_class)
 
                         # Handling specialization / generalization relations
-                        km_line = km_line + ' ' + add_refined_classes(refined_classes_codes, object_class)
+                        km_line = km_line + ' ' + add_refined_classes(coded_class_hierarchy, object_class)
                         container = self.get_whole_ids(filename, object_id) 
                         
                         # Handling composition / decomposition relations 
                         if (container != None):
                             while (container != None):
-                                container_class = class_codes[self.get_obj_class(filename, container)]
+                                container_class = dictionnary_class_to_number[self.get_obj_class(filename, container)]
                                 km_line = km_line + ' ' + str(container_class)
-                                km_line = km_line + ' ' + add_refined_classes(refined_classes_codes, container_class)
+                                km_line = km_line + ' ' + add_refined_classes(coded_class_hierarchy, container_class)
                                 container = self.get_whole_ids(filename, container)
                         km_line = km_line + '\n'
                         km_file.write(km_line)
