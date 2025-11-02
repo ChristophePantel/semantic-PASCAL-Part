@@ -9,67 +9,71 @@ from rdflib import Namespace
 import numpy as np
 from tensorflow.python.keras.utils import object_identity
 
-class_names = {'Aeroplane', 
-               'Animal_wing', 
-               'Animals', 
-               'Arm', 
-               'Artifact_wing', 
-               'Beak', 
-               'Bicycle', 
-               'Bird', 
-               'Boat', 
-               'Body', 
-               'Bodywork', 
-               'Bottle', 
-               'Bus', 
-               'Cap', 
-               'Car', 
-               'Cat', 
-               'Chain_wheel', 
-               'Chair', 
-               'Coach', 
-               'Cow', 
-               'Diningtable', 
-               'Dog', 
-               'Door', 
-               'Ear', 
-               'Ebrow', 
-               'Engine', 
-               'Eye', 
-               'Foot', 
-               'Hair', 
-               'Hand', 
-               'Handlebar', 
-               'Head', 
-               'Headlight', 
-               'Hoof', 
-               'Horn', 
-               'Horse', 
-               'Leg', 
-               'License_plate', 
-               'Locomotive', 
-               'Mirror', 
-               'Motorbike', 
-               'Mouth', 
-               'Muzzle', 
-               'Neck', 
-               'Nose', 
-               'Person', 
-               'Plant', 
-               'Pot', 
-               'Pottedplant', 
-               'Saddle', 
-               'Screen', 
-               'Sheep', 
-               'Sofa', 
-               'Stern', 
-               'Tail', 
-               'Torso', 
-               'Train', 
-               'Tvmonitor', 
-               'Vehicle', 
-               'Wheel', 
-               'Window'}
+def get_class_names():
+    class_names = {
+        'Aeroplane', 
+       'Animal_Wing', 
+       'Animals', 
+       'Arm', 
+       'Artifact_Wing', 
+       'Beak', 
+       'Bicycle', 
+       'Bird', 
+       'Boat', 
+       'Body', 
+       'Bodywork', 
+       'Bottle', 
+       'Bus', 
+       'Cap', 
+       'Car', 
+       'Cat', 
+       'Chain_Wheel', 
+       'Chair', 
+       'Coach', 
+       'Cow', 
+       'Dining_Table', 
+       'Dog', 
+       'Door', 
+       'Ear', 
+       'Eyebrow', 
+       'Engine', 
+       'Eye', 
+       'Foot', 
+       'Hair', 
+       'Hand', 
+       'Handlebar', 
+       'Head', 
+       'Headlight', 
+       'Hoof', 
+       'Horn', 
+       'Horse', 
+       'Leg', 
+       'License_Plate', 
+       'Locomotive', 
+       'Mirror', 
+       'Motorbike', 
+       'Mouth', 
+       'Muzzle', 
+       'Neck', 
+       'Nose', 
+       'Person', 
+       'Plant', 
+       'Pot', 
+       'Potted_Plant', 
+       'Saddle', 
+       'Screen', 
+       'Sheep', 
+       'Sofa', 
+       'Stern', 
+       'Tail', 
+       'Torso', 
+       'Train', 
+       'TV_Monitor', 
+       'Vehicle', 
+       'Wheel', 
+       'Window',
+    }
+    return class_names
 
 def get_refined_classes():
     refined_classes = {
@@ -81,7 +85,7 @@ def get_refined_classes():
         "Person" : [ "Animals" ],
         "Sheep" : [ "Animals" ],
         "Aeroplane" : [ "Vehicle" ], 
-        "Bicylcle" : [ "Vehicle" ],
+        "Bicycle" : [ "Vehicle" ],
         "Boat" : [ "Vehicle" ],
         "Car" : [ "Vehicle" ],
         "Motorbike" : [ "Vehicle" ],
@@ -90,27 +94,27 @@ def get_refined_classes():
     return refined_classes
 
 
-def get_component_classes():
-    component_classes = {
+def get_contained_classes():
+    contained_classes = {
         "Animals" : [ "Eye", "Head", "Leg", "Neck", "Torso" ],
         "Bird" : ["Animal_Wing", "Beak", "Tail"],
         "Cat" : ["Ear", "Tail"],
         "Cow" : ["Ear", "Horn", "Muzzle", "Tail"],
         "Dog" : ["Ear", "Muzzle", "Nose", "Tail"],
         "Horse" : ["ear", "Hoof", "Muzzle", "Tail"],
-        "Person" : ["Arm", "Ear", "Ebrow", "Foot", "Hair", "Hand", "Mouth", "Nose"],
+        "Person" : ["Arm", "Ear", "Eyebrow", "Foot", "Hair", "Hand", "Mouth", "Nose"],
         "Sheep" : ["Ear", "Horn", "Muzzle", "Tail"],
         "Bottle" : ["Body", "Cap"],
-        "Pottedplant" : ["Plant", "Pot"],
-        "Tvmonitor" : ["Screen"],
+        "Potted_Plant" : ["Plant", "Pot"],
+        "TV_Monitor" : ["Screen"],
         "Aeroplane" : ["Artifact_Wing", "Body", "Engine", "Stern", "Wheel"],
         "Bicycle" : ["Chain_Wheel", "Handlebar", "Headlight", "Saddle", "Wheel"],
-        "Bus" : ["Bodywork", "Door", "Headlight", "License_plate", "Mirror", "Wheel", "Window"],
-        "Car" : ["Bodywork", "Door", "Headlight", "License_plate", "Mirror", "Wheel", "Window"],
+        "Bus" : ["Bodywork", "Door", "Headlight", "License_Plate", "Mirror", "Wheel", "Window"],
+        "Car" : ["Bodywork", "Door", "Headlight", "License_Plate", "Mirror", "Wheel", "Window"],
         "Motorbike" : ["Handlebar", "Headlight", "Saddle", "Wheel"],
         "Train" : [ "Coach", "Headlight", "Locomotive" ]
         }
-    return component_classes
+    return contained_classes
 
 # ensemble de classes
 # returns : dictionnaire 
@@ -137,7 +141,7 @@ def associate_codes_to_hierarchies(codes, named_hierarchy):
 
     return coded_named_hierarchy
 
-def get_class_names():
+def get_code_to_yolo_class_names():
     classes = {
         0 : "Aeroplane",
         1 : "Animal_Wing",
@@ -204,7 +208,73 @@ def get_class_names():
     }
     return classes
 
-def get_yolo_class_codes():
+def get_SemanticPascalPart_to_Yolo_class_name_adapter():
+    class_names_adapter = {
+        'Aeroplane': 'Aeroplane',
+        'Animal_wing': 'Animal_Wing',
+        'Animals': 'Animals',
+        'Arm': 'Arm',
+        'Artifact_wing': 'Artifact_Wing',
+        'Beak': 'Beak',
+        'Bicycle': 'Bicycle',
+        'Bird': 'Bird',
+        'Boat': 'Boat',
+        'Body': 'Body',
+        'Bodywork': 'Bodywork',
+        'Bottle': 'Bottle',
+        'Bus': 'Bus',
+        'Cap': 'Cap',
+        'Car': 'Car',
+        'Cat': 'Cat',
+        'Chain_wheel': 'Chain_Wheel',
+        'Chair': 'Chair',
+        'Coach': 'Coach',
+        'Cow': 'Cow',
+        'Diningtable': 'Dining_Table',
+        'Dog': 'Dog',
+        'Door': 'Door',
+        'Ear': 'Ear',
+        'Ebrow': 'Eyebrow',
+        'Engine': 'Engine',
+        'Eye': 'Eye',
+        'Foot': 'Foot',
+        'Hair': 'Hair',
+        'Hand': 'Hand',
+        'Handlebar': 'Handlebar',
+        'Head': 'Head',
+        'Headlight': 'Headlight',
+        'Hoof': 'Hoof',
+        'Horn': 'Horn',
+        'Horse': 'Horse',
+        'Leg': 'Leg',
+        'License_plate': 'License_Plate',
+        'Locomotive': 'Locomotive',
+        'Mirror': 'Mirror',
+        'Motorbike': 'Motorbike',
+        'Mouth': 'Mouth',
+        'Muzzle': 'Muzzle',
+        'Neck': 'Neck',
+        'Nose': 'Nose',
+        'Person': 'Person',
+        'Plant': 'Plant',
+        'Pot': 'Pot',
+        'Pottedplant': 'Potted_Plant',
+        'Saddle': 'Saddle',
+        'Screen': 'Screen',
+        'Sheep': 'Sheep',
+        'Sofa': 'Sofa',
+        'Stern': 'Stern',
+        'Tail': 'Tail',
+        'Torso': 'Torso',
+        'Train': 'Train',
+        'Tvmonitor': 'TV_Monitor',
+        'Vehicle': 'Vehicle',
+        'Wheel': 'Wheel',
+        'Window': 'Window',
+    }
+    return class_names_adapter
+
+def get_yolo_class_names_to_codes():
     codes = {
         "Aeroplane" : 0,
         "Animal_wing" : 1,
@@ -460,12 +530,22 @@ class PASCALPart_annotations:
                     self.annotations[filename]['objects'][str(0)]['y_2'] = int(ymax)
 
     def toYOLO(self, name, split, classes, part_hierarchy, class_hierarchy):
-        dictionnary_number_to_class, dictionnary_class_to_number = associate_number_to_class_and_class_to_number(classes)
-        coded_part_hierarchy = associate_codes_to_hierarchies(dictionnary_class_to_number, part_hierarchy)
-        coded_class_hierarchy = associate_codes_to_hierarchies(dictionnary_class_to_number, class_hierarchy)
+        class_name_adapter = get_SemanticPascalPart_to_Yolo_class_name_adapter()
+        code_to_class, class_to_code = associate_number_to_class_and_class_to_number(sorted(classes))
+        adapted_class_to_code = { name : class_to_code[class_name_adapter[name]] 
+                                              for name in class_name_adapter if class_name_adapter[name] in class_to_code }
+        coded_part_hierarchy = associate_codes_to_hierarchies(adapted_class_to_code, part_hierarchy)
+        coded_class_hierarchy = associate_codes_to_hierarchies(adapted_class_to_code, class_hierarchy)
 
         # class_codes = get_yolo_class_codes()
         # refined_classes_codes = get_refined_classes()
+        yaml_filename = "SemanticPascalPart.yaml"
+        with open( yaml_filename, 'w', encoding='utf-8') as yaml_file:
+            yaml_line = 'names:\n'
+            yaml_file.write(yaml_line)
+            for code in code_to_class:
+                yaml_line = '  ' + str(code) + ' : ' + code_to_class[code] +'\n'
+                yaml_file.write( yaml_line )
         for filename in self.annotations.keys():
             yolo_filename = os.path.join(name, f"Annotations_{split}", filename + ".txt")
             km_filename = os.path.join(name, f"Annotations_{split}", filename + ".km")
@@ -474,7 +554,7 @@ class PASCALPart_annotations:
             with open( yolo_filename, 'w', encoding='utf-8') as yolo_file:
                 with open( km_filename, 'w', encoding='utf-8') as km_file:
                     for object_id in self.annotations[filename]['objects'].keys():
-                        object_class = dictionnary_class_to_number[self.get_obj_class(filename, object_id)]
+                        object_class = adapted_class_to_code[self.get_obj_class(filename, object_id)]
                         x_lu, y_lu, x_rb, y_rb = self.get_bounding_box( filename, object_id)
                         if ((x_lu == x_rb) or (y_lu == y_rb)):
                             print(f"Object {object_id} in image {filename} is too small (left upper ({x_lu}, {y_lu}) right bottom ({x_rb}, {y_rb})")
@@ -493,7 +573,7 @@ class PASCALPart_annotations:
                         # Handling composition / decomposition relations 
                         if (container != None):
                             while (container != None):
-                                container_class = dictionnary_class_to_number[self.get_obj_class(filename, container)]
+                                container_class = adapted_class_to_code[self.get_obj_class(filename, container)]
                                 km_line = km_line + ' ' + str(container_class)
                                 km_line = km_line + ' ' + add_refined_classes(coded_class_hierarchy, container_class)
                                 container = self.get_whole_ids(filename, container)
@@ -554,8 +634,8 @@ if __name__ == '__main__':
     #ann.load_data(split="test")
     #ann_rdf = ann.toRDF("test")
     ann.load_data(split="trainval")
-    ann.toYOLO("semanticPascalPart","trainval")
+    ann.toYOLO( "semanticPascalPart", "trainval", get_class_names(), get_contained_classes(), get_refined_classes())
     
     ann = PASCALPart_annotations()
     ann.load_data(split="test")
-    ann.toYOLO("semanticPascalPart","test")
+    ann.toYOLO("semanticPascalPart","test", get_class_names(), get_contained_classes(), get_refined_classes())
