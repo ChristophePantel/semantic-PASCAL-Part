@@ -93,7 +93,7 @@ def get_class_names():
     }
     return classes
 
-def get_class_codes():
+def get_yolo_class_codes():
     codes = {
         "Aeroplane" : 0,
         "Animal_wing" : 1,
@@ -160,6 +160,7 @@ def get_class_codes():
     return codes
 
 def add_refined_classes(refined_classes_codes, object_class):
+    km_line = ''
     object_class_refined_classes = refined_classes_codes.get(object_class,[])
     for refined_class in object_class_refined_classes:
         km_line = km_line + ' ' + str(refined_class)
@@ -348,7 +349,7 @@ class PASCALPart_annotations:
                     self.annotations[filename]['objects'][str(0)]['y_2'] = int(ymax)
 
     def toYOLO(self, name, split):
-        class_codes = get_class_codes()
+        class_codes = get_yolo_class_codes()
         refined_classes_codes = get_refined_classes()
         for filename in self.annotations.keys():
             yolo_filename = os.path.join(name, f"Annotations_{split}", filename + ".txt")
