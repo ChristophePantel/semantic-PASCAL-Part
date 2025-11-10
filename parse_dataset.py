@@ -101,7 +101,7 @@ def get_contained_classes():
         "Cat" : ["Ear", "Tail"],
         "Cow" : ["Ear", "Horn", "Muzzle", "Tail"],
         "Dog" : ["Ear", "Muzzle", "Nose", "Tail"],
-        "Horse" : ["ear", "Hoof", "Muzzle", "Tail"],
+        "Horse" : ["Ear", "Hoof", "Muzzle", "Tail"],
         "Person" : ["Arm", "Ear", "Eyebrow", "Foot", "Hair", "Hand", "Mouth", "Nose"],
         "Sheep" : ["Ear", "Horn", "Muzzle", "Tail"],
         "Bottle" : ["Body", "Cap"],
@@ -140,6 +140,18 @@ def associate_codes_to_hierarchies(codes, named_hierarchy):
         coded_named_hierarchy[coded_key] = coded_values
 
     return coded_named_hierarchy
+
+def invert_relation(relation):
+    inverted_relation = {}
+    for key in relation:
+        inverted_relation[key] = []
+    print(inverted_relation)
+    for key in relation:
+        values = relation.get(key)
+        for value in values:
+            inverted_relation[value].append(key)
+
+    return inverted_relation 
 
 def get_code_to_yolo_class_names():
     classes = {
