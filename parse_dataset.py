@@ -153,6 +153,13 @@ def invert_relation(relation):
 
     return inverted_relation 
 
+def non_empty_keys(relation):
+    non_empty_keys_results = list(relation.keys())
+    for key in relation:
+        if relation[key] == []:
+            non_empty_keys_results.remove(key)
+    return non_empty_keys_results
+
 def get_code_to_yolo_class_names():
     classes = {
         0 : "Aeroplane",
