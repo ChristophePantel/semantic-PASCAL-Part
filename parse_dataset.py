@@ -160,6 +160,18 @@ def non_empty_keys(relation):
             non_empty_keys_results.remove(key)
     return non_empty_keys_results
 
+def class_siblings(searched_class, ancestors):
+    siblings = []
+    inverted_ancestors = invert_relation(ancestors)
+    parents_searched_class = ancestors.get(searched_class)
+    for parent in parents_searched_class:
+        children_search_class = inverted_ancestors.get(parent)
+        for child in children_search_class:
+            if child != searched_class:
+                siblings.append(child)
+    return siblings
+
+
 def get_code_to_yolo_class_names():
     classes = {
         0 : "Aeroplane",
