@@ -565,18 +565,23 @@ class PASCALPart_annotations:
         code_to_class, class_to_code = associate_number_to_class_and_class_to_number(sorted(classes))
         adapted_class_to_code = { name : class_to_code[class_name_adapter[name]] 
                                               for name in class_name_adapter if class_name_adapter[name] in class_to_code }
-        coded_part_hierarchy = associate_codes_to_hierarchies(adapted_class_to_code, part_hierarchy)
-        coded_class_hierarchy = associate_codes_to_hierarchies(adapted_class_to_code, class_hierarchy)
+        coded_part_hierarchy = associate_codes_to_hierarchies(class_to_code, part_hierarchy)
+        coded_class_hierarchy = associate_codes_to_hierarchies(class_to_code, class_hierarchy)
 
         # class_codes = get_yolo_class_codes()
         # refined_classes_codes = get_refined_classes()
         yaml_filename = "SemanticPascalPart.yaml"
         with open( yaml_filename, 'w', encoding='utf-8') as yaml_file:
-            yaml_line = 'names:\n'
+            yaml_line = '\nnames:\n'
             yaml_file.write(yaml_line)
             for code in code_to_class:
                 yaml_line = '  ' + str(code) + ' : ' + code_to_class[code] +'\n'
                 yaml_file.write( yaml_line )
+            yaml_line = '\nrefinement:\n'
+            yaml_file.write(yaml_line)
+            yaml_line = '\ncomposition:\n'
+            yaml_file.write(yaml_line)
+            
         for filename in self.annotations.keys():
             yolo_filename = os.path.join(name, f"Annotations_{split}", filename + ".txt")
             km_filename = os.path.join(name, f"Annotations_{split}", filename + ".km")
@@ -604,7 +609,7 @@ class PASCALPart_annotations:
                         # Handling composition / decomposition relations 
                         if (container != None):
                             while (container != None):
-                                container_class = adapted_class_to_code[self.get_obj_class(filename, container)]
+                                container_class = class_to_code[self.get_obj_class(filename, container)]
                                 km_line = km_line + ' ' + str(container_class)
                                 km_line = km_line + ' ' + add_refined_classes(coded_class_hierarchy, container_class)
                                 container = self.get_whole_ids(filename, container)

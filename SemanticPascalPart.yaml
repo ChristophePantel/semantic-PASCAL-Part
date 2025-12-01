@@ -1,4 +1,5 @@
-name:
+
+names:
   0 : Aeroplane
   1 : Animal_Wing
   2 : Animals
@@ -60,3 +61,7 @@ name:
   58 : Vehicle
   59 : Wheel
   60 : Window
+
+refinement:
+
+composition:
