@@ -141,7 +141,7 @@ def associate_codes_to_hierarchies(codes, named_hierarchy):
 
     return coded_named_hierarchy
 
-def invert_relation(relation):
+def invert_relation_v0(relation):
     inverted_relation = {}
     for key in relation:
         inverted_relation[key] = []
@@ -152,6 +152,75 @@ def invert_relation(relation):
             inverted_relation[value].append(key)
 
     return inverted_relation 
+
+def followers(root,relation):
+    result = set({root})
+    if root in relation:
+        for target in relation[root]:
+            result.update(followers(target, relation))
+    return result     
+
+def transitive_closure(relation):
+    transitive_dict = {}
+    for key in relation:
+        transitive_dict[key] = set({})
+        for target in relation[key]:
+            transitive_dict[key].update(followers(target, relation))
+    return transitive_dict
+
+def roots(relation):
+    values = set()
+    for key in relation:
+        values.update(relation[key])
+    results = []
+    for key in relation:
+        if key not in values:
+            results.append(key)
+    return results 
+
+def leaves(relation):
+    values = []
+    for key in relation:
+        values.extend(relation[key])
+    results = []
+    for key in values:
+        if key not in relation:
+            results.append(key)
+    return results 
+
+def element_variants(element, relation):
+    print(element,relation)
+    if element in relation:
+        result = 0
+        for target in relation[element]:
+            result += element_variants(target, relation)
+    else:
+        result = 1
+    print(result)
+    return result     
+
+def invert_relation(relation):
+    inverted_relation = {}
+    for key in relation:
+        values = relation.get(key)
+        for value in values:
+            if value in inverted_relation:
+                inverted_relation[value].append(key)
+            else:
+                inverted_relation[value] = [key]
+    return inverted_relation
+
+
+def variants(relation):
+    result = 0
+    inverted_relation = invert_relation(relation)
+    leaves_relation = leaves(relation)
+    print(leaves_relation)
+    for key in leaves_relation:
+        print('<',key,'>')
+        for target in inverted_relation[key]:
+            result += element_variants(target, inverted_relation)
+    return result   
 
 def non_empty_keys(relation):
     non_empty_keys_results = list(relation.keys())
@@ -579,8 +648,21 @@ class PASCALPart_annotations:
                 yaml_file.write( yaml_line )
             yaml_line = '\nrefinement:\n'
             yaml_file.write(yaml_line)
+            
             yaml_line = '\ncomposition:\n'
             yaml_file.write(yaml_line)
+            for code in coded_part_hierarchy:
+                yaml_line = '  ' + str(code) + ' : '
+                counter = 0
+                len_part = len(coded_part_hierarchy[code])
+                for part in coded_part_hierarchy[code]:
+                    counter += 1
+                    if counter != len_part:
+                        yaml_file = yaml_line + str(part) + ' , '
+                    else: 
+                        yaml_file = yaml_line + str(part)
+                yaml_file.write( yaml_line )
+
             
         for filename in self.annotations.keys():
             yolo_filename = os.path.join(name, f"Annotations_{split}", filename + ".txt")
