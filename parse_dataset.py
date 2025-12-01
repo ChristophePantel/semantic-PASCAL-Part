@@ -652,15 +652,16 @@ class PASCALPart_annotations:
             yaml_line = '\ncomposition:\n'
             yaml_file.write(yaml_line)
             for code in coded_part_hierarchy:
-                yaml_line = '  ' + str(code) + ' : '
+                yaml_line = '  ' + str(code) + ' : ' + '['
                 counter = 0
                 len_part = len(coded_part_hierarchy[code])
                 for part in coded_part_hierarchy[code]:
                     counter += 1
                     if counter != len_part:
-                        yaml_file = yaml_line + str(part) + ' , '
+                        yaml_line += str(part) + ' , '
                     else: 
-                        yaml_file = yaml_line + str(part)
+                        yaml_line += str(part)
+                yaml_line += ']\n'
                 yaml_file.write( yaml_line )
 
             
@@ -691,7 +692,7 @@ class PASCALPart_annotations:
                         # Handling composition / decomposition relations 
                         if (container != None):
                             while (container != None):
-                                container_class = class_to_code[self.get_obj_class(filename, container)]
+                                container_class = adapted_class_to_code[self.get_obj_class(filename, container)]
                                 km_line = km_line + ' ' + str(container_class)
                                 km_line = km_line + ' ' + add_refined_classes(coded_class_hierarchy, container_class)
                                 container = self.get_whole_ids(filename, container)
