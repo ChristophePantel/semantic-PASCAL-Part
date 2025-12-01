@@ -636,6 +636,7 @@ class PASCALPart_annotations:
                                               for name in class_name_adapter if class_name_adapter[name] in class_to_code }
         coded_part_hierarchy = associate_codes_to_hierarchies(class_to_code, part_hierarchy)
         coded_class_hierarchy = associate_codes_to_hierarchies(class_to_code, class_hierarchy)
+        coded_class_hierarchy_inverted = invert_relation(coded_class_hierarchy)
 
         # class_codes = get_yolo_class_codes()
         # refined_classes_codes = get_refined_classes()
@@ -646,8 +647,22 @@ class PASCALPart_annotations:
             for code in code_to_class:
                 yaml_line = '  ' + str(code) + ' : ' + code_to_class[code] +'\n'
                 yaml_file.write( yaml_line )
+
+            
             yaml_line = '\nrefinement:\n'
             yaml_file.write(yaml_line)
+            for code in coded_class_hierarchy_inverted:
+                yaml_line = '  ' + str(code) + ' : ' + '['
+                counter = 0
+                len_part = len(coded_class_hierarchy_inverted[code])
+                for coded_class in coded_class_hierarchy_inverted[code]:
+                    counter += 1
+                    if counter != len_part:
+                        yaml_line += str(coded_class) + ' , '
+                    else: 
+                        yaml_line += str(coded_class)
+                yaml_line += ']\n'
+                yaml_file.write( yaml_line )
             
             yaml_line = '\ncomposition:\n'
             yaml_file.write(yaml_line)
