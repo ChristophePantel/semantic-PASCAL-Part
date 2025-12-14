@@ -443,12 +443,12 @@ class PASCALPart_annotations:
 
     def toYOLO(self, name, split, classes, part_hierarchy, class_hierarchy):
         class_name_adapter = get_SemanticPascalPart_to_Yolo_class_name_adapter()
-        code_to_class, class_to_code = associate_number_to_class_and_class_to_number(sorted(classes))
+        code_to_class, class_to_code = km.associate_number_to_class_and_class_to_number(sorted(classes))
         adapted_class_to_code = { name : class_to_code[class_name_adapter[name]] 
                                               for name in class_name_adapter if class_name_adapter[name] in class_to_code }
-        coded_part_hierarchy = associate_codes_to_hierarchies(class_to_code, part_hierarchy)
-        coded_class_hierarchy = associate_codes_to_hierarchies(class_to_code, class_hierarchy)
-        coded_class_hierarchy_inverted = invert_relation(coded_class_hierarchy)
+        coded_part_hierarchy = km.associate_codes_to_hierarchies(class_to_code, part_hierarchy)
+        coded_class_hierarchy = km.associate_codes_to_hierarchies(class_to_code, class_hierarchy)
+        coded_class_hierarchy_inverted = km.invert_relation(coded_class_hierarchy)
 
         # class_codes = get_yolo_class_codes()
         # refined_classes_codes = get_refined_classes()
@@ -580,8 +580,8 @@ if __name__ == '__main__':
     
     ann = PASCALPart_annotations()
     ann.load_data(split="trainval")
-    ann.toYOLO( "semanticPascalPart", "trainval", get_class_names(), get_contained_classes(), get_refined_classes())
+    ann.toYOLO( "semanticPascalPart", "trainval", km.get_class_names(), km.get_contained_classes(), km.get_refined_classes())
     
     ann = PASCALPart_annotations()
     ann.load_data(split="test")
-    ann.toYOLO("semanticPascalPart","test", get_class_names(), get_contained_classes(), get_refined_classes())
+    ann.toYOLO("semanticPascalPart","test", km.get_class_names(), km.get_contained_classes(), km.get_refined_classes())

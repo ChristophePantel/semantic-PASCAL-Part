@@ -1,3 +1,5 @@
+# Christophe Pantel, IRIT, Toulouse Université
+
 import torch
 
 def get_class_names():
