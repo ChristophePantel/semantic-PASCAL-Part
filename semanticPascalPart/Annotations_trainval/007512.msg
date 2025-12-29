@@ -1,0 +1,5 @@
+Bird  Animals
+Tail  Bird  Animals
+Leg  Bird  Animals
+Torso  Bird  Animals
+Head  Bird  Animals

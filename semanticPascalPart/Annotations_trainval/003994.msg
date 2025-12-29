@@ -1,0 +1,28 @@
+Person  Animals
+Leg  Person  Animals
+Leg  Person  Animals
+Arm  Person  Animals
+Torso  Person  Animals
+Head  Person  Animals
+Person  Animals
+Foot  Person  Animals
+Leg  Person  Animals
+Foot  Person  Animals
+Leg  Person  Animals
+Torso  Person  Animals
+Head  Person  Animals
+Horse  Animals
+Leg  Horse  Animals
+Leg  Horse  Animals
+Torso  Horse  Animals
+Muzzle  Horse  Animals
+Head  Horse  Animals
+Horse  Animals
+Leg  Horse  Animals
+Leg  Horse  Animals
+Neck  Horse  Animals
+Torso  Horse  Animals
+Muzzle  Horse  Animals
+Ear  Horse  Animals
+Ear  Horse  Animals
+Head  Horse  Animals

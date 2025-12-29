@@ -1,0 +1,4 @@
+Sofa 
+Chair 
+Chair 
+Chair 

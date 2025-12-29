@@ -1,0 +1,18 @@
+Horse  Animals
+Leg  Horse  Animals
+Leg  Horse  Animals
+Torso  Horse  Animals
+Horse  Animals
+Leg  Horse  Animals
+Leg  Horse  Animals
+Neck  Horse  Animals
+Torso  Horse  Animals
+Muzzle  Horse  Animals
+Eye  Horse  Animals
+Ear  Horse  Animals
+Ear  Horse  Animals
+Head  Horse  Animals
+Car  Vehicle
+Window  Car  Vehicle
+Mirror  Car  Vehicle
+Bodywork  Car  Vehicle

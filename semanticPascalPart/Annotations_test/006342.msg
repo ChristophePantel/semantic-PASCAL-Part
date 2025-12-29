@@ -1,0 +1,20 @@
+Horse  Animals
+Torso  Horse  Animals
+Ear  Horse  Animals
+Ear  Horse  Animals
+Head  Horse  Animals
+Horse  Animals
+Tail  Horse  Animals
+Hoof  Horse  Animals
+Leg  Horse  Animals
+Hoof  Horse  Animals
+Leg  Horse  Animals
+Hoof  Horse  Animals
+Leg  Horse  Animals
+Hoof  Horse  Animals
+Leg  Horse  Animals
+Neck  Horse  Animals
+Torso  Horse  Animals
+Muzzle  Horse  Animals
+Ear  Horse  Animals
+Head  Horse  Animals

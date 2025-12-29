@@ -252,12 +252,14 @@ def get_yolo_class_names_to_codes():
         }
     return codes
 
-def add_refined_classes(refined_classes_codes, object_class):
+def add_refined_classes(refined_classes_codes, code_to_class, object_class):
     km_line = ''
+    msg_line = ''
     object_class_refined_classes = refined_classes_codes.get(object_class,[])
     for refined_class in object_class_refined_classes:
         km_line = km_line + ' ' + str(refined_class)
-    return km_line
+        msg_line = msg_line + ' ' + code_to_class[refined_class]
+    return km_line, msg_line
 
 def extract_bb_coordinates(id, ann_dict):
 	if id > -1:
@@ -459,7 +461,6 @@ class PASCALPart_annotations:
             for code in code_to_class:
                 yaml_line = '  ' + str(code) + ' : ' + code_to_class[code] +'\n'
                 yaml_file.write( yaml_line )
-
             
             yaml_line = '\nrefinement:\n'
             yaml_file.write(yaml_line)
@@ -495,36 +496,47 @@ class PASCALPart_annotations:
         for filename in self.annotations.keys():
             yolo_filename = os.path.join(name, f"Annotations_{split}", filename + ".txt")
             km_filename = os.path.join(name, f"Annotations_{split}", filename + ".km")
+            msg_filename = os.path.join(name, f"Annotations_{split}", filename + ".msg")
             width = self.annotations[filename]['width']
             height = self.annotations[filename]['height']
             with open( yolo_filename, 'w', encoding='utf-8') as yolo_file:
                 with open( km_filename, 'w', encoding='utf-8') as km_file:
-                    for object_id in self.annotations[filename]['objects'].keys():
-                        object_class = adapted_class_to_code[self.get_obj_class(filename, object_id)]
-                        x_lu, y_lu, x_rb, y_rb = self.get_bounding_box( filename, object_id)
-                        if ((x_lu == x_rb) or (y_lu == y_rb)):
-                            print(f"Object {object_id} in image {filename} is too small (left upper ({x_lu}, {y_lu}) right bottom ({x_rb}, {y_rb})")
-                        x_c = float(x_rb + x_lu) / (2.0 * width)
-                        y_c = float(y_rb + y_lu) / (2.0 * height)
-                        w = float(x_rb - x_lu) / width
-                        h = float(y_rb - y_lu) / height
-                        yolo_line = str(object_class) + ' ' + str(x_c) + ' ' + str(y_c) + ' ' + str(w) + ' ' + str(h) + '\n'
-                        yolo_file.write( yolo_line)
-                        km_line = str(object_class)
+                    with open(msg_filename, 'w', encoding='utf-8') as msg_file:
+                        for object_id in self.annotations[filename]['objects'].keys():
+                            object_class = adapted_class_to_code[self.get_obj_class(filename, object_id)]
+                            x_lu, y_lu, x_rb, y_rb = self.get_bounding_box( filename, object_id)
+                            if ((x_lu == x_rb) or (y_lu == y_rb)):
+                                print(f"Object {object_id} in image {filename} is too small (left upper ({x_lu}, {y_lu}) right bottom ({x_rb}, {y_rb})")
+                            x_c = float(x_rb + x_lu) / (2.0 * width)
+                            y_c = float(y_rb + y_lu) / (2.0 * height)
+                            w = float(x_rb - x_lu) / width
+                            h = float(y_rb - y_lu) / height
+                            yolo_line = str(object_class) + ' ' + str(x_c) + ' ' + str(y_c) + ' ' + str(w) + ' ' + str(h) + '\n'
+                            yolo_file.write( yolo_line)
+                            km_line = str(object_class)
+                            msg_line = code_to_class[object_class]
+    
+                            # Handling specialization / generalization relations
+                            km_refined_classes, msg_refined_classes = add_refined_classes(coded_class_hierarchy, code_to_class, object_class)
+                            km_line = km_line + ' ' + km_refined_classes
+                            msg_line = msg_line + ' ' + msg_refined_classes
+                            container = self.get_whole_ids(filename, object_id) 
+                            
+                            # Handling composition / decomposition relations 
+                            if (container != None):
+                                while (container != None):
+                                    container_class = adapted_class_to_code[self.get_obj_class(filename, container)]
+                                    km_line = km_line + ' ' + str(container_class)
+                                    msg_line = msg_line + ' ' + code_to_class[container_class]
+                                    km_refined_classes, msg_refined_classes = add_refined_classes(coded_class_hierarchy, code_to_class, container_class)
+                                    km_line = km_line + ' ' + km_refined_classes
+                                    msg_line = msg_line + ' ' + msg_refined_classes
+                                    container = self.get_whole_ids(filename, container)
+                            km_line = km_line + '\n'
+                            km_file.write(km_line)
+                            msg_line = msg_line + '\n'
+                            msg_file.write(msg_line)
 
-                        # Handling specialization / generalization relations
-                        km_line = km_line + ' ' + add_refined_classes(coded_class_hierarchy, object_class)
-                        container = self.get_whole_ids(filename, object_id) 
-                        
-                        # Handling composition / decomposition relations 
-                        if (container != None):
-                            while (container != None):
-                                container_class = adapted_class_to_code[self.get_obj_class(filename, container)]
-                                km_line = km_line + ' ' + str(container_class)
-                                km_line = km_line + ' ' + add_refined_classes(coded_class_hierarchy, container_class)
-                                container = self.get_whole_ids(filename, container)
-                        km_line = km_line + '\n'
-                        km_file.write(km_line)
 
     def toRDF(self, name=""):
         print("RDF conversion ...")
@@ -576,7 +588,7 @@ class PASCALPart_annotations:
         g.serialize(destination=f"semantic-PASCAL-Part_{name}.rdf")
 
 if __name__ == '__main__':
-    tests(km.get_class_names(), km.get_contained_classes(), km.get_refined_classes())
+    # tests(km.get_class_names(), km.get_contained_classes(), km.get_refined_classes())
     
     ann = PASCALPart_annotations()
     ann.load_data(split="trainval")

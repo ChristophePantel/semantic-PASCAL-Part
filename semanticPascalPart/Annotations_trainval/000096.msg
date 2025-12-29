@@ -1,0 +1,17 @@
+Bicycle  Vehicle
+Wheel  Bicycle  Vehicle
+Bicycle  Vehicle
+Wheel  Bicycle  Vehicle
+Cat  Animals
+Tail  Cat  Animals
+Leg  Cat  Animals
+Neck  Cat  Animals
+Torso  Cat  Animals
+Head  Cat  Animals
+Eye  Cat  Animals
+Eye  Cat  Animals
+Ear  Cat  Animals
+Ear  Cat  Animals
+Potted_Plant 
+Plant  Potted_Plant 
+Pot  Potted_Plant 

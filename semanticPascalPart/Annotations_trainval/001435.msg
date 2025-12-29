@@ -1,0 +1,9 @@
+Chair 
+Chair 
+Dining_Table 
+Chair 
+Chair 
+Chair 
+Sofa 
+Sofa 
+Sofa 

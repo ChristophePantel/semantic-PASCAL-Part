@@ -1,0 +1,103 @@
+Bus  Vehicle
+Window  Bus  Vehicle
+Headlight  Bus  Vehicle
+Headlight  Bus  Vehicle
+Mirror  Bus  Vehicle
+Mirror  Bus  Vehicle
+Bodywork  Bus  Vehicle
+License_Plate  Bus  Vehicle
+Person  Animals
+Foot  Person  Animals
+Leg  Person  Animals
+Foot  Person  Animals
+Leg  Person  Animals
+Arm  Person  Animals
+Arm  Person  Animals
+Neck  Person  Animals
+Torso  Person  Animals
+Hair  Person  Animals
+Head  Person  Animals
+Person  Animals
+Hand  Person  Animals
+Arm  Person  Animals
+Torso  Person  Animals
+Nose  Person  Animals
+Mouth  Person  Animals
+Eyebrow  Person  Animals
+Eyebrow  Person  Animals
+Eye  Person  Animals
+Eye  Person  Animals
+Head  Person  Animals
+Person  Animals
+Leg  Person  Animals
+Torso  Person  Animals
+Hair  Person  Animals
+Head  Person  Animals
+Person  Animals
+Hand  Person  Animals
+Arm  Person  Animals
+Torso  Person  Animals
+Hair  Person  Animals
+Head  Person  Animals
+Person  Animals
+Foot  Person  Animals
+Leg  Person  Animals
+Foot  Person  Animals
+Leg  Person  Animals
+Hand  Person  Animals
+Arm  Person  Animals
+Hand  Person  Animals
+Torso  Person  Animals
+Nose  Person  Animals
+Mouth  Person  Animals
+Eyebrow  Person  Animals
+Eyebrow  Person  Animals
+Eye  Person  Animals
+Eye  Person  Animals
+Ear  Person  Animals
+Head  Person  Animals
+Person  Animals
+Foot  Person  Animals
+Foot  Person  Animals
+Leg  Person  Animals
+Hand  Person  Animals
+Neck  Person  Animals
+Torso  Person  Animals
+Nose  Person  Animals
+Mouth  Person  Animals
+Eyebrow  Person  Animals
+Eye  Person  Animals
+Eye  Person  Animals
+Head  Person  Animals
+Person  Animals
+Foot  Person  Animals
+Leg  Person  Animals
+Foot  Person  Animals
+Leg  Person  Animals
+Hand  Person  Animals
+Hand  Person  Animals
+Arm  Person  Animals
+Neck  Person  Animals
+Torso  Person  Animals
+Nose  Person  Animals
+Hair  Person  Animals
+Mouth  Person  Animals
+Eyebrow  Person  Animals
+Eyebrow  Person  Animals
+Head  Person  Animals
+Person  Animals
+Foot  Person  Animals
+Leg  Person  Animals
+Foot  Person  Animals
+Leg  Person  Animals
+Hand  Person  Animals
+Arm  Person  Animals
+Neck  Person  Animals
+Torso  Person  Animals
+Nose  Person  Animals
+Hair  Person  Animals
+Mouth  Person  Animals
+Eyebrow  Person  Animals
+Eye  Person  Animals
+Eye  Person  Animals
+Head  Person  Animals

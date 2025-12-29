@@ -1,0 +1,65 @@
+Cow  Animals
+Tail  Cow  Animals
+Leg  Cow  Animals
+Leg  Cow  Animals
+Leg  Cow  Animals
+Leg  Cow  Animals
+Neck  Cow  Animals
+Torso  Cow  Animals
+Muzzle  Cow  Animals
+Head  Cow  Animals
+Cow  Animals
+Tail  Cow  Animals
+Leg  Cow  Animals
+Leg  Cow  Animals
+Leg  Cow  Animals
+Leg  Cow  Animals
+Neck  Cow  Animals
+Torso  Cow  Animals
+Muzzle  Cow  Animals
+Eye  Cow  Animals
+Ear  Cow  Animals
+Head  Cow  Animals
+Cow  Animals
+Neck  Cow  Animals
+Torso  Cow  Animals
+Muzzle  Cow  Animals
+Ear  Cow  Animals
+Head  Cow  Animals
+Cow  Animals
+Leg  Cow  Animals
+Leg  Cow  Animals
+Leg  Cow  Animals
+Leg  Cow  Animals
+Torso  Cow  Animals
+Head  Cow  Animals
+Cow  Animals
+Tail  Cow  Animals
+Leg  Cow  Animals
+Leg  Cow  Animals
+Leg  Cow  Animals
+Leg  Cow  Animals
+Torso  Cow  Animals
+Ear  Cow  Animals
+Head  Cow  Animals
+Car  Vehicle
+Bodywork  Car  Vehicle
+Car  Vehicle
+Wheel  Car  Vehicle
+Wheel  Car  Vehicle
+Bodywork  Car  Vehicle
+License_Plate  Car  Vehicle
+Car  Vehicle
+Window  Car  Vehicle
+Wheel  Car  Vehicle
+Wheel  Car  Vehicle
+Wheel  Car  Vehicle
+Wheel  Car  Vehicle
+Bodywork  Car  Vehicle
+License_Plate  Car  Vehicle
+Car  Vehicle
+Window  Car  Vehicle
+Wheel  Car  Vehicle
+Wheel  Car  Vehicle
+Bodywork  Car  Vehicle
+License_Plate  Car  Vehicle

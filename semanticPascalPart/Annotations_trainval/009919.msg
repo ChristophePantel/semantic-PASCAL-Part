@@ -1,0 +1,52 @@
+Person  Animals
+Foot  Person  Animals
+Leg  Person  Animals
+Foot  Person  Animals
+Leg  Person  Animals
+Hand  Person  Animals
+Arm  Person  Animals
+Torso  Person  Animals
+Hair  Person  Animals
+Ear  Person  Animals
+Head  Person  Animals
+Person  Animals
+Foot  Person  Animals
+Leg  Person  Animals
+Foot  Person  Animals
+Leg  Person  Animals
+Hand  Person  Animals
+Arm  Person  Animals
+Hand  Person  Animals
+Arm  Person  Animals
+Neck  Person  Animals
+Torso  Person  Animals
+Nose  Person  Animals
+Mouth  Person  Animals
+Eye  Person  Animals
+Ear  Person  Animals
+Ear  Person  Animals
+Head  Person  Animals
+Horse  Animals
+Tail  Horse  Animals
+Hoof  Horse  Animals
+Leg  Horse  Animals
+Hoof  Horse  Animals
+Leg  Horse  Animals
+Hoof  Horse  Animals
+Leg  Horse  Animals
+Hoof  Horse  Animals
+Leg  Horse  Animals
+Torso  Horse  Animals
+Muzzle  Horse  Animals
+Ear  Horse  Animals
+Ear  Horse  Animals
+Head  Horse  Animals
+Car  Vehicle
+Window  Car  Vehicle
+Wheel  Car  Vehicle
+Headlight  Car  Vehicle
+Mirror  Car  Vehicle
+Mirror  Car  Vehicle
+Door  Car  Vehicle
+Bodywork  Car  Vehicle
+License_Plate  Car  Vehicle

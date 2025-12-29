@@ -1,0 +1,9 @@
+Sheep  Animals
+Torso  Sheep  Animals
+Muzzle  Sheep  Animals
+Horn  Sheep  Animals
+Horn  Sheep  Animals
+Eye  Sheep  Animals
+Ear  Sheep  Animals
+Ear  Sheep  Animals
+Head  Sheep  Animals

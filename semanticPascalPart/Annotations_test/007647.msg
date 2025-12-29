@@ -1,0 +1,38 @@
+Person  Animals
+Hand  Person  Animals
+Hand  Person  Animals
+Torso  Person  Animals
+Nose  Person  Animals
+Hair  Person  Animals
+Eyebrow  Person  Animals
+Eyebrow  Person  Animals
+Eye  Person  Animals
+Eye  Person  Animals
+Ear  Person  Animals
+Ear  Person  Animals
+Head  Person  Animals
+Chair 
+Bottle 
+Cap  Bottle 
+Body  Bottle 
+Bottle 
+Cap  Bottle 
+Body  Bottle 
+Bottle 
+Cap  Bottle 
+Body  Bottle 
+Bottle 
+Cap  Bottle 
+Body  Bottle 
+Bottle 
+Cap  Bottle 
+Body  Bottle 
+Bottle 
+Cap  Bottle 
+Body  Bottle 
+Bottle 
+Cap  Bottle 
+Body  Bottle 
+Bottle 
+Cap  Bottle 
+Body  Bottle 

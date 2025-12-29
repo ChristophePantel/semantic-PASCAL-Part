@@ -1,0 +1,2 @@
+Boat  Vehicle
+Bird  Animals
