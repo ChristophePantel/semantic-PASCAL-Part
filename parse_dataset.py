@@ -444,6 +444,7 @@ class PASCALPart_annotations:
                     self.annotations[filename]['objects'][str(0)]['y_2'] = int(ymax)
 
     def toYOLO(self, name, split, classes, part_hierarchy, class_hierarchy):
+        class_number = len(classes)
         class_name_adapter = get_SemanticPascalPart_to_Yolo_class_name_adapter()
         code_to_class, class_to_code = km.associate_number_to_class_and_class_to_number(sorted(classes))
         adapted_class_to_code = { name : class_to_code[class_name_adapter[name]] 
@@ -451,6 +452,13 @@ class PASCALPart_annotations:
         coded_part_hierarchy = km.associate_codes_to_hierarchies(class_to_code, part_hierarchy)
         coded_class_hierarchy = km.associate_codes_to_hierarchies(class_to_code, class_hierarchy)
         coded_class_hierarchy_inverted = km.invert_relation(coded_class_hierarchy)
+        
+        class_codes = frozenset(code_to_class.keys())
+        full_composition = km.resolve(class_codes,coded_part_hierarchy,coded_class_hierarchy)
+        inverted_full_composition = km.invert_relation(full_composition)
+        class_variants, variant_to_class = km.variants(class_codes,inverted_full_composition)
+        generalized_class_variants = km.generalize(class_codes,class_variants,coded_class_hierarchy)
+        encoded_class_variants = km.encode_variants(class_number, generalized_class_variants)
 
         # class_codes = get_yolo_class_codes()
         # refined_classes_codes = get_refined_classes()
@@ -465,33 +473,70 @@ class PASCALPart_annotations:
             yaml_line = '\nrefinement:\n'
             yaml_file.write(yaml_line)
             for code in coded_class_hierarchy_inverted:
+                yaml_comment_line = '  # ' + code_to_class[code] + ' : '
                 yaml_line = '  ' + str(code) + ' : ' + '['
                 counter = 0
                 len_part = len(coded_class_hierarchy_inverted[code])
                 for coded_class in coded_class_hierarchy_inverted[code]:
                     counter += 1
                     if counter != len_part:
+                        yaml_comment_line += code_to_class[coded_class] + ' , '
                         yaml_line += str(coded_class) + ' , '
                     else: 
+                        yaml_comment_line += code_to_class[coded_class]
                         yaml_line += str(coded_class)
+                yaml_comment_line += '\n'
                 yaml_line += ']\n'
+                yaml_file.write( yaml_comment_line )
                 yaml_file.write( yaml_line )
             
             yaml_line = '\ncomposition:\n'
             yaml_file.write(yaml_line)
             for code in coded_part_hierarchy:
+                yaml_comment_line = '  # ' + code_to_class[code] + ' : '
                 yaml_line = '  ' + str(code) + ' : ' + '['
                 counter = 0
                 len_part = len(coded_part_hierarchy[code])
                 for part in coded_part_hierarchy[code]:
                     counter += 1
                     if counter != len_part:
+                        yaml_comment_line += code_to_class[part] + ' , '
                         yaml_line += str(part) + ' , '
                     else: 
+                        yaml_comment_line += code_to_class[part]
                         yaml_line += str(part)
+                yaml_comment_line += '\n'
                 yaml_line += ']\n'
+                yaml_file.write( yaml_comment_line )
                 yaml_file.write( yaml_line )
-
+                
+            yaml_line = '\nvariants:\n'
+            yaml_file.write(yaml_line)
+            for code in generalized_class_variants:
+                yaml_comment_line = '  # Variant number ' + str(code) + ' (' + code_to_class[variant_to_class[code]] + ') : '
+                yaml_line = '  ' + str(code) + ' : ' + '['
+                counter = 0
+                len_part = len(generalized_class_variants[code])
+                for element in generalized_class_variants[code]:
+                    counter += 1
+                    if counter != len_part:
+                        yaml_comment_line += code_to_class[element] + ' , '
+                        yaml_line += str(element) + ' , '
+                    else: 
+                        yaml_comment_line += code_to_class[element]
+                        yaml_line += str(part)
+                yaml_comment_line += '\n'
+                yaml_line += ']\n'
+                yaml_file.write( yaml_comment_line )
+                yaml_file.write( yaml_line )
+                
+            yaml_line = '\nvariant_to_class:\n'
+            yaml_file.write(yaml_line)
+            for code in variant_to_class:
+                yaml_comment_line = '  # Variant number ' + str(code) + ' : '  + code_to_class[variant_to_class[code]] + '\n'
+                yaml_line = '  ' + str(code) + ' : ' + str(variant_to_class[code]) + '\n'
+                yaml_file.write( yaml_comment_line )
+                yaml_file.write( yaml_line )
             
         for filename in self.annotations.keys():
             yolo_filename = os.path.join(name, f"Annotations_{split}", filename + ".txt")
