@@ -75,16 +75,16 @@ composition:
   7 : [1 , 5 , 55]
   # Cat : Ear , Tail
   15 : [23 , 55]
-  # Cow : Horn , Muzzle , Ear , Tail
-  19 : [34 , 42 , 23 , 55]
-  # Dog : Muzzle , Nose , Ear , Tail
-  21 : [42 , 44 , 23 , 55]
+  # Cow : Muzzle , Ear , Horn , Tail
+  19 : [42 , 23 , 34 , 55]
+  # Dog : Muzzle , Ear , Nose , Tail
+  21 : [42 , 23 , 44 , 55]
   # Horse : Hoof , Muzzle , Ear , Tail
   35 : [33 , 42 , 23 , 55]
-  # Person : Hair , Arm , Ear , Mouth , Eyebrow , Foot , Nose , Hand
-  45 : [28 , 3 , 23 , 41 , 26 , 27 , 44 , 29]
-  # Sheep : Horn , Muzzle , Ear , Tail
-  51 : [34 , 42 , 23 , 55]
+  # Person : Arm , Ear , Mouth , Eyebrow , Foot , Hair , Hand , Nose
+  45 : [3 , 23 , 41 , 26 , 27 , 28 , 29 , 44]
+  # Sheep : Muzzle , Ear , Horn , Tail
+  51 : [42 , 23 , 34 , 55]
   # Bottle : Body , Cap
   11 : [9 , 13]
   # Potted_Plant : Plant , Pot
@@ -93,8 +93,8 @@ composition:
   54 : [50]
   # Aeroplane : Artifact_Wing , Stern , Engine , Body , Wheel
   0 : [4 , 53 , 24 , 9 , 59]
-  # Bicycle : Chain_Wheel , Saddle , Headlight , Wheel , Handlebar
-  6 : [16 , 49 , 32 , 59 , 30]
+  # Bicycle : Chain_Wheel , Headlight , Saddle , Wheel , Handlebar
+  6 : [16 , 32 , 49 , 59 , 30]
   # Bus : Headlight , License_Plate , Door , Mirror , Bodywork , Wheel , Window
   12 : [32 , 37 , 22 , 39 , 10 , 59 , 60]
   # Car : Headlight , License_Plate , Door , Mirror , Bodywork , Wheel , Window
@@ -106,337 +106,337 @@ composition:
 
 variants:
   # Variant number 0 (Aeroplane) : Aeroplane , Vehicle
-  0 : [0 , 38]
+  0 : [0 , 58]
   # Variant number 1 (Animal_Wing) : Animal_Wing
-  1 : [38]
+  1 : [1]
   # Variant number 2 (Animal_Wing) : Animal_Wing , Animals , Bird
-  2 : [1 , 2 , 38]
+  2 : [1 , 2 , 7]
   # Variant number 3 (Animals) : Animals
-  3 : [38]
+  3 : [2]
   # Variant number 4 (Arm) : Arm
-  4 : [38]
+  4 : [3]
   # Variant number 5 (Arm) : Animals , Arm , Person
-  5 : [2 , 3 , 38]
+  5 : [2 , 3 , 45]
   # Variant number 6 (Artifact_Wing) : Artifact_Wing
-  6 : [38]
+  6 : [4]
   # Variant number 7 (Artifact_Wing) : Aeroplane , Vehicle , Artifact_Wing
-  7 : [0 , 58 , 38]
+  7 : [0 , 58 , 4]
   # Variant number 8 (Beak) : Beak
-  8 : [38]
+  8 : [5]
   # Variant number 9 (Beak) : Animals , Beak , Bird
-  9 : [2 , 5 , 38]
+  9 : [2 , 5 , 7]
   # Variant number 10 (Bicycle) : Vehicle , Bicycle
-  10 : [58 , 38]
+  10 : [58 , 6]
   # Variant number 11 (Bird) : Animals , Bird
-  11 : [2 , 38]
+  11 : [2 , 7]
   # Variant number 12 (Boat) : Boat , Vehicle
-  12 : [8 , 38]
+  12 : [8 , 58]
   # Variant number 13 (Body) : Body
-  13 : [38]
+  13 : [9]
   # Variant number 14 (Body) : Body , Bottle
-  14 : [9 , 38]
+  14 : [9 , 11]
   # Variant number 15 (Body) : Aeroplane , Body , Vehicle
-  15 : [0 , 9 , 38]
+  15 : [0 , 9 , 58]
   # Variant number 16 (Bodywork) : Bodywork
-  16 : [38]
+  16 : [10]
   # Variant number 17 (Bodywork) : Bodywork , Vehicle , Bus
-  17 : [10 , 58 , 38]
+  17 : [10 , 58 , 12]
   # Variant number 18 (Bodywork) : Bodywork , Vehicle , Car
-  18 : [10 , 58 , 38]
+  18 : [10 , 58 , 14]
   # Variant number 19 (Bottle) : Bottle
-  19 : [38]
+  19 : [11]
   # Variant number 20 (Bus) : Vehicle , Bus
-  20 : [58 , 38]
+  20 : [58 , 12]
   # Variant number 21 (Cap) : Bottle , Cap
-  21 : [11 , 38]
+  21 : [11 , 13]
   # Variant number 22 (Cap) : Cap
-  22 : [38]
+  22 : [13]
   # Variant number 23 (Car) : Vehicle , Car
-  23 : [58 , 38]
+  23 : [58 , 14]
   # Variant number 24 (Cat) : Animals , Cat
-  24 : [2 , 38]
+  24 : [2 , 15]
   # Variant number 25 (Chain_Wheel) : Chain_Wheel
-  25 : [38]
+  25 : [16]
   # Variant number 26 (Chain_Wheel) : Chain_Wheel , Vehicle , Bicycle
-  26 : [16 , 58 , 38]
+  26 : [16 , 58 , 6]
   # Variant number 27 (Chair) : Chair
-  27 : [38]
+  27 : [17]
   # Variant number 28 (Coach) : Train , Vehicle , Coach
-  28 : [57 , 58 , 38]
+  28 : [57 , 58 , 18]
   # Variant number 29 (Coach) : Coach
-  29 : [38]
+  29 : [18]
   # Variant number 30 (Cow) : Animals , Cow
-  30 : [2 , 38]
+  30 : [2 , 19]
   # Variant number 31 (Dining_Table) : Dining_Table
-  31 : [38]
+  31 : [20]
   # Variant number 32 (Dog) : Animals , Dog
-  32 : [2 , 38]
+  32 : [2 , 21]
   # Variant number 33 (Door) : Vehicle , Bus , Door
-  33 : [58 , 12 , 38]
+  33 : [58 , 12 , 22]
   # Variant number 34 (Door) : Vehicle , Car , Door
-  34 : [58 , 14 , 38]
+  34 : [58 , 14 , 22]
   # Variant number 35 (Door) : Door
-  35 : [38]
+  35 : [22]
   # Variant number 36 (Ear) : Ear
-  36 : [38]
+  36 : [23]
   # Variant number 37 (Ear) : Animals , Cat , Ear
-  37 : [2 , 15 , 38]
+  37 : [2 , 15 , 23]
   # Variant number 38 (Ear) : Animals , Person , Ear
-  38 : [2 , 45 , 38]
+  38 : [2 , 45 , 23]
   # Variant number 39 (Ear) : Animals , Sheep , Ear
-  39 : [2 , 51 , 38]
+  39 : [2 , 51 , 23]
   # Variant number 40 (Ear) : Animals , Cow , Ear
-  40 : [2 , 19 , 38]
+  40 : [2 , 19 , 23]
   # Variant number 41 (Ear) : Animals , Dog , Ear
-  41 : [2 , 21 , 38]
+  41 : [2 , 21 , 23]
   # Variant number 42 (Ear) : Animals , Horse , Ear
-  42 : [2 , 35 , 38]
+  42 : [2 , 35 , 23]
   # Variant number 43 (Engine) : Aeroplane , Engine , Vehicle
-  43 : [0 , 24 , 38]
+  43 : [0 , 24 , 58]
   # Variant number 44 (Engine) : Engine
-  44 : [38]
+  44 : [24]
   # Variant number 45 (Eye) : Eye , Animals , Dog
-  45 : [25 , 2 , 38]
+  45 : [25 , 2 , 21]
   # Variant number 46 (Eye) : Eye , Animals
-  46 : [25 , 38]
+  46 : [25 , 2]
   # Variant number 47 (Eye) : Eye , Animals , Cat
-  47 : [25 , 2 , 38]
+  47 : [25 , 2 , 15]
   # Variant number 48 (Eye) : Eye , Animals , Bird
-  48 : [25 , 2 , 38]
+  48 : [25 , 2 , 7]
   # Variant number 49 (Eye) : Eye
-  49 : [38]
+  49 : [25]
   # Variant number 50 (Eye) : Eye , Animals , Horse
-  50 : [25 , 2 , 38]
+  50 : [25 , 2 , 35]
   # Variant number 51 (Eye) : Eye , Animals , Cow
-  51 : [25 , 2 , 38]
+  51 : [25 , 2 , 19]
   # Variant number 52 (Eye) : Eye , Animals , Sheep
-  52 : [25 , 2 , 38]
+  52 : [25 , 2 , 51]
   # Variant number 53 (Eye) : Eye , Animals , Person
-  53 : [25 , 2 , 38]
+  53 : [25 , 2 , 45]
   # Variant number 54 (Eyebrow) : Eyebrow
-  54 : [38]
+  54 : [26]
   # Variant number 55 (Eyebrow) : Eyebrow , Animals , Person
-  55 : [26 , 2 , 38]
+  55 : [26 , 2 , 45]
   # Variant number 56 (Foot) : Animals , Foot , Person
-  56 : [2 , 27 , 38]
+  56 : [2 , 27 , 45]
   # Variant number 57 (Foot) : Foot
-  57 : [38]
+  57 : [27]
   # Variant number 58 (Hair) : Animals , Hair , Person
-  58 : [2 , 28 , 38]
+  58 : [2 , 28 , 45]
   # Variant number 59 (Hair) : Hair
-  59 : [38]
+  59 : [28]
   # Variant number 60 (Hand) : Hand
-  60 : [38]
+  60 : [29]
   # Variant number 61 (Hand) : Animals , Person , Hand
-  61 : [2 , 45 , 38]
+  61 : [2 , 45 , 29]
   # Variant number 62 (Handlebar) : Motorbike , Vehicle , Handlebar
-  62 : [40 , 58 , 38]
+  62 : [40 , 58 , 30]
   # Variant number 63 (Handlebar) : Handlebar
-  63 : [38]
+  63 : [30]
   # Variant number 64 (Handlebar) : Vehicle , Bicycle , Handlebar
-  64 : [58 , 6 , 38]
+  64 : [58 , 6 , 30]
   # Variant number 65 (Head) : Animals , Bird , Head
-  65 : [2 , 7 , 38]
+  65 : [2 , 7 , 31]
   # Variant number 66 (Head) : Animals , Dog , Head
-  66 : [2 , 21 , 38]
+  66 : [2 , 21 , 31]
   # Variant number 67 (Head) : Animals , Cat , Head
-  67 : [2 , 15 , 38]
+  67 : [2 , 15 , 31]
   # Variant number 68 (Head) : Animals , Cow , Head
-  68 : [2 , 19 , 38]
+  68 : [2 , 19 , 31]
   # Variant number 69 (Head) : Animals , Horse , Head
-  69 : [2 , 35 , 38]
+  69 : [2 , 35 , 31]
   # Variant number 70 (Head) : Animals , Head
-  70 : [2 , 38]
+  70 : [2 , 31]
   # Variant number 71 (Head) : Animals , Person , Head
-  71 : [2 , 45 , 38]
+  71 : [2 , 45 , 31]
   # Variant number 72 (Head) : Head
-  72 : [38]
+  72 : [31]
   # Variant number 73 (Head) : Animals , Sheep , Head
-  73 : [2 , 51 , 38]
+  73 : [2 , 51 , 31]
   # Variant number 74 (Headlight) : Headlight , Vehicle , Bus
-  74 : [32 , 58 , 38]
+  74 : [32 , 58 , 12]
   # Variant number 75 (Headlight) : Headlight
-  75 : [38]
+  75 : [32]
   # Variant number 76 (Headlight) : Headlight , Train , Vehicle
-  76 : [32 , 57 , 38]
+  76 : [32 , 57 , 58]
   # Variant number 77 (Headlight) : Motorbike , Vehicle , Headlight
-  77 : [40 , 58 , 38]
+  77 : [40 , 58 , 32]
   # Variant number 78 (Headlight) : Headlight , Vehicle , Bicycle
-  78 : [32 , 58 , 38]
+  78 : [32 , 58 , 6]
   # Variant number 79 (Headlight) : Headlight , Vehicle , Car
-  79 : [32 , 58 , 38]
+  79 : [32 , 58 , 14]
   # Variant number 80 (Hoof) : Hoof
-  80 : [38]
+  80 : [33]
   # Variant number 81 (Hoof) : Hoof , Animals , Horse
-  81 : [33 , 2 , 38]
+  81 : [33 , 2 , 35]
   # Variant number 82 (Horn) : Horn
-  82 : [38]
+  82 : [34]
   # Variant number 83 (Horn) : Cow , Horn , Animals
-  83 : [19 , 34 , 38]
+  83 : [19 , 34 , 2]
   # Variant number 84 (Horn) : Sheep , Horn , Animals
-  84 : [51 , 34 , 38]
+  84 : [51 , 34 , 2]
   # Variant number 85 (Horse) : Animals , Horse
-  85 : [2 , 38]
+  85 : [2 , 35]
   # Variant number 86 (Leg) : Animals , Leg , Dog
-  86 : [2 , 36 , 38]
+  86 : [2 , 36 , 21]
   # Variant number 87 (Leg) : Animals , Leg , Cat
-  87 : [2 , 36 , 38]
+  87 : [2 , 36 , 15]
   # Variant number 88 (Leg) : Animals , Leg
-  88 : [2 , 38]
+  88 : [2 , 36]
   # Variant number 89 (Leg) : Animals , Leg , Bird
-  89 : [2 , 36 , 38]
+  89 : [2 , 36 , 7]
   # Variant number 90 (Leg) : Animals , Cow , Leg
-  90 : [2 , 19 , 38]
+  90 : [2 , 19 , 36]
   # Variant number 91 (Leg) : Leg
-  91 : [38]
+  91 : [36]
   # Variant number 92 (Leg) : Animals , Sheep , Leg
-  92 : [2 , 51 , 38]
+  92 : [2 , 51 , 36]
   # Variant number 93 (Leg) : Animals , Horse , Leg
-  93 : [2 , 35 , 38]
+  93 : [2 , 35 , 36]
   # Variant number 94 (Leg) : Animals , Leg , Person
-  94 : [2 , 36 , 38]
+  94 : [2 , 36 , 45]
   # Variant number 95 (License_Plate) : Vehicle , License_Plate , Car
-  95 : [58 , 37 , 38]
+  95 : [58 , 37 , 14]
   # Variant number 96 (License_Plate) : Vehicle , Bus , License_Plate
-  96 : [58 , 12 , 38]
+  96 : [58 , 12 , 37]
   # Variant number 97 (License_Plate) : License_Plate
-  97 : [38]
+  97 : [37]
   # Variant number 98 (Locomotive) : Train , Vehicle , Locomotive
   98 : [57 , 58 , 38]
   # Variant number 99 (Locomotive) : Locomotive
   99 : [38]
   # Variant number 100 (Mirror) : Vehicle , Bus , Mirror
-  100 : [58 , 12 , 38]
+  100 : [58 , 12 , 39]
   # Variant number 101 (Mirror) : Mirror
-  101 : [38]
+  101 : [39]
   # Variant number 102 (Mirror) : Vehicle , Car , Mirror
-  102 : [58 , 14 , 38]
+  102 : [58 , 14 , 39]
   # Variant number 103 (Motorbike) : Motorbike , Vehicle
-  103 : [40 , 38]
+  103 : [40 , 58]
   # Variant number 104 (Mouth) : Mouth , Animals , Person
-  104 : [41 , 2 , 38]
+  104 : [41 , 2 , 45]
   # Variant number 105 (Mouth) : Mouth
-  105 : [38]
+  105 : [41]
   # Variant number 106 (Muzzle) : Sheep , Muzzle , Animals
-  106 : [51 , 42 , 38]
+  106 : [51 , 42 , 2]
   # Variant number 107 (Muzzle) : Muzzle , Animals , Dog
-  107 : [42 , 2 , 38]
+  107 : [42 , 2 , 21]
   # Variant number 108 (Muzzle) : Cow , Muzzle , Animals
-  108 : [19 , 42 , 38]
+  108 : [19 , 42 , 2]
   # Variant number 109 (Muzzle) : Muzzle
-  109 : [38]
+  109 : [42]
   # Variant number 110 (Muzzle) : Horse , Muzzle , Animals
-  110 : [35 , 42 , 38]
+  110 : [35 , 42 , 2]
   # Variant number 111 (Neck) : Animals , Neck
-  111 : [2 , 38]
+  111 : [2 , 43]
   # Variant number 112 (Neck) : Animals , Neck , Cat
-  112 : [2 , 43 , 38]
+  112 : [2 , 43 , 15]
   # Variant number 113 (Neck) : Neck
-  113 : [38]
+  113 : [43]
   # Variant number 114 (Neck) : Sheep , Animals , Neck
-  114 : [51 , 2 , 38]
+  114 : [51 , 2 , 43]
   # Variant number 115 (Neck) : Animals , Neck , Bird
-  115 : [2 , 43 , 38]
+  115 : [2 , 43 , 7]
   # Variant number 116 (Neck) : Animals , Neck , Person
-  116 : [2 , 43 , 38]
+  116 : [2 , 43 , 45]
   # Variant number 117 (Neck) : Cow , Animals , Neck
-  117 : [19 , 2 , 38]
+  117 : [19 , 2 , 43]
   # Variant number 118 (Neck) : Animals , Neck , Dog
-  118 : [2 , 43 , 38]
+  118 : [2 , 43 , 21]
   # Variant number 119 (Neck) : Horse , Animals , Neck
-  119 : [35 , 2 , 38]
+  119 : [35 , 2 , 43]
   # Variant number 120 (Nose) : Animals , Nose , Dog
-  120 : [2 , 44 , 38]
+  120 : [2 , 44 , 21]
   # Variant number 121 (Nose) : Animals , Nose , Person
-  121 : [2 , 44 , 38]
+  121 : [2 , 44 , 45]
   # Variant number 122 (Nose) : Nose
-  122 : [38]
+  122 : [44]
   # Variant number 123 (Person) : Animals , Person
-  123 : [2 , 38]
+  123 : [2 , 45]
   # Variant number 124 (Plant) : Plant
-  124 : [38]
+  124 : [46]
   # Variant number 125 (Plant) : Potted_Plant , Plant
-  125 : [48 , 38]
+  125 : [48 , 46]
   # Variant number 126 (Pot) : Potted_Plant , Pot
-  126 : [48 , 38]
+  126 : [48 , 47]
   # Variant number 127 (Pot) : Pot
-  127 : [38]
+  127 : [47]
   # Variant number 128 (Potted_Plant) : Potted_Plant
-  128 : [38]
+  128 : [48]
   # Variant number 129 (Saddle) : Saddle
-  129 : [38]
+  129 : [49]
   # Variant number 130 (Saddle) : Saddle , Vehicle , Bicycle
-  130 : [49 , 58 , 38]
+  130 : [49 , 58 , 6]
   # Variant number 131 (Saddle) : Motorbike , Saddle , Vehicle
-  131 : [40 , 49 , 38]
+  131 : [40 , 49 , 58]
   # Variant number 132 (Screen) : Screen
-  132 : [38]
+  132 : [50]
   # Variant number 133 (Screen) : Screen , TV_Monitor
-  133 : [50 , 38]
+  133 : [50 , 54]
   # Variant number 134 (Sheep) : Animals , Sheep
-  134 : [2 , 38]
+  134 : [2 , 51]
   # Variant number 135 (Sofa) : Sofa
-  135 : [38]
+  135 : [52]
   # Variant number 136 (Stern) : Aeroplane , Vehicle , Stern
-  136 : [0 , 58 , 38]
+  136 : [0 , 58 , 53]
   # Variant number 137 (Stern) : Stern
-  137 : [38]
+  137 : [53]
   # Variant number 138 (TV_Monitor) : TV_Monitor
-  138 : [38]
+  138 : [54]
   # Variant number 139 (Tail) : Animals , Dog , Tail
-  139 : [2 , 21 , 38]
+  139 : [2 , 21 , 55]
   # Variant number 140 (Tail) : Animals , Cat , Tail
-  140 : [2 , 15 , 38]
+  140 : [2 , 15 , 55]
   # Variant number 141 (Tail) : Animals , Cow , Tail
-  141 : [2 , 19 , 38]
+  141 : [2 , 19 , 55]
   # Variant number 142 (Tail) : Tail
-  142 : [38]
+  142 : [55]
   # Variant number 143 (Tail) : Animals , Sheep , Tail
-  143 : [2 , 51 , 38]
+  143 : [2 , 51 , 55]
   # Variant number 144 (Tail) : Animals , Horse , Tail
-  144 : [2 , 35 , 38]
+  144 : [2 , 35 , 55]
   # Variant number 145 (Tail) : Animals , Bird , Tail
-  145 : [2 , 7 , 38]
+  145 : [2 , 7 , 55]
   # Variant number 146 (Torso) : Torso , Animals , Person
-  146 : [56 , 2 , 38]
+  146 : [56 , 2 , 45]
   # Variant number 147 (Torso) : Torso
-  147 : [38]
+  147 : [56]
   # Variant number 148 (Torso) : Torso , Animals , Sheep
-  148 : [56 , 2 , 38]
+  148 : [56 , 2 , 51]
   # Variant number 149 (Torso) : Torso , Animals , Bird
-  149 : [56 , 2 , 38]
+  149 : [56 , 2 , 7]
   # Variant number 150 (Torso) : Torso , Animals , Dog
-  150 : [56 , 2 , 38]
+  150 : [56 , 2 , 21]
   # Variant number 151 (Torso) : Torso , Animals , Cat
-  151 : [56 , 2 , 38]
+  151 : [56 , 2 , 15]
   # Variant number 152 (Torso) : Torso , Animals , Cow
-  152 : [56 , 2 , 38]
+  152 : [56 , 2 , 19]
   # Variant number 153 (Torso) : Torso , Animals , Horse
-  153 : [56 , 2 , 38]
+  153 : [56 , 2 , 35]
   # Variant number 154 (Torso) : Torso , Animals
-  154 : [56 , 38]
+  154 : [56 , 2]
   # Variant number 155 (Train) : Train , Vehicle
-  155 : [57 , 38]
+  155 : [57 , 58]
   # Variant number 156 (Vehicle) : Vehicle
-  156 : [38]
+  156 : [58]
   # Variant number 157 (Wheel) : Aeroplane , Vehicle , Wheel
-  157 : [0 , 58 , 38]
+  157 : [0 , 58 , 59]
   # Variant number 158 (Wheel) : Vehicle , Wheel , Bicycle
-  158 : [58 , 59 , 38]
+  158 : [58 , 59 , 6]
   # Variant number 159 (Wheel) : Motorbike , Vehicle , Wheel
-  159 : [40 , 58 , 38]
+  159 : [40 , 58 , 59]
   # Variant number 160 (Wheel) : Wheel
-  160 : [38]
+  160 : [59]
   # Variant number 161 (Wheel) : Vehicle , Wheel , Car
-  161 : [58 , 59 , 38]
+  161 : [58 , 59 , 14]
   # Variant number 162 (Wheel) : Vehicle , Wheel , Bus
-  162 : [58 , 59 , 38]
+  162 : [58 , 59 , 12]
   # Variant number 163 (Window) : Window
-  163 : [38]
+  163 : [60]
   # Variant number 164 (Window) : Vehicle , Window , Car
-  164 : [58 , 60 , 38]
+  164 : [58 , 60 , 14]
   # Variant number 165 (Window) : Vehicle , Bus , Window
-  165 : [58 , 12 , 38]
+  165 : [58 , 12 , 60]
 
 variant_to_class:
   # Variant number 0 : Aeroplane

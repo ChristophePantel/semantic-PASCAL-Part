@@ -516,15 +516,15 @@ class PASCALPart_annotations:
                 yaml_comment_line = '  # Variant number ' + str(code) + ' (' + code_to_class[variant_to_class[code]] + ') : '
                 yaml_line = '  ' + str(code) + ' : ' + '['
                 counter = 0
-                len_part = len(generalized_class_variants[code])
+                len_elements = len(generalized_class_variants[code])
                 for element in generalized_class_variants[code]:
                     counter += 1
-                    if counter != len_part:
+                    if counter != len_elements:
                         yaml_comment_line += code_to_class[element] + ' , '
                         yaml_line += str(element) + ' , '
                     else: 
                         yaml_comment_line += code_to_class[element]
-                        yaml_line += str(part)
+                        yaml_line += str(element)
                 yaml_comment_line += '\n'
                 yaml_line += ']\n'
                 yaml_file.write( yaml_comment_line )
