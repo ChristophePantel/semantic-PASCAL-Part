@@ -87,6 +87,13 @@ def get_refined_classes():
         }
     return refined_classes
 
+def get_abstract_classes():
+    abstract_classes = frozenset([]
+            "Animals",
+            "Vehicle"
+        ])
+    return abstract_classes
+
 def get_contained_classes():
     contained_classes = {
         "Animals" : frozenset([ "Eye", "Head", "Leg", "Neck", "Torso" ]),
@@ -198,15 +205,19 @@ def invert_relation(relation):
                 inverted_relation[value] = frozenset({key})
     return inverted_relation
 
+# Build the variant of an element according to the relation (paths in the relation whose root is the element)
 def element_variants(element, relation):
     singleton_element = frozenset({element})
-    result = frozenset( { singleton_element } )
     if element in relation:
+        result = frozenset( {} )
         for target in relation[element]:
             for variant in element_variants( target, relation):
                 result = result.union( { variant.union( singleton_element ) } )
+    else:
+        result = frozenset( { singleton_element } )
     return result     
 
+# Build the variants of all the elements according to the relation (paths in the relation whose roots are the elements)
 def variants(elements,relation):
     variant_to_element = {}
     code = 0
