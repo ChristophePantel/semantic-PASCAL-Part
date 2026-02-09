@@ -88,7 +88,7 @@ def get_refined_classes():
     return refined_classes
 
 def get_abstract_classes():
-    abstract_classes = frozenset([]
+    abstract_classes = frozenset([
             "Animals",
             "Vehicle"
         ])
