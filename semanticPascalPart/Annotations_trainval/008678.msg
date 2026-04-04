@@ -1,5 +1,5 @@
-Sheep  Animals
-Torso  Sheep  Animals
-Ear  Sheep  Animals
-Ear  Sheep  Animals
-Head  Sheep  Animals
+Sheep  Animal
+Torso  Sheep  Animal
+Ear  Sheep  Animal
+Ear  Sheep  Animal
+Head  Sheep  Animal

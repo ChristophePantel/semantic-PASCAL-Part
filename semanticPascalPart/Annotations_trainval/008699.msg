@@ -10,16 +10,16 @@ Mirror  Bus  Vehicle
 Mirror  Bus  Vehicle
 Bodywork  Bus  Vehicle
 License_Plate  Bus  Vehicle
-Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
-Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
+Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
+Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
 Bicycle  Vehicle
 Saddle  Bicycle  Vehicle
 Handlebar  Bicycle  Vehicle

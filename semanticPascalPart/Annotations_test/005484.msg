@@ -1,7 +1,7 @@
-Horse  Animals
-Tail  Horse  Animals
-Leg  Horse  Animals
-Leg  Horse  Animals
-Leg  Horse  Animals
-Torso  Horse  Animals
-Head  Horse  Animals
+Horse  Animal
+Tail  Horse  Animal
+Leg  Horse  Animal
+Leg  Horse  Animal
+Leg  Horse  Animal
+Torso  Horse  Animal
+Head  Horse  Animal

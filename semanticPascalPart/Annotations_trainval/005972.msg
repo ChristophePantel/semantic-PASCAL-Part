@@ -1,9 +1,9 @@
-Person  Animals
-Nose  Person  Animals
-Hair  Person  Animals
-Eye  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
+Person  Animal
+Nose  Person  Animal
+Hair  Person  Animal
+Eye  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
 Bicycle  Vehicle
 Saddle  Bicycle  Vehicle
 Handlebar  Bicycle  Vehicle

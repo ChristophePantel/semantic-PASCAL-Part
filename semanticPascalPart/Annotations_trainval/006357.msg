@@ -1,5 +1,5 @@
 Boat  Vehicle
-Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
+Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal

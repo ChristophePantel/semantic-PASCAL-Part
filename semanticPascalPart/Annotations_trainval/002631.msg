@@ -1,10 +1,10 @@
-Horse  Animals
-Leg  Horse  Animals
-Leg  Horse  Animals
-Leg  Horse  Animals
-Leg  Horse  Animals
-Torso  Horse  Animals
-Head  Horse  Animals
+Horse  Animal
+Leg  Horse  Animal
+Leg  Horse  Animal
+Leg  Horse  Animal
+Leg  Horse  Animal
+Torso  Horse  Animal
+Head  Horse  Animal
 Car  Vehicle
 Window  Car  Vehicle
 Window  Car  Vehicle

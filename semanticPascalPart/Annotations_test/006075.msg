@@ -1,16 +1,16 @@
-Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Head  Person  Animals
-Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
+Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Head  Person  Animal
+Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
 Bus  Vehicle
 Window  Bus  Vehicle
 Window  Bus  Vehicle

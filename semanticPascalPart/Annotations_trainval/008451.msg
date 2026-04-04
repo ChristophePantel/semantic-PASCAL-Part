@@ -1,1 +1,1 @@
-Bird  Animals
+Bird  Animal

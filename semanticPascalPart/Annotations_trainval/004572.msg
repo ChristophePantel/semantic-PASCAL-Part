@@ -1,9 +1,9 @@
-Cow  Animals
-Tail  Cow  Animals
-Neck  Cow  Animals
-Torso  Cow  Animals
-Horn  Cow  Animals
-Horn  Cow  Animals
-Ear  Cow  Animals
-Ear  Cow  Animals
-Head  Cow  Animals
+Cow  Animal
+Tail  Cow  Animal
+Neck  Cow  Animal
+Torso  Cow  Animal
+Horn  Cow  Animal
+Horn  Cow  Animal
+Ear  Cow  Animal
+Ear  Cow  Animal
+Head  Cow  Animal

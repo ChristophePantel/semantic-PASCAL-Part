@@ -1,4 +1,4 @@
-Cat  Animals
-Leg  Cat  Animals
-Head  Cat  Animals
-Eye  Cat  Animals
+Cat  Animal
+Leg  Cat  Animal
+Head  Cat  Animal
+Eye  Cat  Animal

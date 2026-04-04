@@ -1,16 +1,16 @@
 Chair 
 Chair 
-Person  Animals
-Leg  Person  Animals
-Arm  Person  Animals
-Hand  Person  Animals
-Torso  Person  Animals
-Cat  Animals
-Leg  Cat  Animals
-Leg  Cat  Animals
-Torso  Cat  Animals
-Head  Cat  Animals
-Eye  Cat  Animals
-Eye  Cat  Animals
-Ear  Cat  Animals
-Ear  Cat  Animals
+Person  Animal
+Leg  Person  Animal
+Arm  Person  Animal
+Hand  Person  Animal
+Torso  Person  Animal
+Cat  Animal
+Leg  Cat  Animal
+Leg  Cat  Animal
+Torso  Cat  Animal
+Head  Cat  Animal
+Eye  Cat  Animal
+Eye  Cat  Animal
+Ear  Cat  Animal
+Ear  Cat  Animal

@@ -1,34 +1,34 @@
-Person  Animals
-Nose  Person  Animals
-Hair  Person  Animals
-Eyebrow  Person  Animals
-Eye  Person  Animals
-Eye  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Head  Person  Animals
-Person  Animals
-Hair  Person  Animals
-Ear  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Person  Animals
-Neck  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Person  Animals
-Hair  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Person  Animals
-Hair  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
+Person  Animal
+Nose  Person  Animal
+Hair  Person  Animal
+Eyebrow  Person  Animal
+Eye  Person  Animal
+Eye  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Head  Person  Animal
+Person  Animal
+Hair  Person  Animal
+Ear  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Person  Animal
+Neck  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Person  Animal
+Hair  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Person  Animal
+Hair  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
 Aeroplane  Vehicle
 Stern  Aeroplane  Vehicle
 Artifact_Wing  Aeroplane  Vehicle

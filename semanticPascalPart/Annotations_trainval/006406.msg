@@ -27,13 +27,13 @@ Headlight  Bus  Vehicle
 Mirror  Bus  Vehicle
 Bodywork  Bus  Vehicle
 License_Plate  Bus  Vehicle
-Person  Animals
-Leg  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
+Person  Animal
+Leg  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
 Bus  Vehicle
 Window  Bus  Vehicle
 Window  Bus  Vehicle

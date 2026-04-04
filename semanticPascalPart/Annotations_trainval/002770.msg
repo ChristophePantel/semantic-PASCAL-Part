@@ -1,22 +1,22 @@
-Dog  Animals
-Tail  Dog  Animals
-Leg  Dog  Animals
-Leg  Dog  Animals
-Leg  Dog  Animals
-Leg  Dog  Animals
-Neck  Dog  Animals
-Torso  Dog  Animals
-Muzzle  Dog  Animals
-Ear  Dog  Animals
-Head  Dog  Animals
-Bird  Animals
-Tail  Bird  Animals
-Neck  Bird  Animals
-Torso  Bird  Animals
-Head  Bird  Animals
-Bird  Animals
-Tail  Bird  Animals
-Neck  Bird  Animals
-Torso  Bird  Animals
-Beak  Bird  Animals
-Head  Bird  Animals
+Dog  Animal
+Tail  Dog  Animal
+Leg  Dog  Animal
+Leg  Dog  Animal
+Leg  Dog  Animal
+Leg  Dog  Animal
+Neck  Dog  Animal
+Torso  Dog  Animal
+Muzzle  Dog  Animal
+Ear  Dog  Animal
+Head  Dog  Animal
+Bird  Animal
+Tail  Bird  Animal
+Neck  Bird  Animal
+Torso  Bird  Animal
+Head  Bird  Animal
+Bird  Animal
+Tail  Bird  Animal
+Neck  Bird  Animal
+Torso  Bird  Animal
+Beak  Bird  Animal
+Head  Bird  Animal

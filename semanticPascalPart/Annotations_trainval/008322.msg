@@ -1,4 +1,4 @@
-Sheep  Animals
-Neck  Sheep  Animals
-Torso  Sheep  Animals
-Head  Sheep  Animals
+Sheep  Animal
+Neck  Sheep  Animal
+Torso  Sheep  Animal
+Head  Sheep  Animal

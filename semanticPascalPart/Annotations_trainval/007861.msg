@@ -1,6 +1,6 @@
-Sheep  Animals
-Torso  Sheep  Animals
-Head  Sheep  Animals
-Sheep  Animals
-Torso  Sheep  Animals
-Head  Sheep  Animals
+Sheep  Animal
+Torso  Sheep  Animal
+Head  Sheep  Animal
+Sheep  Animal
+Torso  Sheep  Animal
+Head  Sheep  Animal

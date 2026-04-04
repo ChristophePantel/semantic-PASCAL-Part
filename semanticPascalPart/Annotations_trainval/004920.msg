@@ -1,15 +1,15 @@
-Person  Animals
-Leg  Person  Animals
-Leg  Person  Animals
+Person  Animal
+Leg  Person  Animal
+Leg  Person  Animal
 TV_Monitor 
 Screen  TV_Monitor 
-Dog  Animals
-Neck  Dog  Animals
-Torso  Dog  Animals
-Nose  Dog  Animals
-Muzzle  Dog  Animals
-Eye  Dog  Animals
-Eye  Dog  Animals
-Ear  Dog  Animals
-Ear  Dog  Animals
-Head  Dog  Animals
+Dog  Animal
+Neck  Dog  Animal
+Torso  Dog  Animal
+Nose  Dog  Animal
+Muzzle  Dog  Animal
+Eye  Dog  Animal
+Eye  Dog  Animal
+Ear  Dog  Animal
+Ear  Dog  Animal
+Head  Dog  Animal

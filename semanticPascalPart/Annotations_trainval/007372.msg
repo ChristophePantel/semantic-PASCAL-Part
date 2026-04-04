@@ -2,18 +2,18 @@ Chair
 Potted_Plant 
 Plant  Potted_Plant 
 Pot  Potted_Plant 
-Dog  Animals
-Tail  Dog  Animals
-Leg  Dog  Animals
-Leg  Dog  Animals
-Leg  Dog  Animals
-Leg  Dog  Animals
-Neck  Dog  Animals
-Torso  Dog  Animals
-Nose  Dog  Animals
-Muzzle  Dog  Animals
-Eye  Dog  Animals
-Eye  Dog  Animals
-Ear  Dog  Animals
-Ear  Dog  Animals
-Head  Dog  Animals
+Dog  Animal
+Tail  Dog  Animal
+Leg  Dog  Animal
+Leg  Dog  Animal
+Leg  Dog  Animal
+Leg  Dog  Animal
+Neck  Dog  Animal
+Torso  Dog  Animal
+Nose  Dog  Animal
+Muzzle  Dog  Animal
+Eye  Dog  Animal
+Eye  Dog  Animal
+Ear  Dog  Animal
+Ear  Dog  Animal
+Head  Dog  Animal

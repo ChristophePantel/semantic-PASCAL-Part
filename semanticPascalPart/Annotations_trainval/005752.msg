@@ -1,6 +1,6 @@
-Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
+Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
 Aeroplane  Vehicle
 Stern  Aeroplane  Vehicle
 Wheel  Aeroplane  Vehicle

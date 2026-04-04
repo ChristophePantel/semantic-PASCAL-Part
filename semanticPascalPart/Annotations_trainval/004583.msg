@@ -1,21 +1,21 @@
-Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Dog  Animals
-Tail  Dog  Animals
-Leg  Dog  Animals
-Leg  Dog  Animals
-Leg  Dog  Animals
-Leg  Dog  Animals
-Neck  Dog  Animals
-Torso  Dog  Animals
-Muzzle  Dog  Animals
-Ear  Dog  Animals
-Head  Dog  Animals
+Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Dog  Animal
+Tail  Dog  Animal
+Leg  Dog  Animal
+Leg  Dog  Animal
+Leg  Dog  Animal
+Leg  Dog  Animal
+Neck  Dog  Animal
+Torso  Dog  Animal
+Muzzle  Dog  Animal
+Ear  Dog  Animal
+Head  Dog  Animal

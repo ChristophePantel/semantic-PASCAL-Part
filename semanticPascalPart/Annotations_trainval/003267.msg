@@ -1,22 +1,22 @@
-Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Bird  Animals
-Tail  Bird  Animals
-Neck  Bird  Animals
-Torso  Bird  Animals
-Head  Bird  Animals
-Bird  Animals
-Tail  Bird  Animals
-Neck  Bird  Animals
-Torso  Bird  Animals
-Head  Bird  Animals
+Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Bird  Animal
+Tail  Bird  Animal
+Neck  Bird  Animal
+Torso  Bird  Animal
+Head  Bird  Animal
+Bird  Animal
+Tail  Bird  Animal
+Neck  Bird  Animal
+Torso  Bird  Animal
+Head  Bird  Animal

@@ -1,34 +1,34 @@
-Cow  Animals
-Tail  Cow  Animals
-Leg  Cow  Animals
-Leg  Cow  Animals
-Leg  Cow  Animals
-Leg  Cow  Animals
-Torso  Cow  Animals
-Muzzle  Cow  Animals
-Eye  Cow  Animals
-Eye  Cow  Animals
-Ear  Cow  Animals
-Ear  Cow  Animals
-Head  Cow  Animals
-Cow  Animals
-Neck  Cow  Animals
-Torso  Cow  Animals
-Muzzle  Cow  Animals
-Horn  Cow  Animals
-Horn  Cow  Animals
-Eye  Cow  Animals
-Eye  Cow  Animals
-Ear  Cow  Animals
-Head  Cow  Animals
-Bird  Animals
-Tail  Bird  Animals
-Leg  Bird  Animals
-Leg  Bird  Animals
-Animal_Wing  Bird  Animals
-Animal_Wing  Bird  Animals
-Neck  Bird  Animals
-Torso  Bird  Animals
-Beak  Bird  Animals
-Eye  Bird  Animals
-Head  Bird  Animals
+Cow  Animal
+Tail  Cow  Animal
+Leg  Cow  Animal
+Leg  Cow  Animal
+Leg  Cow  Animal
+Leg  Cow  Animal
+Torso  Cow  Animal
+Muzzle  Cow  Animal
+Eye  Cow  Animal
+Eye  Cow  Animal
+Ear  Cow  Animal
+Ear  Cow  Animal
+Head  Cow  Animal
+Cow  Animal
+Neck  Cow  Animal
+Torso  Cow  Animal
+Muzzle  Cow  Animal
+Horn  Cow  Animal
+Horn  Cow  Animal
+Eye  Cow  Animal
+Eye  Cow  Animal
+Ear  Cow  Animal
+Head  Cow  Animal
+Bird  Animal
+Tail  Bird  Animal
+Leg  Bird  Animal
+Leg  Bird  Animal
+Animal_Wing  Bird  Animal
+Animal_Wing  Bird  Animal
+Neck  Bird  Animal
+Torso  Bird  Animal
+Beak  Bird  Animal
+Eye  Bird  Animal
+Head  Bird  Animal

@@ -1,6 +1,6 @@
-Dog  Animals
-Leg  Dog  Animals
-Leg  Dog  Animals
-Muzzle  Dog  Animals
-Eye  Dog  Animals
-Head  Dog  Animals
+Dog  Animal
+Leg  Dog  Animal
+Leg  Dog  Animal
+Muzzle  Dog  Animal
+Eye  Dog  Animal
+Head  Dog  Animal

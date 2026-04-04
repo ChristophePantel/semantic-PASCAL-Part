@@ -1,13 +1,13 @@
-Bird  Animals
-Tail  Bird  Animals
-Animal_Wing  Bird  Animals
-Animal_Wing  Bird  Animals
-Neck  Bird  Animals
-Torso  Bird  Animals
-Head  Bird  Animals
-Bird  Animals
-Tail  Bird  Animals
-Animal_Wing  Bird  Animals
-Neck  Bird  Animals
-Torso  Bird  Animals
-Head  Bird  Animals
+Bird  Animal
+Tail  Bird  Animal
+Animal_Wing  Bird  Animal
+Animal_Wing  Bird  Animal
+Neck  Bird  Animal
+Torso  Bird  Animal
+Head  Bird  Animal
+Bird  Animal
+Tail  Bird  Animal
+Animal_Wing  Bird  Animal
+Neck  Bird  Animal
+Torso  Bird  Animal
+Head  Bird  Animal

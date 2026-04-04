@@ -1,13 +1,13 @@
-Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
-Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Hair  Person  Animals
-Eye  Person  Animals
-Head  Person  Animals
+Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
+Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Hair  Person  Animal
+Eye  Person  Animal
+Head  Person  Animal
 Car  Vehicle
 Wheel  Car  Vehicle
 Bodywork  Car  Vehicle

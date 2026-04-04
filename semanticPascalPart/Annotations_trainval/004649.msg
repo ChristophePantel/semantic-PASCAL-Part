@@ -1,13 +1,13 @@
 Sofa 
-Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Eyebrow  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
+Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Eyebrow  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal

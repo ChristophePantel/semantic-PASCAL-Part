@@ -1,29 +1,29 @@
-Sheep  Animals
-Sheep  Animals
-Torso  Sheep  Animals
-Muzzle  Sheep  Animals
-Eye  Sheep  Animals
-Ear  Sheep  Animals
-Head  Sheep  Animals
-Sheep  Animals
-Neck  Sheep  Animals
-Torso  Sheep  Animals
-Muzzle  Sheep  Animals
-Eye  Sheep  Animals
-Ear  Sheep  Animals
-Head  Sheep  Animals
-Person  Animals
-Leg  Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Hair  Person  Animals
-Mouth  Person  Animals
-Eyebrow  Person  Animals
-Eyebrow  Person  Animals
-Eye  Person  Animals
-Eye  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
+Sheep  Animal
+Sheep  Animal
+Torso  Sheep  Animal
+Muzzle  Sheep  Animal
+Eye  Sheep  Animal
+Ear  Sheep  Animal
+Head  Sheep  Animal
+Sheep  Animal
+Neck  Sheep  Animal
+Torso  Sheep  Animal
+Muzzle  Sheep  Animal
+Eye  Sheep  Animal
+Ear  Sheep  Animal
+Head  Sheep  Animal
+Person  Animal
+Leg  Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Hair  Person  Animal
+Mouth  Person  Animal
+Eyebrow  Person  Animal
+Eyebrow  Person  Animal
+Eye  Person  Animal
+Eye  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal

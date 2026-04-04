@@ -1,7 +1,7 @@
-Cat  Animals
-Tail  Cat  Animals
-Leg  Cat  Animals
-Leg  Cat  Animals
-Leg  Cat  Animals
-Leg  Cat  Animals
-Torso  Cat  Animals
+Cat  Animal
+Tail  Cat  Animal
+Leg  Cat  Animal
+Leg  Cat  Animal
+Leg  Cat  Animal
+Leg  Cat  Animal
+Torso  Cat  Animal

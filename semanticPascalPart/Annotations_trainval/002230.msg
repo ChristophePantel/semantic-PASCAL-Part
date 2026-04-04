@@ -1,8 +1,8 @@
-Person  Animals
-Torso  Person  Animals
-Eye  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
+Person  Animal
+Torso  Person  Animal
+Eye  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
 Chair 
 TV_Monitor 
 Screen  TV_Monitor 

@@ -14,14 +14,14 @@ Headlight  Bus  Vehicle
 Headlight  Bus  Vehicle
 Bodywork  Bus  Vehicle
 License_Plate  Bus  Vehicle
-Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Head  Person  Animals
-Person  Animals
-Neck  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Eye  Person  Animals
-Eye  Person  Animals
-Head  Person  Animals
+Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Head  Person  Animal
+Person  Animal
+Neck  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Eye  Person  Animal
+Eye  Person  Animal
+Head  Person  Animal

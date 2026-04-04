@@ -1,7 +1,7 @@
 Boat  Vehicle
-Person  Animals
-Person  Animals
-Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
+Person  Animal
+Person  Animal
+Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal

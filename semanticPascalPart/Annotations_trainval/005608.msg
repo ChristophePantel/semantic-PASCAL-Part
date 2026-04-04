@@ -1,8 +1,8 @@
-Cow  Animals
-Torso  Cow  Animals
-Muzzle  Cow  Animals
-Eye  Cow  Animals
-Eye  Cow  Animals
-Ear  Cow  Animals
-Ear  Cow  Animals
-Head  Cow  Animals
+Cow  Animal
+Torso  Cow  Animal
+Muzzle  Cow  Animal
+Eye  Cow  Animal
+Eye  Cow  Animal
+Ear  Cow  Animal
+Ear  Cow  Animal
+Head  Cow  Animal

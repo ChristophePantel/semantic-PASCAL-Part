@@ -1,17 +1,17 @@
-Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Eyebrow  Person  Animals
-Eye  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
+Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Eyebrow  Person  Animal
+Eye  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
 Chair 
-Cat  Animals
-Leg  Cat  Animals
-Torso  Cat  Animals
-Head  Cat  Animals
-Eye  Cat  Animals
-Eye  Cat  Animals
-Ear  Cat  Animals
-Ear  Cat  Animals
+Cat  Animal
+Leg  Cat  Animal
+Torso  Cat  Animal
+Head  Cat  Animal
+Eye  Cat  Animal
+Eye  Cat  Animal
+Ear  Cat  Animal
+Ear  Cat  Animal

@@ -12,12 +12,12 @@ Mirror  Car  Vehicle
 Door  Car  Vehicle
 Bodywork  Car  Vehicle
 License_Plate  Car  Vehicle
-Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Head  Person  Animals
+Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Head  Person  Animal

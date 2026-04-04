@@ -1,14 +1,14 @@
-Cat  Animals
-Torso  Cat  Animals
-Head  Cat  Animals
-Eye  Cat  Animals
-Eye  Cat  Animals
-Ear  Cat  Animals
-Ear  Cat  Animals
-Cat  Animals
-Tail  Cat  Animals
-Torso  Cat  Animals
-Ear  Cat  Animals
-Ear  Cat  Animals
-Head  Cat  Animals
-Cat  Animals
+Cat  Animal
+Torso  Cat  Animal
+Head  Cat  Animal
+Eye  Cat  Animal
+Eye  Cat  Animal
+Ear  Cat  Animal
+Ear  Cat  Animal
+Cat  Animal
+Tail  Cat  Animal
+Torso  Cat  Animal
+Ear  Cat  Animal
+Ear  Cat  Animal
+Head  Cat  Animal
+Cat  Animal

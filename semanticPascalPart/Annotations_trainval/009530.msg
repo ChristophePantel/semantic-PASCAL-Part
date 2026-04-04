@@ -1,6 +1,6 @@
-Cat  Animals
-Head  Cat  Animals
-Eye  Cat  Animals
-Eye  Cat  Animals
-Ear  Cat  Animals
-Ear  Cat  Animals
+Cat  Animal
+Head  Cat  Animal
+Eye  Cat  Animal
+Eye  Cat  Animal
+Ear  Cat  Animal
+Ear  Cat  Animal

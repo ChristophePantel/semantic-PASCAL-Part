@@ -1,4 +1,4 @@
-Horse  Animals
-Muzzle  Horse  Animals
-Eye  Horse  Animals
-Head  Horse  Animals
+Horse  Animal
+Muzzle  Horse  Animal
+Eye  Horse  Animal
+Head  Horse  Animal

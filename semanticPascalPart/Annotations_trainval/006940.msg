@@ -11,8 +11,8 @@ Mirror  Car  Vehicle
 Mirror  Car  Vehicle
 Door  Car  Vehicle
 Bodywork  Car  Vehicle
-Person  Animals
-Nose  Person  Animals
-Eye  Person  Animals
-Eye  Person  Animals
-Head  Person  Animals
+Person  Animal
+Nose  Person  Animal
+Eye  Person  Animal
+Eye  Person  Animal
+Head  Person  Animal

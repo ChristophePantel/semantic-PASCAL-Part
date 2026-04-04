@@ -1,5 +1,5 @@
-Person  Animals
-Torso  Person  Animals
+Person  Animal
+Torso  Person  Animal
 Bus  Vehicle
 Headlight  Bus  Vehicle
 Headlight  Bus  Vehicle

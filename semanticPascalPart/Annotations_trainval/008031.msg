@@ -1,11 +1,11 @@
-Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
-Person  Animals
-Leg  Person  Animals
-Leg  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
+Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
+Person  Animal
+Leg  Person  Animal
+Leg  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
 Car  Vehicle
 Bodywork  Car  Vehicle
 Car  Vehicle

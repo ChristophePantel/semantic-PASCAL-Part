@@ -1,6 +1,6 @@
-Cat  Animals
-Leg  Cat  Animals
-Leg  Cat  Animals
-Torso  Cat  Animals
-Eye  Cat  Animals
-Head  Cat  Animals
+Cat  Animal
+Leg  Cat  Animal
+Leg  Cat  Animal
+Torso  Cat  Animal
+Eye  Cat  Animal
+Head  Cat  Animal

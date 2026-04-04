@@ -1,11 +1,11 @@
-Dog  Animals
-Torso  Dog  Animals
-Ear  Dog  Animals
-Ear  Dog  Animals
-Head  Dog  Animals
-Cat  Animals
-Neck  Cat  Animals
-Torso  Cat  Animals
-Ear  Cat  Animals
-Ear  Cat  Animals
-Head  Cat  Animals
+Dog  Animal
+Torso  Dog  Animal
+Ear  Dog  Animal
+Ear  Dog  Animal
+Head  Dog  Animal
+Cat  Animal
+Neck  Cat  Animal
+Torso  Cat  Animal
+Ear  Cat  Animal
+Ear  Cat  Animal
+Head  Cat  Animal

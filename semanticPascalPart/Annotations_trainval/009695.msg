@@ -1,25 +1,25 @@
-Cow  Animals
-Leg  Cow  Animals
-Leg  Cow  Animals
-Leg  Cow  Animals
-Torso  Cow  Animals
-Cow  Animals
-Leg  Cow  Animals
-Leg  Cow  Animals
-Neck  Cow  Animals
-Torso  Cow  Animals
-Horn  Cow  Animals
-Head  Cow  Animals
-Cow  Animals
-Leg  Cow  Animals
-Leg  Cow  Animals
-Leg  Cow  Animals
-Horn  Cow  Animals
-Horn  Cow  Animals
-Eye  Cow  Animals
-Head  Cow  Animals
-Cow  Animals
-Tail  Cow  Animals
-Neck  Cow  Animals
-Torso  Cow  Animals
-Head  Cow  Animals
+Cow  Animal
+Leg  Cow  Animal
+Leg  Cow  Animal
+Leg  Cow  Animal
+Torso  Cow  Animal
+Cow  Animal
+Leg  Cow  Animal
+Leg  Cow  Animal
+Neck  Cow  Animal
+Torso  Cow  Animal
+Horn  Cow  Animal
+Head  Cow  Animal
+Cow  Animal
+Leg  Cow  Animal
+Leg  Cow  Animal
+Leg  Cow  Animal
+Horn  Cow  Animal
+Horn  Cow  Animal
+Eye  Cow  Animal
+Head  Cow  Animal
+Cow  Animal
+Tail  Cow  Animal
+Neck  Cow  Animal
+Torso  Cow  Animal
+Head  Cow  Animal

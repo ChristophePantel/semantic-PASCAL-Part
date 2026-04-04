@@ -1,24 +1,24 @@
-Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Head  Person  Animals
-Person  Animals
-Neck  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Mouth  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Person  Animals
-Arm  Person  Animals
-Arm  Person  Animals
-Neck  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Ear  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
+Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Head  Person  Animal
+Person  Animal
+Neck  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Mouth  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Person  Animal
+Arm  Person  Animal
+Arm  Person  Animal
+Neck  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Ear  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
 Bus  Vehicle
 Window  Bus  Vehicle
 Wheel  Bus  Vehicle

@@ -1,57 +1,57 @@
-Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Hair  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Person  Animals
-Nose  Person  Animals
-Hair  Person  Animals
-Mouth  Person  Animals
-Head  Person  Animals
-Person  Animals
-Hair  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Person  Animals
-Leg  Person  Animals
-Arm  Person  Animals
-Neck  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Hair  Person  Animals
-Mouth  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Cow  Animals
-Muzzle  Cow  Animals
-Horn  Cow  Animals
-Head  Cow  Animals
-Cow  Animals
-Torso  Cow  Animals
-Muzzle  Cow  Animals
-Horn  Cow  Animals
-Eye  Cow  Animals
-Ear  Cow  Animals
-Head  Cow  Animals
-Cow  Animals
-Neck  Cow  Animals
-Torso  Cow  Animals
-Muzzle  Cow  Animals
-Eye  Cow  Animals
-Ear  Cow  Animals
-Head  Cow  Animals
+Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Hair  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Person  Animal
+Nose  Person  Animal
+Hair  Person  Animal
+Mouth  Person  Animal
+Head  Person  Animal
+Person  Animal
+Hair  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Person  Animal
+Leg  Person  Animal
+Arm  Person  Animal
+Neck  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Hair  Person  Animal
+Mouth  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Cow  Animal
+Muzzle  Cow  Animal
+Horn  Cow  Animal
+Head  Cow  Animal
+Cow  Animal
+Torso  Cow  Animal
+Muzzle  Cow  Animal
+Horn  Cow  Animal
+Eye  Cow  Animal
+Ear  Cow  Animal
+Head  Cow  Animal
+Cow  Animal
+Neck  Cow  Animal
+Torso  Cow  Animal
+Muzzle  Cow  Animal
+Eye  Cow  Animal
+Ear  Cow  Animal
+Head  Cow  Animal

@@ -9,9 +9,9 @@ Car  Vehicle
 Window  Car  Vehicle
 Wheel  Car  Vehicle
 Bodywork  Car  Vehicle
-Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
+Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
 Car  Vehicle
 Window  Car  Vehicle
 Window  Car  Vehicle

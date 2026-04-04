@@ -1,37 +1,37 @@
-Person  Animals
-Leg  Person  Animals
-Leg  Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Hair  Person  Animals
-Mouth  Person  Animals
-Eyebrow  Person  Animals
-Eyebrow  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Dog  Animals
-Tail  Dog  Animals
-Leg  Dog  Animals
-Leg  Dog  Animals
-Leg  Dog  Animals
-Leg  Dog  Animals
-Torso  Dog  Animals
-Nose  Dog  Animals
-Muzzle  Dog  Animals
-Ear  Dog  Animals
-Head  Dog  Animals
-Dog  Animals
-Leg  Dog  Animals
-Neck  Dog  Animals
-Torso  Dog  Animals
-Ear  Dog  Animals
-Ear  Dog  Animals
-Head  Dog  Animals
-Dog  Animals
-Leg  Dog  Animals
-Leg  Dog  Animals
-Leg  Dog  Animals
-Torso  Dog  Animals
-Ear  Dog  Animals
-Ear  Dog  Animals
-Head  Dog  Animals
+Person  Animal
+Leg  Person  Animal
+Leg  Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Hair  Person  Animal
+Mouth  Person  Animal
+Eyebrow  Person  Animal
+Eyebrow  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Dog  Animal
+Tail  Dog  Animal
+Leg  Dog  Animal
+Leg  Dog  Animal
+Leg  Dog  Animal
+Leg  Dog  Animal
+Torso  Dog  Animal
+Nose  Dog  Animal
+Muzzle  Dog  Animal
+Ear  Dog  Animal
+Head  Dog  Animal
+Dog  Animal
+Leg  Dog  Animal
+Neck  Dog  Animal
+Torso  Dog  Animal
+Ear  Dog  Animal
+Ear  Dog  Animal
+Head  Dog  Animal
+Dog  Animal
+Leg  Dog  Animal
+Leg  Dog  Animal
+Leg  Dog  Animal
+Torso  Dog  Animal
+Ear  Dog  Animal
+Ear  Dog  Animal
+Head  Dog  Animal

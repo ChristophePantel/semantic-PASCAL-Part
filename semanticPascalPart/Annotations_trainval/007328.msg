@@ -1,1 +1,1 @@
-Sheep  Animals
+Sheep  Animal

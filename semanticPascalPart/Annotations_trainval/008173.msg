@@ -1,9 +1,9 @@
-Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Head  Person  Animals
+Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Head  Person  Animal
 TV_Monitor 
 Screen  TV_Monitor 
 TV_Monitor 

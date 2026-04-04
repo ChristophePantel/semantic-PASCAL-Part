@@ -5,29 +5,29 @@ Wheel  Car  Vehicle
 Wheel  Car  Vehicle
 Mirror  Car  Vehicle
 Bodywork  Car  Vehicle
-Horse  Animals
-Tail  Horse  Animals
-Leg  Horse  Animals
-Leg  Horse  Animals
-Leg  Horse  Animals
-Leg  Horse  Animals
-Neck  Horse  Animals
-Torso  Horse  Animals
-Muzzle  Horse  Animals
-Eye  Horse  Animals
-Head  Horse  Animals
-Horse  Animals
-Tail  Horse  Animals
-Hoof  Horse  Animals
-Leg  Horse  Animals
-Hoof  Horse  Animals
-Leg  Horse  Animals
-Hoof  Horse  Animals
-Leg  Horse  Animals
-Hoof  Horse  Animals
-Leg  Horse  Animals
-Neck  Horse  Animals
-Torso  Horse  Animals
-Muzzle  Horse  Animals
-Eye  Horse  Animals
-Head  Horse  Animals
+Horse  Animal
+Tail  Horse  Animal
+Leg  Horse  Animal
+Leg  Horse  Animal
+Leg  Horse  Animal
+Leg  Horse  Animal
+Neck  Horse  Animal
+Torso  Horse  Animal
+Muzzle  Horse  Animal
+Eye  Horse  Animal
+Head  Horse  Animal
+Horse  Animal
+Tail  Horse  Animal
+Hoof  Horse  Animal
+Leg  Horse  Animal
+Hoof  Horse  Animal
+Leg  Horse  Animal
+Hoof  Horse  Animal
+Leg  Horse  Animal
+Hoof  Horse  Animal
+Leg  Horse  Animal
+Neck  Horse  Animal
+Torso  Horse  Animal
+Muzzle  Horse  Animal
+Eye  Horse  Animal
+Head  Horse  Animal

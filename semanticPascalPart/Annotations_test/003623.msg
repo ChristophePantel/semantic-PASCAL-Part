@@ -1,7 +1,7 @@
 TV_Monitor 
 Screen  TV_Monitor 
-Cat  Animals
-Leg  Cat  Animals
-Neck  Cat  Animals
-Torso  Cat  Animals
-Head  Cat  Animals
+Cat  Animal
+Leg  Cat  Animal
+Neck  Cat  Animal
+Torso  Cat  Animal
+Head  Cat  Animal

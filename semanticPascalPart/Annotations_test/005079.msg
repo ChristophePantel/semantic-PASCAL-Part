@@ -1,29 +1,29 @@
 Dining_Table 
 Dining_Table 
 Dining_Table 
-Person  Animals
-Arm  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Head  Person  Animals
-Person  Animals
-Arm  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Head  Person  Animals
-Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
-Person  Animals
-Leg  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
+Person  Animal
+Arm  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Head  Person  Animal
+Person  Animal
+Arm  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Head  Person  Animal
+Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
+Person  Animal
+Leg  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
 Chair 
 Chair 
 Chair 

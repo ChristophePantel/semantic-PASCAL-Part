@@ -1,7 +1,7 @@
-Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
+Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
 Car  Vehicle
 Window  Car  Vehicle
 Wheel  Car  Vehicle

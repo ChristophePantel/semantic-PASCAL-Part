@@ -4,11 +4,11 @@ Headlight  Train  Vehicle
 Headlight  Train  Vehicle
 Coach  Train  Vehicle
 Coach  Train  Vehicle
-Person  Animals
-Leg  Person  Animals
-Leg  Person  Animals
-Arm  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
+Person  Animal
+Leg  Person  Animal
+Leg  Person  Animal
+Arm  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal

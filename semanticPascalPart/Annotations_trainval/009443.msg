@@ -1,16 +1,16 @@
-Person  Animals
-Arm  Person  Animals
-Arm  Person  Animals
-Hair  Person  Animals
-Eyebrow  Person  Animals
-Eye  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Dog  Animals
-Neck  Dog  Animals
-Torso  Dog  Animals
-Nose  Dog  Animals
-Muzzle  Dog  Animals
-Eye  Dog  Animals
-Ear  Dog  Animals
-Head  Dog  Animals
+Person  Animal
+Arm  Person  Animal
+Arm  Person  Animal
+Hair  Person  Animal
+Eyebrow  Person  Animal
+Eye  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Dog  Animal
+Neck  Dog  Animal
+Torso  Dog  Animal
+Nose  Dog  Animal
+Muzzle  Dog  Animal
+Eye  Dog  Animal
+Ear  Dog  Animal
+Head  Dog  Animal

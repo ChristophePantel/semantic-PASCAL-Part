@@ -1,3 +1,3 @@
-Dog  Animals
-Torso  Dog  Animals
-Head  Dog  Animals
+Dog  Animal
+Torso  Dog  Animal
+Head  Dog  Animal

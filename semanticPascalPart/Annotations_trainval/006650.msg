@@ -4,10 +4,10 @@ Headlight  Train  Vehicle
 Headlight  Train  Vehicle
 Coach  Train  Vehicle
 Coach  Train  Vehicle
-Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Mouth  Person  Animals
-Eye  Person  Animals
-Eye  Person  Animals
-Head  Person  Animals
+Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Mouth  Person  Animal
+Eye  Person  Animal
+Eye  Person  Animal
+Head  Person  Animal

@@ -1,11 +1,11 @@
-Person  Animals
-Leg  Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Hair  Person  Animals
-Eye  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
+Person  Animal
+Leg  Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Hair  Person  Animal
+Eye  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
 Chair 
 Chair 
 Chair 

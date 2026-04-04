@@ -1,17 +1,17 @@
-Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
-Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
+Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
+Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
 Car  Vehicle
 Window  Car  Vehicle
 Window  Car  Vehicle

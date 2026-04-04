@@ -1,8 +1,8 @@
-Person  Animals
-Leg  Person  Animals
-Leg  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
+Person  Animal
+Leg  Person  Animal
+Leg  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
 Motorbike  Vehicle
 Wheel  Motorbike  Vehicle
 Motorbike  Vehicle

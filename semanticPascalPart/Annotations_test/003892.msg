@@ -1,8 +1,8 @@
-Dog  Animals
-Leg  Dog  Animals
-Leg  Dog  Animals
-Leg  Dog  Animals
-Torso  Dog  Animals
-Eye  Dog  Animals
-Eye  Dog  Animals
-Head  Dog  Animals
+Dog  Animal
+Leg  Dog  Animal
+Leg  Dog  Animal
+Leg  Dog  Animal
+Torso  Dog  Animal
+Eye  Dog  Animal
+Eye  Dog  Animal
+Head  Dog  Animal

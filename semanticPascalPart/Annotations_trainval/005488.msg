@@ -1,5 +1,5 @@
-Person  Animals
-Head  Person  Animals
+Person  Animal
+Head  Person  Animal
 Car  Vehicle
 Window  Car  Vehicle
 Window  Car  Vehicle
@@ -20,6 +20,6 @@ Mirror  Bus  Vehicle
 Door  Bus  Vehicle
 Bodywork  Bus  Vehicle
 License_Plate  Bus  Vehicle
-Person  Animals
-Arm  Person  Animals
-Head  Person  Animals
+Person  Animal
+Arm  Person  Animal
+Head  Person  Animal

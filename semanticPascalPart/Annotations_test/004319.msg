@@ -1,34 +1,34 @@
-Person  Animals
-Leg  Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Mouth  Person  Animals
-Ear  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Neck  Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Mouth  Person  Animals
-Eyebrow  Person  Animals
-Eyebrow  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
+Person  Animal
+Leg  Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Mouth  Person  Animal
+Ear  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Neck  Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Mouth  Person  Animal
+Eyebrow  Person  Animal
+Eyebrow  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
 Bicycle  Vehicle
 Chain_Wheel  Bicycle  Vehicle
 Wheel  Bicycle  Vehicle

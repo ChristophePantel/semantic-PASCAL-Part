@@ -1,5 +1,5 @@
-Person  Animals
-Head  Person  Animals
+Person  Animal
+Head  Person  Animal
 Bus  Vehicle
 Window  Bus  Vehicle
 Window  Bus  Vehicle

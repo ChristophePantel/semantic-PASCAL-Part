@@ -1,12 +1,12 @@
-Cow  Animals
-Cow  Animals
-Cow  Animals
-Leg  Cow  Animals
-Leg  Cow  Animals
-Leg  Cow  Animals
-Leg  Cow  Animals
-Torso  Cow  Animals
-Head  Cow  Animals
+Cow  Animal
+Cow  Animal
+Cow  Animal
+Leg  Cow  Animal
+Leg  Cow  Animal
+Leg  Cow  Animal
+Leg  Cow  Animal
+Torso  Cow  Animal
+Head  Cow  Animal
 Car  Vehicle
 Mirror  Car  Vehicle
 Mirror  Car  Vehicle

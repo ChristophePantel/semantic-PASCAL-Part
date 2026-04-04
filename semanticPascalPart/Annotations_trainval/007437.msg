@@ -1,13 +1,13 @@
-Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Eye  Person  Animals
-Head  Person  Animals
-Dog  Animals
-Torso  Dog  Animals
-Nose  Dog  Animals
-Muzzle  Dog  Animals
-Eye  Dog  Animals
-Eye  Dog  Animals
-Head  Dog  Animals
+Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Eye  Person  Animal
+Head  Person  Animal
+Dog  Animal
+Torso  Dog  Animal
+Nose  Dog  Animal
+Muzzle  Dog  Animal
+Eye  Dog  Animal
+Eye  Dog  Animal
+Head  Dog  Animal

@@ -2,8 +2,8 @@ Sofa
 Sofa 
 Sofa 
 Sofa 
-Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
+Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
 Chair 
 Chair 

@@ -1,17 +1,17 @@
-Sheep  Animals
-Tail  Sheep  Animals
-Neck  Sheep  Animals
-Torso  Sheep  Animals
-Muzzle  Sheep  Animals
-Eye  Sheep  Animals
-Eye  Sheep  Animals
-Ear  Sheep  Animals
-Ear  Sheep  Animals
-Head  Sheep  Animals
-Sheep  Animals
-Tail  Sheep  Animals
-Neck  Sheep  Animals
-Torso  Sheep  Animals
-Eye  Sheep  Animals
-Ear  Sheep  Animals
-Head  Sheep  Animals
+Sheep  Animal
+Tail  Sheep  Animal
+Neck  Sheep  Animal
+Torso  Sheep  Animal
+Muzzle  Sheep  Animal
+Eye  Sheep  Animal
+Eye  Sheep  Animal
+Ear  Sheep  Animal
+Ear  Sheep  Animal
+Head  Sheep  Animal
+Sheep  Animal
+Tail  Sheep  Animal
+Neck  Sheep  Animal
+Torso  Sheep  Animal
+Eye  Sheep  Animal
+Ear  Sheep  Animal
+Head  Sheep  Animal

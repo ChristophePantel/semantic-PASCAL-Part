@@ -1,8 +1,8 @@
-Person  Animals
-Leg  Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Torso  Person  Animals
+Person  Animal
+Leg  Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Torso  Person  Animal
 Bicycle  Vehicle
 Saddle  Bicycle  Vehicle
 Handlebar  Bicycle  Vehicle

@@ -1,5 +1,5 @@
-Dog  Animals
-Torso  Dog  Animals
-Eye  Dog  Animals
-Ear  Dog  Animals
-Head  Dog  Animals
+Dog  Animal
+Torso  Dog  Animal
+Eye  Dog  Animal
+Ear  Dog  Animal
+Head  Dog  Animal

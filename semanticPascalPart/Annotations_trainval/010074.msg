@@ -1,8 +1,8 @@
-Sheep  Animals
-Torso  Sheep  Animals
-Head  Sheep  Animals
-Sheep  Animals
-Tail  Sheep  Animals
-Torso  Sheep  Animals
-Ear  Sheep  Animals
-Head  Sheep  Animals
+Sheep  Animal
+Torso  Sheep  Animal
+Head  Sheep  Animal
+Sheep  Animal
+Tail  Sheep  Animal
+Torso  Sheep  Animal
+Ear  Sheep  Animal
+Head  Sheep  Animal

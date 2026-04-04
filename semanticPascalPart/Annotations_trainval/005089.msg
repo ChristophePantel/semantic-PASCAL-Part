@@ -1,22 +1,22 @@
-Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Neck  Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Mouth  Person  Animals
-Eye  Person  Animals
-Eye  Person  Animals
-Head  Person  Animals
-Cat  Animals
-Tail  Cat  Animals
-Leg  Cat  Animals
-Leg  Cat  Animals
-Leg  Cat  Animals
-Leg  Cat  Animals
-Torso  Cat  Animals
-Ear  Cat  Animals
-Ear  Cat  Animals
-Head  Cat  Animals
+Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Neck  Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Mouth  Person  Animal
+Eye  Person  Animal
+Eye  Person  Animal
+Head  Person  Animal
+Cat  Animal
+Tail  Cat  Animal
+Leg  Cat  Animal
+Leg  Cat  Animal
+Leg  Cat  Animal
+Leg  Cat  Animal
+Torso  Cat  Animal
+Ear  Cat  Animal
+Ear  Cat  Animal
+Head  Cat  Animal

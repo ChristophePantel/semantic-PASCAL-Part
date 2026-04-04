@@ -1,5 +1,5 @@
-Dog  Animals
-Leg  Dog  Animals
-Nose  Dog  Animals
-Muzzle  Dog  Animals
-Head  Dog  Animals
+Dog  Animal
+Leg  Dog  Animal
+Nose  Dog  Animal
+Muzzle  Dog  Animal
+Head  Dog  Animal

@@ -1,11 +1,11 @@
-Horse  Animals
-Tail  Horse  Animals
-Hoof  Horse  Animals
-Leg  Horse  Animals
-Hoof  Horse  Animals
-Leg  Horse  Animals
-Hoof  Horse  Animals
-Leg  Horse  Animals
-Hoof  Horse  Animals
-Leg  Horse  Animals
-Torso  Horse  Animals
+Horse  Animal
+Tail  Horse  Animal
+Hoof  Horse  Animal
+Leg  Horse  Animal
+Hoof  Horse  Animal
+Leg  Horse  Animal
+Hoof  Horse  Animal
+Leg  Horse  Animal
+Hoof  Horse  Animal
+Leg  Horse  Animal
+Torso  Horse  Animal

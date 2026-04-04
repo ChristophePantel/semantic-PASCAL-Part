@@ -1,15 +1,15 @@
-Person  Animals
-Arm  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Head  Person  Animals
-Person  Animals
-Neck  Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Mouth  Person  Animals
-Head  Person  Animals
+Person  Animal
+Arm  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Head  Person  Animal
+Person  Animal
+Neck  Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Mouth  Person  Animal
+Head  Person  Animal
 Car  Vehicle
 Window  Car  Vehicle
 Window  Car  Vehicle
@@ -19,37 +19,37 @@ Headlight  Car  Vehicle
 Headlight  Car  Vehicle
 Door  Car  Vehicle
 Bodywork  Car  Vehicle
-Person  Animals
-Arm  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
-Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Leg  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Head  Person  Animals
-Person  Animals
-Neck  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Eyebrow  Person  Animals
-Eye  Person  Animals
-Head  Person  Animals
-Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Head  Person  Animals
-Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
+Person  Animal
+Arm  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
+Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Leg  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Head  Person  Animal
+Person  Animal
+Neck  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Eyebrow  Person  Animal
+Eye  Person  Animal
+Head  Person  Animal
+Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Head  Person  Animal
+Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
 Car  Vehicle
 Window  Car  Vehicle
 Window  Car  Vehicle

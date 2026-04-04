@@ -1,62 +1,62 @@
-Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Neck  Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Hair  Person  Animals
-Mouth  Person  Animals
-Eye  Person  Animals
-Eye  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Neck  Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Hair  Person  Animals
-Head  Person  Animals
-Bird  Animals
-Tail  Bird  Animals
-Leg  Bird  Animals
-Leg  Bird  Animals
-Neck  Bird  Animals
-Torso  Bird  Animals
-Beak  Bird  Animals
-Head  Bird  Animals
-Bird  Animals
-Tail  Bird  Animals
-Leg  Bird  Animals
-Leg  Bird  Animals
-Torso  Bird  Animals
-Beak  Bird  Animals
-Head  Bird  Animals
-Bird  Animals
-Tail  Bird  Animals
-Leg  Bird  Animals
-Leg  Bird  Animals
-Neck  Bird  Animals
-Torso  Bird  Animals
-Head  Bird  Animals
-Bird  Animals
-Tail  Bird  Animals
-Leg  Bird  Animals
-Leg  Bird  Animals
-Neck  Bird  Animals
-Torso  Bird  Animals
-Beak  Bird  Animals
-Head  Bird  Animals
+Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Neck  Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Hair  Person  Animal
+Mouth  Person  Animal
+Eye  Person  Animal
+Eye  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Neck  Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Hair  Person  Animal
+Head  Person  Animal
+Bird  Animal
+Tail  Bird  Animal
+Leg  Bird  Animal
+Leg  Bird  Animal
+Neck  Bird  Animal
+Torso  Bird  Animal
+Beak  Bird  Animal
+Head  Bird  Animal
+Bird  Animal
+Tail  Bird  Animal
+Leg  Bird  Animal
+Leg  Bird  Animal
+Torso  Bird  Animal
+Beak  Bird  Animal
+Head  Bird  Animal
+Bird  Animal
+Tail  Bird  Animal
+Leg  Bird  Animal
+Leg  Bird  Animal
+Neck  Bird  Animal
+Torso  Bird  Animal
+Head  Bird  Animal
+Bird  Animal
+Tail  Bird  Animal
+Leg  Bird  Animal
+Leg  Bird  Animal
+Neck  Bird  Animal
+Torso  Bird  Animal
+Beak  Bird  Animal
+Head  Bird  Animal

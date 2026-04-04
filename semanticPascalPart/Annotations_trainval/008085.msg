@@ -1,21 +1,21 @@
-Cat  Animals
-Leg  Cat  Animals
-Leg  Cat  Animals
-Leg  Cat  Animals
-Leg  Cat  Animals
-Torso  Cat  Animals
-Head  Cat  Animals
-Eye  Cat  Animals
-Eye  Cat  Animals
-Ear  Cat  Animals
-Ear  Cat  Animals
-Cat  Animals
-Leg  Cat  Animals
-Leg  Cat  Animals
-Neck  Cat  Animals
-Torso  Cat  Animals
-Head  Cat  Animals
-Eye  Cat  Animals
-Eye  Cat  Animals
-Ear  Cat  Animals
-Ear  Cat  Animals
+Cat  Animal
+Leg  Cat  Animal
+Leg  Cat  Animal
+Leg  Cat  Animal
+Leg  Cat  Animal
+Torso  Cat  Animal
+Head  Cat  Animal
+Eye  Cat  Animal
+Eye  Cat  Animal
+Ear  Cat  Animal
+Ear  Cat  Animal
+Cat  Animal
+Leg  Cat  Animal
+Leg  Cat  Animal
+Neck  Cat  Animal
+Torso  Cat  Animal
+Head  Cat  Animal
+Eye  Cat  Animal
+Eye  Cat  Animal
+Ear  Cat  Animal
+Ear  Cat  Animal

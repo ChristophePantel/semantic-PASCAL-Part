@@ -1,16 +1,16 @@
-Person  Animals
-Head  Person  Animals
-Cow  Animals
-Tail  Cow  Animals
-Leg  Cow  Animals
-Leg  Cow  Animals
-Leg  Cow  Animals
-Neck  Cow  Animals
-Torso  Cow  Animals
-Muzzle  Cow  Animals
-Eye  Cow  Animals
-Ear  Cow  Animals
-Head  Cow  Animals
-Cow  Animals
-Cow  Animals
-Cow  Animals
+Person  Animal
+Head  Person  Animal
+Cow  Animal
+Tail  Cow  Animal
+Leg  Cow  Animal
+Leg  Cow  Animal
+Leg  Cow  Animal
+Neck  Cow  Animal
+Torso  Cow  Animal
+Muzzle  Cow  Animal
+Eye  Cow  Animal
+Ear  Cow  Animal
+Head  Cow  Animal
+Cow  Animal
+Cow  Animal
+Cow  Animal

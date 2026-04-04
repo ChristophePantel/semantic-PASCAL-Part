@@ -1,6 +1,6 @@
-Bird  Animals
-Tail  Bird  Animals
-Animal_Wing  Bird  Animals
-Animal_Wing  Bird  Animals
-Torso  Bird  Animals
-Head  Bird  Animals
+Bird  Animal
+Tail  Bird  Animal
+Animal_Wing  Bird  Animal
+Animal_Wing  Bird  Animal
+Torso  Bird  Animal
+Head  Bird  Animal

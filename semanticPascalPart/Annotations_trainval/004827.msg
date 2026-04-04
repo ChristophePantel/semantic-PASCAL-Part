@@ -1,8 +1,8 @@
-Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Mouth  Person  Animals
-Head  Person  Animals
+Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Mouth  Person  Animal
+Head  Person  Animal
 Bus  Vehicle
 Window  Bus  Vehicle
 Window  Bus  Vehicle

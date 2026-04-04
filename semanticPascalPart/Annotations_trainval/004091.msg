@@ -1,6 +1,6 @@
-Horse  Animals
-Torso  Horse  Animals
-Eye  Horse  Animals
-Ear  Horse  Animals
-Ear  Horse  Animals
-Head  Horse  Animals
+Horse  Animal
+Torso  Horse  Animal
+Eye  Horse  Animal
+Ear  Horse  Animal
+Ear  Horse  Animal
+Head  Horse  Animal

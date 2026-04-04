@@ -1,25 +1,25 @@
-Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Mouth  Person  Animals
-Eye  Person  Animals
-Eye  Person  Animals
-Head  Person  Animals
-Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Mouth  Person  Animals
-Eye  Person  Animals
-Eye  Person  Animals
-Head  Person  Animals
-Person  Animals
-Neck  Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Mouth  Person  Animals
-Eye  Person  Animals
-Eye  Person  Animals
-Head  Person  Animals
+Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Mouth  Person  Animal
+Eye  Person  Animal
+Eye  Person  Animal
+Head  Person  Animal
+Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Mouth  Person  Animal
+Eye  Person  Animal
+Eye  Person  Animal
+Head  Person  Animal
+Person  Animal
+Neck  Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Mouth  Person  Animal
+Eye  Person  Animal
+Eye  Person  Animal
+Head  Person  Animal
 TV_Monitor 
 Screen  TV_Monitor 
 Bottle 

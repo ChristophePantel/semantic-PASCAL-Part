@@ -1,1 +1,1 @@
-Person  Animals
+Person  Animal

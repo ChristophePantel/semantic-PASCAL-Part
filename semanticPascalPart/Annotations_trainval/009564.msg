@@ -1,15 +1,15 @@
-Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Cat  Animals
-Tail  Cat  Animals
-Leg  Cat  Animals
-Leg  Cat  Animals
-Leg  Cat  Animals
-Neck  Cat  Animals
-Torso  Cat  Animals
-Head  Cat  Animals
-Ear  Cat  Animals
+Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Cat  Animal
+Tail  Cat  Animal
+Leg  Cat  Animal
+Leg  Cat  Animal
+Leg  Cat  Animal
+Neck  Cat  Animal
+Torso  Cat  Animal
+Head  Cat  Animal
+Ear  Cat  Animal

@@ -1,12 +1,12 @@
-Dog  Animals
-Neck  Dog  Animals
-Torso  Dog  Animals
-Nose  Dog  Animals
-Muzzle  Dog  Animals
-Eye  Dog  Animals
-Ear  Dog  Animals
-Head  Dog  Animals
-Cow  Animals
-Muzzle  Cow  Animals
-Eye  Cow  Animals
-Head  Cow  Animals
+Dog  Animal
+Neck  Dog  Animal
+Torso  Dog  Animal
+Nose  Dog  Animal
+Muzzle  Dog  Animal
+Eye  Dog  Animal
+Ear  Dog  Animal
+Head  Dog  Animal
+Cow  Animal
+Muzzle  Cow  Animal
+Eye  Cow  Animal
+Head  Cow  Animal

@@ -1,18 +1,18 @@
-Horse  Animals
-Neck  Horse  Animals
-Torso  Horse  Animals
-Muzzle  Horse  Animals
-Eye  Horse  Animals
-Ear  Horse  Animals
-Ear  Horse  Animals
-Head  Horse  Animals
-Cow  Animals
-Tail  Cow  Animals
-Leg  Cow  Animals
-Leg  Cow  Animals
-Leg  Cow  Animals
-Neck  Cow  Animals
-Torso  Cow  Animals
-Muzzle  Cow  Animals
-Ear  Cow  Animals
-Head  Cow  Animals
+Horse  Animal
+Neck  Horse  Animal
+Torso  Horse  Animal
+Muzzle  Horse  Animal
+Eye  Horse  Animal
+Ear  Horse  Animal
+Ear  Horse  Animal
+Head  Horse  Animal
+Cow  Animal
+Tail  Cow  Animal
+Leg  Cow  Animal
+Leg  Cow  Animal
+Leg  Cow  Animal
+Neck  Cow  Animal
+Torso  Cow  Animal
+Muzzle  Cow  Animal
+Ear  Cow  Animal
+Head  Cow  Animal

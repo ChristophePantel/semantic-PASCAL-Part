@@ -1,6 +1,6 @@
-Cow  Animals
-Torso  Cow  Animals
-Cow  Animals
-Torso  Cow  Animals
-Head  Cow  Animals
-Cow  Animals
+Cow  Animal
+Torso  Cow  Animal
+Cow  Animal
+Torso  Cow  Animal
+Head  Cow  Animal
+Cow  Animal

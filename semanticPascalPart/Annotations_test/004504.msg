@@ -1,6 +1,6 @@
-Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
+Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
 TV_Monitor 
 Screen  TV_Monitor 

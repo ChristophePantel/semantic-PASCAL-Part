@@ -1,7 +1,7 @@
 Sofa 
 Sofa 
-Cat  Animals
-Tail  Cat  Animals
-Leg  Cat  Animals
-Torso  Cat  Animals
-Head  Cat  Animals
+Cat  Animal
+Tail  Cat  Animal
+Leg  Cat  Animal
+Torso  Cat  Animal
+Head  Cat  Animal

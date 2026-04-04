@@ -1,48 +1,48 @@
-Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
-Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Leg  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Mouth  Person  Animals
-Head  Person  Animals
-Person  Animals
-Leg  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Neck  Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Hair  Person  Animals
-Eye  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Sheep  Animals
-Neck  Sheep  Animals
-Torso  Sheep  Animals
-Muzzle  Sheep  Animals
-Eye  Sheep  Animals
-Ear  Sheep  Animals
-Ear  Sheep  Animals
-Head  Sheep  Animals
-Sheep  Animals
-Neck  Sheep  Animals
-Torso  Sheep  Animals
-Muzzle  Sheep  Animals
-Eye  Sheep  Animals
-Ear  Sheep  Animals
-Head  Sheep  Animals
+Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
+Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Leg  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Mouth  Person  Animal
+Head  Person  Animal
+Person  Animal
+Leg  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Neck  Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Hair  Person  Animal
+Eye  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Sheep  Animal
+Neck  Sheep  Animal
+Torso  Sheep  Animal
+Muzzle  Sheep  Animal
+Eye  Sheep  Animal
+Ear  Sheep  Animal
+Ear  Sheep  Animal
+Head  Sheep  Animal
+Sheep  Animal
+Neck  Sheep  Animal
+Torso  Sheep  Animal
+Muzzle  Sheep  Animal
+Eye  Sheep  Animal
+Ear  Sheep  Animal
+Head  Sheep  Animal

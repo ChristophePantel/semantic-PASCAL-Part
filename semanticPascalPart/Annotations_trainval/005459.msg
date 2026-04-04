@@ -7,8 +7,8 @@ Engine  Aeroplane  Vehicle
 Engine  Aeroplane  Vehicle
 Artifact_Wing  Aeroplane  Vehicle
 Body  Aeroplane  Vehicle
-Person  Animals
-Head  Person  Animals
-Person  Animals
-Person  Animals
-Head  Person  Animals
+Person  Animal
+Head  Person  Animal
+Person  Animal
+Person  Animal
+Head  Person  Animal

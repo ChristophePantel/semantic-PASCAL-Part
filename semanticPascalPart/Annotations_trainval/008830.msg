@@ -1,20 +1,20 @@
-Person  Animals
-Leg  Person  Animals
-Leg  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Head  Person  Animals
-Sheep  Animals
-Muzzle  Sheep  Animals
-Eye  Sheep  Animals
-Ear  Sheep  Animals
-Ear  Sheep  Animals
-Head  Sheep  Animals
-Sheep  Animals
-Torso  Sheep  Animals
-Muzzle  Sheep  Animals
-Eye  Sheep  Animals
-Ear  Sheep  Animals
-Head  Sheep  Animals
+Person  Animal
+Leg  Person  Animal
+Leg  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Head  Person  Animal
+Sheep  Animal
+Muzzle  Sheep  Animal
+Eye  Sheep  Animal
+Ear  Sheep  Animal
+Ear  Sheep  Animal
+Head  Sheep  Animal
+Sheep  Animal
+Torso  Sheep  Animal
+Muzzle  Sheep  Animal
+Eye  Sheep  Animal
+Ear  Sheep  Animal
+Head  Sheep  Animal

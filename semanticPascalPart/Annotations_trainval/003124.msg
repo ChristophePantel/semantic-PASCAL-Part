@@ -1,6 +1,6 @@
-Cow  Animals
-Torso  Cow  Animals
-Head  Cow  Animals
+Cow  Animal
+Torso  Cow  Animal
+Head  Cow  Animal
 Car  Vehicle
 Window  Car  Vehicle
 Wheel  Car  Vehicle

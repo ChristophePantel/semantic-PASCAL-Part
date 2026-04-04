@@ -1,11 +1,11 @@
-Cow  Animals
-Tail  Cow  Animals
-Leg  Cow  Animals
-Leg  Cow  Animals
-Leg  Cow  Animals
-Leg  Cow  Animals
-Neck  Cow  Animals
-Torso  Cow  Animals
-Muzzle  Cow  Animals
-Eye  Cow  Animals
-Head  Cow  Animals
+Cow  Animal
+Tail  Cow  Animal
+Leg  Cow  Animal
+Leg  Cow  Animal
+Leg  Cow  Animal
+Leg  Cow  Animal
+Neck  Cow  Animal
+Torso  Cow  Animal
+Muzzle  Cow  Animal
+Eye  Cow  Animal
+Head  Cow  Animal

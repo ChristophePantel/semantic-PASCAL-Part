@@ -1,5 +1,5 @@
-Bird  Animals
-Beak  Bird  Animals
-Eye  Bird  Animals
-Eye  Bird  Animals
-Head  Bird  Animals
+Bird  Animal
+Beak  Bird  Animal
+Eye  Bird  Animal
+Eye  Bird  Animal
+Head  Bird  Animal

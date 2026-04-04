@@ -1,16 +1,16 @@
-Bird  Animals
-Animal_Wing  Bird  Animals
-Animal_Wing  Bird  Animals
-Torso  Bird  Animals
-Beak  Bird  Animals
-Eye  Bird  Animals
-Eye  Bird  Animals
-Head  Bird  Animals
-Bird  Animals
-Animal_Wing  Bird  Animals
-Animal_Wing  Bird  Animals
-Torso  Bird  Animals
-Beak  Bird  Animals
-Eye  Bird  Animals
-Eye  Bird  Animals
-Head  Bird  Animals
+Bird  Animal
+Animal_Wing  Bird  Animal
+Animal_Wing  Bird  Animal
+Torso  Bird  Animal
+Beak  Bird  Animal
+Eye  Bird  Animal
+Eye  Bird  Animal
+Head  Bird  Animal
+Bird  Animal
+Animal_Wing  Bird  Animal
+Animal_Wing  Bird  Animal
+Torso  Bird  Animal
+Beak  Bird  Animal
+Eye  Bird  Animal
+Eye  Bird  Animal
+Head  Bird  Animal

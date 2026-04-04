@@ -1,47 +1,47 @@
-Sheep  Animals
-Leg  Sheep  Animals
-Leg  Sheep  Animals
-Neck  Sheep  Animals
-Torso  Sheep  Animals
-Muzzle  Sheep  Animals
-Eye  Sheep  Animals
-Eye  Sheep  Animals
-Ear  Sheep  Animals
-Ear  Sheep  Animals
-Head  Sheep  Animals
-Sheep  Animals
-Leg  Sheep  Animals
-Leg  Sheep  Animals
-Leg  Sheep  Animals
-Leg  Sheep  Animals
-Neck  Sheep  Animals
-Torso  Sheep  Animals
-Muzzle  Sheep  Animals
-Eye  Sheep  Animals
-Eye  Sheep  Animals
-Ear  Sheep  Animals
-Ear  Sheep  Animals
-Head  Sheep  Animals
-Sheep  Animals
-Leg  Sheep  Animals
-Leg  Sheep  Animals
-Leg  Sheep  Animals
-Leg  Sheep  Animals
-Neck  Sheep  Animals
-Torso  Sheep  Animals
-Muzzle  Sheep  Animals
-Eye  Sheep  Animals
-Eye  Sheep  Animals
-Ear  Sheep  Animals
-Head  Sheep  Animals
-Dog  Animals
-Leg  Dog  Animals
-Leg  Dog  Animals
-Leg  Dog  Animals
-Torso  Dog  Animals
-Nose  Dog  Animals
-Muzzle  Dog  Animals
-Eye  Dog  Animals
-Ear  Dog  Animals
-Ear  Dog  Animals
-Head  Dog  Animals
+Sheep  Animal
+Leg  Sheep  Animal
+Leg  Sheep  Animal
+Neck  Sheep  Animal
+Torso  Sheep  Animal
+Muzzle  Sheep  Animal
+Eye  Sheep  Animal
+Eye  Sheep  Animal
+Ear  Sheep  Animal
+Ear  Sheep  Animal
+Head  Sheep  Animal
+Sheep  Animal
+Leg  Sheep  Animal
+Leg  Sheep  Animal
+Leg  Sheep  Animal
+Leg  Sheep  Animal
+Neck  Sheep  Animal
+Torso  Sheep  Animal
+Muzzle  Sheep  Animal
+Eye  Sheep  Animal
+Eye  Sheep  Animal
+Ear  Sheep  Animal
+Ear  Sheep  Animal
+Head  Sheep  Animal
+Sheep  Animal
+Leg  Sheep  Animal
+Leg  Sheep  Animal
+Leg  Sheep  Animal
+Leg  Sheep  Animal
+Neck  Sheep  Animal
+Torso  Sheep  Animal
+Muzzle  Sheep  Animal
+Eye  Sheep  Animal
+Eye  Sheep  Animal
+Ear  Sheep  Animal
+Head  Sheep  Animal
+Dog  Animal
+Leg  Dog  Animal
+Leg  Dog  Animal
+Leg  Dog  Animal
+Torso  Dog  Animal
+Nose  Dog  Animal
+Muzzle  Dog  Animal
+Eye  Dog  Animal
+Ear  Dog  Animal
+Ear  Dog  Animal
+Head  Dog  Animal

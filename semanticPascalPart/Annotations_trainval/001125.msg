@@ -1,2 +1,2 @@
-Cow  Animals
-Cow  Animals
+Cow  Animal
+Cow  Animal

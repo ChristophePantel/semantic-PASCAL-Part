@@ -1,7 +1,7 @@
-Person  Animals
-Neck  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
+Person  Animal
+Neck  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
 Bus  Vehicle
 Window  Bus  Vehicle
 Window  Bus  Vehicle

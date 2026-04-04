@@ -1,10 +1,10 @@
-Person  Animals
-Neck  Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Hair  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
+Person  Animal
+Neck  Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Hair  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
 Car  Vehicle
 Window  Car  Vehicle
 Window  Car  Vehicle

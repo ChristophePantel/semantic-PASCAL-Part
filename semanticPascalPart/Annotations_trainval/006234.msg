@@ -1,13 +1,13 @@
-Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Person  Animals
-Leg  Person  Animals
-Arm  Person  Animals
+Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Person  Animal
+Leg  Person  Animal
+Arm  Person  Animal
 Dining_Table 
-Person  Animals
-Leg  Person  Animals
-Leg  Person  Animals
-Hand  Person  Animals
+Person  Animal
+Leg  Person  Animal
+Leg  Person  Animal
+Hand  Person  Animal

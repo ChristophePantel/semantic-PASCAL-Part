@@ -1,9 +1,9 @@
 Dining_Table 
 Dining_Table 
-Person  Animals
-Neck  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
+Person  Animal
+Neck  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
 Chair 
 Chair 
 Chair 

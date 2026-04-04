@@ -1,8 +1,8 @@
-Person  Animals
-Leg  Person  Animals
-Leg  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
+Person  Animal
+Leg  Person  Animal
+Leg  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
 Chair 
 Train  Vehicle
 Coach  Train  Vehicle

@@ -1,9 +1,9 @@
-Person  Animals
-Arm  Person  Animals
-Neck  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Head  Person  Animals
+Person  Animal
+Arm  Person  Animal
+Neck  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Head  Person  Animal
 Car  Vehicle
 Window  Car  Vehicle
 Bodywork  Car  Vehicle

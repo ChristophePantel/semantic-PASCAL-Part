@@ -2,11 +2,11 @@ Dining_Table
 Sofa 
 Sofa 
 Sofa 
-Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Head  Person  Animals
+Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Head  Person  Animal
 Chair 
 Chair 
 Chair 

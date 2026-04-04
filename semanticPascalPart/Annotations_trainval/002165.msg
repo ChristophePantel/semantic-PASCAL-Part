@@ -1,6 +1,6 @@
-Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
+Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
 Car  Vehicle
 Car  Vehicle
 Bodywork  Car  Vehicle

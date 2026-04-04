@@ -1,20 +1,20 @@
-Person  Animals
-Nose  Person  Animals
-Mouth  Person  Animals
-Eyebrow  Person  Animals
-Eyebrow  Person  Animals
-Eye  Person  Animals
-Eye  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
-Dog  Animals
-Leg  Dog  Animals
-Leg  Dog  Animals
-Muzzle  Dog  Animals
-Eye  Dog  Animals
-Ear  Dog  Animals
-Head  Dog  Animals
+Person  Animal
+Nose  Person  Animal
+Mouth  Person  Animal
+Eyebrow  Person  Animal
+Eyebrow  Person  Animal
+Eye  Person  Animal
+Eye  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
+Dog  Animal
+Leg  Dog  Animal
+Leg  Dog  Animal
+Muzzle  Dog  Animal
+Eye  Dog  Animal
+Ear  Dog  Animal
+Head  Dog  Animal

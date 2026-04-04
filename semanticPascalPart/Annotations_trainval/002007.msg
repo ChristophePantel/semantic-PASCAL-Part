@@ -1,49 +1,49 @@
 Boat  Vehicle
-Person  Animals
-Leg  Person  Animals
-Arm  Person  Animals
-Arm  Person  Animals
-Neck  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Person  Animals
-Leg  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Head  Person  Animals
-Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Person  Animals
-Hair  Person  Animals
-Head  Person  Animals
-Person  Animals
-Leg  Person  Animals
-Arm  Person  Animals
-Arm  Person  Animals
-Neck  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Person  Animals
-Leg  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Hair  Person  Animals
-Head  Person  Animals
+Person  Animal
+Leg  Person  Animal
+Arm  Person  Animal
+Arm  Person  Animal
+Neck  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Person  Animal
+Leg  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Head  Person  Animal
+Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Person  Animal
+Hair  Person  Animal
+Head  Person  Animal
+Person  Animal
+Leg  Person  Animal
+Arm  Person  Animal
+Arm  Person  Animal
+Neck  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Person  Animal
+Leg  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Hair  Person  Animal
+Head  Person  Animal

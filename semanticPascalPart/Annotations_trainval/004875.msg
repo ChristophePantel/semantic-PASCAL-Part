@@ -1,7 +1,7 @@
 Dining_Table 
-Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
+Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
 Bottle 
 Body  Bottle 

@@ -1,8 +1,8 @@
-Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
-Person  Animals
-Torso  Person  Animals
-Eyebrow  Person  Animals
-Eyebrow  Person  Animals
-Head  Person  Animals
+Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
+Person  Animal
+Torso  Person  Animal
+Eyebrow  Person  Animal
+Eyebrow  Person  Animal
+Head  Person  Animal

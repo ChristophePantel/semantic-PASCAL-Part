@@ -1,5 +1,5 @@
-Cow  Animals
-Torso  Cow  Animals
-Horn  Cow  Animals
-Horn  Cow  Animals
-Head  Cow  Animals
+Cow  Animal
+Torso  Cow  Animal
+Horn  Cow  Animal
+Horn  Cow  Animal
+Head  Cow  Animal

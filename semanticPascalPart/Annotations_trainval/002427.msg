@@ -15,8 +15,8 @@ Stern  Aeroplane  Vehicle
 Artifact_Wing  Aeroplane  Vehicle
 Artifact_Wing  Aeroplane  Vehicle
 Body  Aeroplane  Vehicle
-Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
+Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal

@@ -1,18 +1,18 @@
-Cow  Animals
-Tail  Cow  Animals
-Leg  Cow  Animals
-Leg  Cow  Animals
-Leg  Cow  Animals
-Torso  Cow  Animals
-Muzzle  Cow  Animals
-Horn  Cow  Animals
-Horn  Cow  Animals
-Eye  Cow  Animals
-Eye  Cow  Animals
-Ear  Cow  Animals
-Ear  Cow  Animals
-Head  Cow  Animals
-Cow  Animals
-Leg  Cow  Animals
-Leg  Cow  Animals
-Torso  Cow  Animals
+Cow  Animal
+Tail  Cow  Animal
+Leg  Cow  Animal
+Leg  Cow  Animal
+Leg  Cow  Animal
+Torso  Cow  Animal
+Muzzle  Cow  Animal
+Horn  Cow  Animal
+Horn  Cow  Animal
+Eye  Cow  Animal
+Eye  Cow  Animal
+Ear  Cow  Animal
+Ear  Cow  Animal
+Head  Cow  Animal
+Cow  Animal
+Leg  Cow  Animal
+Leg  Cow  Animal
+Torso  Cow  Animal

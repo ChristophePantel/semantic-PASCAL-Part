@@ -1,12 +1,12 @@
-Person  Animals
-Leg  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Cat  Animals
-Leg  Cat  Animals
-Leg  Cat  Animals
-Torso  Cat  Animals
-Head  Cat  Animals
-Ear  Cat  Animals
-Ear  Cat  Animals
+Person  Animal
+Leg  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Cat  Animal
+Leg  Cat  Animal
+Leg  Cat  Animal
+Torso  Cat  Animal
+Head  Cat  Animal
+Ear  Cat  Animal
+Ear  Cat  Animal

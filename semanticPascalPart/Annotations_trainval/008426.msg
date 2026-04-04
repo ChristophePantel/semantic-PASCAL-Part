@@ -1,13 +1,13 @@
-Sheep  Animals
-Tail  Sheep  Animals
-Neck  Sheep  Animals
-Torso  Sheep  Animals
-Head  Sheep  Animals
-Sheep  Animals
-Tail  Sheep  Animals
-Torso  Sheep  Animals
-Head  Sheep  Animals
-Sheep  Animals
-Tail  Sheep  Animals
-Torso  Sheep  Animals
-Head  Sheep  Animals
+Sheep  Animal
+Tail  Sheep  Animal
+Neck  Sheep  Animal
+Torso  Sheep  Animal
+Head  Sheep  Animal
+Sheep  Animal
+Tail  Sheep  Animal
+Torso  Sheep  Animal
+Head  Sheep  Animal
+Sheep  Animal
+Tail  Sheep  Animal
+Torso  Sheep  Animal
+Head  Sheep  Animal

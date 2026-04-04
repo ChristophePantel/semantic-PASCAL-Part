@@ -1,10 +1,10 @@
-Person  Animals
-Leg  Person  Animals
-Arm  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Person  Animals
-Torso  Person  Animals
+Person  Animal
+Leg  Person  Animal
+Arm  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Person  Animal
+Torso  Person  Animal
 Bottle 
 Body  Bottle 
 Bottle 

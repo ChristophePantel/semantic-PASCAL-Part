@@ -1,10 +1,10 @@
 Dining_Table 
 Sofa 
-Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
+Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
 TV_Monitor 
 Screen  TV_Monitor 
 Bottle 

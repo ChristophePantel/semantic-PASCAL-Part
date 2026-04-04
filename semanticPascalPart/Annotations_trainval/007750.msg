@@ -1,15 +1,15 @@
-Person  Animals
-Torso  Person  Animals
-Hair  Person  Animals
-Eyebrow  Person  Animals
-Eye  Person  Animals
-Ear  Person  Animals
-Head  Person  Animals
-Cat  Animals
-Neck  Cat  Animals
-Torso  Cat  Animals
-Head  Cat  Animals
-Eye  Cat  Animals
-Eye  Cat  Animals
-Ear  Cat  Animals
-Ear  Cat  Animals
+Person  Animal
+Torso  Person  Animal
+Hair  Person  Animal
+Eyebrow  Person  Animal
+Eye  Person  Animal
+Ear  Person  Animal
+Head  Person  Animal
+Cat  Animal
+Neck  Cat  Animal
+Torso  Cat  Animal
+Head  Cat  Animal
+Eye  Cat  Animal
+Eye  Cat  Animal
+Ear  Cat  Animal
+Ear  Cat  Animal

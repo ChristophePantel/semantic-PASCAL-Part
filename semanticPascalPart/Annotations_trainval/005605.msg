@@ -1,7 +1,7 @@
-Bird  Animals
-Bird  Animals
-Bird  Animals
-Torso  Bird  Animals
-Bird  Animals
-Torso  Bird  Animals
-Head  Bird  Animals
+Bird  Animal
+Bird  Animal
+Bird  Animal
+Torso  Bird  Animal
+Bird  Animal
+Torso  Bird  Animal
+Head  Bird  Animal

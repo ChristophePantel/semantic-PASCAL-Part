@@ -1,6 +1,6 @@
-Person  Animals
-Nose  Person  Animals
-Hair  Person  Animals
-Eye  Person  Animals
-Eye  Person  Animals
-Head  Person  Animals
+Person  Animal
+Nose  Person  Animal
+Hair  Person  Animal
+Eye  Person  Animal
+Eye  Person  Animal
+Head  Person  Animal

@@ -1,9 +1,9 @@
-Bird  Animals
-Tail  Bird  Animals
-Leg  Bird  Animals
-Leg  Bird  Animals
-Animal_Wing  Bird  Animals
-Neck  Bird  Animals
-Torso  Bird  Animals
-Eye  Bird  Animals
-Head  Bird  Animals
+Bird  Animal
+Tail  Bird  Animal
+Leg  Bird  Animal
+Leg  Bird  Animal
+Animal_Wing  Bird  Animal
+Neck  Bird  Animal
+Torso  Bird  Animal
+Eye  Bird  Animal
+Head  Bird  Animal

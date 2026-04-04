@@ -1,3 +1,3 @@
 Chair 
-Bird  Animals
-Torso  Bird  Animals
+Bird  Animal
+Torso  Bird  Animal

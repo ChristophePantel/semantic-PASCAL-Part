@@ -1,6 +1,6 @@
-Sheep  Animals
-Neck  Sheep  Animals
-Torso  Sheep  Animals
-Ear  Sheep  Animals
-Ear  Sheep  Animals
-Head  Sheep  Animals
+Sheep  Animal
+Neck  Sheep  Animal
+Torso  Sheep  Animal
+Ear  Sheep  Animal
+Ear  Sheep  Animal
+Head  Sheep  Animal

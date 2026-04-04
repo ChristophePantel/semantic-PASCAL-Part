@@ -25,9 +25,9 @@ Mirror  Bus  Vehicle
 Door  Bus  Vehicle
 Bodywork  Bus  Vehicle
 License_Plate  Bus  Vehicle
-Person  Animals
-Leg  Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
+Person  Animal
+Leg  Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal

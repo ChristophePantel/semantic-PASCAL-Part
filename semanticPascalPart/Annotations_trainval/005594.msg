@@ -1,13 +1,13 @@
-Person  Animals
-Hand  Person  Animals
-Hand  Person  Animals
-Torso  Person  Animals
-Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Hand  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
+Person  Animal
+Hand  Person  Animal
+Hand  Person  Animal
+Torso  Person  Animal
+Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Hand  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
 Chair 
 Chair 
 Chair 

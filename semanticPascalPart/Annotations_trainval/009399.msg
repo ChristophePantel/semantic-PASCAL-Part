@@ -2,11 +2,11 @@ Chair
 Potted_Plant 
 Plant  Potted_Plant 
 Pot  Potted_Plant 
-Cat  Animals
-Leg  Cat  Animals
-Torso  Cat  Animals
-Eye  Cat  Animals
-Eye  Cat  Animals
-Ear  Cat  Animals
-Ear  Cat  Animals
-Head  Cat  Animals
+Cat  Animal
+Leg  Cat  Animal
+Torso  Cat  Animal
+Eye  Cat  Animal
+Eye  Cat  Animal
+Ear  Cat  Animal
+Ear  Cat  Animal
+Head  Cat  Animal

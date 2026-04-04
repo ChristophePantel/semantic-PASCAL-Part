@@ -1,11 +1,11 @@
-Person  Animals
-Arm  Person  Animals
-Bird  Animals
-Tail  Bird  Animals
-Leg  Bird  Animals
-Leg  Bird  Animals
-Neck  Bird  Animals
-Torso  Bird  Animals
-Beak  Bird  Animals
-Eye  Bird  Animals
-Head  Bird  Animals
+Person  Animal
+Arm  Person  Animal
+Bird  Animal
+Tail  Bird  Animal
+Leg  Bird  Animal
+Leg  Bird  Animal
+Neck  Bird  Animal
+Torso  Bird  Animal
+Beak  Bird  Animal
+Eye  Bird  Animal
+Head  Bird  Animal

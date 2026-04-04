@@ -3,10 +3,10 @@ Wheel  Car  Vehicle
 Wheel  Car  Vehicle
 Mirror  Car  Vehicle
 Mirror  Car  Vehicle
-Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Eye  Person  Animals
-Eye  Person  Animals
-Head  Person  Animals
+Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Eye  Person  Animal
+Eye  Person  Animal
+Head  Person  Animal

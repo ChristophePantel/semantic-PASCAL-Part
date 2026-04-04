@@ -1,7 +1,7 @@
-Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Horse  Animals
-Tail  Horse  Animals
-Leg  Horse  Animals
-Torso  Horse  Animals
+Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Horse  Animal
+Tail  Horse  Animal
+Leg  Horse  Animal
+Torso  Horse  Animal

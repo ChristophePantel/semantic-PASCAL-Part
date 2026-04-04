@@ -1,14 +1,14 @@
-Person  Animals
-Eyebrow  Person  Animals
-Eyebrow  Person  Animals
-Eye  Person  Animals
-Eye  Person  Animals
-Head  Person  Animals
-Person  Animals
-Nose  Person  Animals
-Eye  Person  Animals
-Eye  Person  Animals
-Head  Person  Animals
+Person  Animal
+Eyebrow  Person  Animal
+Eyebrow  Person  Animal
+Eye  Person  Animal
+Eye  Person  Animal
+Head  Person  Animal
+Person  Animal
+Nose  Person  Animal
+Eye  Person  Animal
+Eye  Person  Animal
+Head  Person  Animal
 Car  Vehicle
 Window  Car  Vehicle
 Wheel  Car  Vehicle

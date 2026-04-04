@@ -1,13 +1,13 @@
-Cow  Animals
-Muzzle  Cow  Animals
-Eye  Cow  Animals
-Head  Cow  Animals
-Cow  Animals
-Neck  Cow  Animals
-Torso  Cow  Animals
-Muzzle  Cow  Animals
-Eye  Cow  Animals
-Eye  Cow  Animals
-Ear  Cow  Animals
-Ear  Cow  Animals
-Head  Cow  Animals
+Cow  Animal
+Muzzle  Cow  Animal
+Eye  Cow  Animal
+Head  Cow  Animal
+Cow  Animal
+Neck  Cow  Animal
+Torso  Cow  Animal
+Muzzle  Cow  Animal
+Eye  Cow  Animal
+Eye  Cow  Animal
+Ear  Cow  Animal
+Ear  Cow  Animal
+Head  Cow  Animal

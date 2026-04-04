@@ -1,13 +1,13 @@
-Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Hair  Person  Animals
-Head  Person  Animals
-Person  Animals
-Torso  Person  Animals
-Nose  Person  Animals
-Hair  Person  Animals
-Head  Person  Animals
+Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Hair  Person  Animal
+Head  Person  Animal
+Person  Animal
+Torso  Person  Animal
+Nose  Person  Animal
+Hair  Person  Animal
+Head  Person  Animal
 TV_Monitor 
 Screen  TV_Monitor 
 TV_Monitor 

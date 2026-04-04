@@ -1,6 +1,6 @@
-Bird  Animals
-Tail  Bird  Animals
-Leg  Bird  Animals
-Torso  Bird  Animals
-Beak  Bird  Animals
-Head  Bird  Animals
+Bird  Animal
+Tail  Bird  Animal
+Leg  Bird  Animal
+Torso  Bird  Animal
+Beak  Bird  Animal
+Head  Bird  Animal

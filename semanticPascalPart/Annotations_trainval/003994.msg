@@ -1,28 +1,28 @@
-Person  Animals
-Leg  Person  Animals
-Leg  Person  Animals
-Arm  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
-Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Foot  Person  Animals
-Leg  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
-Horse  Animals
-Leg  Horse  Animals
-Leg  Horse  Animals
-Torso  Horse  Animals
-Muzzle  Horse  Animals
-Head  Horse  Animals
-Horse  Animals
-Leg  Horse  Animals
-Leg  Horse  Animals
-Neck  Horse  Animals
-Torso  Horse  Animals
-Muzzle  Horse  Animals
-Ear  Horse  Animals
-Ear  Horse  Animals
-Head  Horse  Animals
+Person  Animal
+Leg  Person  Animal
+Leg  Person  Animal
+Arm  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
+Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Foot  Person  Animal
+Leg  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal
+Horse  Animal
+Leg  Horse  Animal
+Leg  Horse  Animal
+Torso  Horse  Animal
+Muzzle  Horse  Animal
+Head  Horse  Animal
+Horse  Animal
+Leg  Horse  Animal
+Leg  Horse  Animal
+Neck  Horse  Animal
+Torso  Horse  Animal
+Muzzle  Horse  Animal
+Ear  Horse  Animal
+Ear  Horse  Animal
+Head  Horse  Animal

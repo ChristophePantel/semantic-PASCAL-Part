@@ -1,14 +1,14 @@
-Sheep  Animals
-Leg  Sheep  Animals
-Neck  Sheep  Animals
-Torso  Sheep  Animals
-Head  Sheep  Animals
-Sheep  Animals
-Leg  Sheep  Animals
-Leg  Sheep  Animals
-Neck  Sheep  Animals
-Torso  Sheep  Animals
-Muzzle  Sheep  Animals
-Eye  Sheep  Animals
-Ear  Sheep  Animals
-Head  Sheep  Animals
+Sheep  Animal
+Leg  Sheep  Animal
+Neck  Sheep  Animal
+Torso  Sheep  Animal
+Head  Sheep  Animal
+Sheep  Animal
+Leg  Sheep  Animal
+Leg  Sheep  Animal
+Neck  Sheep  Animal
+Torso  Sheep  Animal
+Muzzle  Sheep  Animal
+Eye  Sheep  Animal
+Ear  Sheep  Animal
+Head  Sheep  Animal

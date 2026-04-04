@@ -1,9 +1,9 @@
-Bird  Animals
-Tail  Bird  Animals
-Torso  Bird  Animals
-Bird  Animals
-Tail  Bird  Animals
-Torso  Bird  Animals
-Beak  Bird  Animals
-Eye  Bird  Animals
-Head  Bird  Animals
+Bird  Animal
+Tail  Bird  Animal
+Torso  Bird  Animal
+Bird  Animal
+Tail  Bird  Animal
+Torso  Bird  Animal
+Beak  Bird  Animal
+Eye  Bird  Animal
+Head  Bird  Animal

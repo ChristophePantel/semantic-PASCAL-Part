@@ -1,3 +1,3 @@
 Chair 
 Chair 
-Cat  Animals
+Cat  Animal

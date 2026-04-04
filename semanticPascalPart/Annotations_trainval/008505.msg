@@ -12,7 +12,7 @@ Door  Car  Vehicle
 Door  Car  Vehicle
 Bodywork  Car  Vehicle
 License_Plate  Car  Vehicle
-Person  Animals
-Neck  Person  Animals
-Torso  Person  Animals
-Head  Person  Animals
+Person  Animal
+Neck  Person  Animal
+Torso  Person  Animal
+Head  Person  Animal

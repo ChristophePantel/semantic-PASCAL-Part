@@ -1,8 +1,8 @@
-Person  Animals
-Neck  Person  Animals
-Head  Person  Animals
-Person  Animals
-Head  Person  Animals
+Person  Animal
+Neck  Person  Animal
+Head  Person  Animal
+Person  Animal
+Head  Person  Animal
 Boat  Vehicle
 Boat  Vehicle
 Boat  Vehicle

@@ -1,4 +1,4 @@
-Bird  Animals
+Bird  Animal
 Aeroplane  Vehicle
 Stern  Aeroplane  Vehicle
 Engine  Aeroplane  Vehicle
