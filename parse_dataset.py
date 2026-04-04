@@ -10,7 +10,7 @@ import numpy as np
 from tensorflow.python.keras.utils import object_identity
 import km
 
-def tests(classes, part_hierarchy, class_hierarchy):
+def tests(classes, abstracts, part_hierarchy, class_hierarchy):
     class_name_adapter = get_SemanticPascalPart_to_Yolo_class_name_adapter()
     print('Class Name Adapter: ', class_name_adapter)
     code_to_class, class_to_code = km.associate_number_to_class_and_class_to_number(sorted(classes))
@@ -18,6 +18,8 @@ def tests(classes, part_hierarchy, class_hierarchy):
     print('Class to Code: ', class_to_code)
     class_codes = frozenset(code_to_class.keys())
     print('Class Code: ', class_codes)
+    abstract_codes = km.class_names_to_codes( abstracts, class_to_code)
+    print('Abstract Code: ', abstract_codes)
     adapted_class_to_code = { name : class_to_code[class_name_adapter[name]] for name in class_name_adapter if class_name_adapter[name] in class_to_code }
     print('Adapted Class to Code: ', adapted_class_to_code)
     print('Refinement')
@@ -40,7 +42,7 @@ def tests(classes, part_hierarchy, class_hierarchy):
     print('Full Composition: ', full_composition)
     inverted_full_composition = km.invert_relation(full_composition)
     print('Inverted Full Composition: ', inverted_full_composition)
-    class_variants, variant_to_class = km.variants(class_codes,inverted_full_composition)
+    class_variants, variant_to_class = km.variants(class_codes, abstract_codes, inverted_full_composition)
     print('Class Variants: ', class_variants)
     print('Variant to Class: ', variant_to_class)
     generalized_class_variants = km.generalize(class_variants,closed_refinement)
@@ -413,7 +415,7 @@ class PASCALPart_annotations:
                 self.annotations[filename]['height'] = int(data_dict['annotation']['imagesize']['nrows'])
                 self.annotations[filename]['objects'] = {}
                 
-                # if image with many objects
+                # if image with many objectskm.get_get_abstract_classes(), 
                 if isinstance(data_dict['annotation']['object'], list):
                     # processing each object
                     for i in range(len(data_dict['annotation']['object'])):
@@ -443,20 +445,28 @@ class PASCALPart_annotations:
                     self.annotations[filename]['objects'][str(0)]['x_2'] = int(xmax)
                     self.annotations[filename]['objects'][str(0)]['y_2'] = int(ymax)
 
-    def toYOLO(self, name, split, classes, part_hierarchy, class_hierarchy):
-        class_number = len(classes)
+    def toYOLO(self, name, split, classes, abstracts, part_hierarchy, class_hierarchy):
+        others = []
+        extended_class_hierarchy = class_hierarchy
+        for abstract in abstracts:
+            other = 'Other_' + abstract
+            others.append(other)
+            extended_class_hierarchy[other] = frozenset({abstract})
+        extended_classes = classes.union(frozenset(others))
+        class_number = len(extended_classes)
         class_name_adapter = get_SemanticPascalPart_to_Yolo_class_name_adapter()
-        code_to_class, class_to_code = km.associate_number_to_class_and_class_to_number(sorted(classes))
+        code_to_class, class_to_code = km.associate_number_to_class_and_class_to_number(sorted(extended_classes))
         adapted_class_to_code = { name : class_to_code[class_name_adapter[name]] 
                                               for name in class_name_adapter if class_name_adapter[name] in class_to_code }
         coded_part_hierarchy = km.associate_codes_to_hierarchies(class_to_code, part_hierarchy)
-        coded_class_hierarchy = km.associate_codes_to_hierarchies(class_to_code, class_hierarchy)
+        coded_class_hierarchy = km.associate_codes_to_hierarchies(class_to_code, extended_class_hierarchy)
         coded_class_hierarchy_inverted = km.invert_relation(coded_class_hierarchy)
         
         class_codes = frozenset(code_to_class.keys())
+        abstract_codes = km.class_names_to_codes( abstracts, class_to_code)
         full_composition = km.resolve(class_codes,coded_part_hierarchy,coded_class_hierarchy)
         inverted_full_composition = km.invert_relation(full_composition)
-        class_variants, variant_to_class = km.variants(class_codes,inverted_full_composition)
+        class_variants, variant_to_class = km.variants(class_codes,abstract_codes,inverted_full_composition)
         generalized_class_variants = km.generalize(class_codes,class_variants,coded_class_hierarchy)
         encoded_class_variants = km.encode_variants(class_number, generalized_class_variants)
 
@@ -633,12 +643,12 @@ class PASCALPart_annotations:
         g.serialize(destination=f"semantic-PASCAL-Part_{name}.rdf")
 
 if __name__ == '__main__':
-    # tests(km.get_class_names(), km.get_contained_classes(), km.get_refined_classes())
+    # tests(km.get_class_names(), km.get_abstract_classes(), km.get_contained_classes(), km.get_refined_classes())
     
     ann = PASCALPart_annotations()
     ann.load_data(split="trainval")
-    ann.toYOLO( "semanticPascalPart", "trainval", km.get_class_names(), km.get_contained_classes(), km.get_refined_classes())
+    ann.toYOLO( "semanticPascalPart", "trainval", km.get_class_names(), km.get_abstract_classes(), km.get_contained_classes(), km.get_refined_classes())
     
     ann = PASCALPart_annotations()
     ann.load_data(split="test")
-    ann.toYOLO("semanticPascalPart","test", km.get_class_names(), km.get_contained_classes(), km.get_refined_classes())
+    ann.toYOLO("semanticPascalPart","test", km.get_class_names(), km.get_abstract_classes(), km.get_contained_classes(), km.get_refined_classes())

@@ -6,7 +6,7 @@ def get_class_names():
     class_names = frozenset({
         'Aeroplane', #00
        'Animal_Wing', #01
-       'Animals', #02
+       'Animal', #02
        'Arm', #03
        'Artifact_Wing', #04
        'Beak', #05
@@ -70,13 +70,13 @@ def get_class_names():
 
 def get_refined_classes():
     refined_classes = {
-        "Bird" : frozenset([ "Animals" ]),
-        "Cat" : frozenset([ "Animals" ]),
-        "Cow" : frozenset([ "Animals" ]),
-        "Dog" : frozenset([ "Animals" ]),
-        "Horse" : frozenset([ "Animals" ]),
-        "Person" : frozenset([ "Animals" ]),
-        "Sheep" : frozenset([ "Animals" ]),
+        "Bird" : frozenset([ "Animal" ]),
+        "Cat" : frozenset([ "Animal" ]),
+        "Cow" : frozenset([ "Animal" ]),
+        "Dog" : frozenset([ "Animal" ]),
+        "Horse" : frozenset([ "Animal" ]),
+        "Person" : frozenset([ "Animal" ]),
+        "Sheep" : frozenset([ "Animal" ]),
         "Aeroplane" : frozenset([ "Vehicle" ]), 
         "Bicycle" : frozenset([ "Vehicle" ]),
         "Boat" : frozenset([ "Vehicle" ]),
@@ -89,14 +89,14 @@ def get_refined_classes():
 
 def get_abstract_classes():
     abstract_classes = frozenset([
-            "Animals",
+            "Animal",
             "Vehicle"
         ])
     return abstract_classes
 
 def get_contained_classes():
     contained_classes = {
-        "Animals" : frozenset([ "Eye", "Head", "Leg", "Neck", "Torso" ]),
+        "Animal" : frozenset([ "Eye", "Head", "Leg", "Neck", "Torso" ]),
         "Bird" : frozenset(["Animal_Wing", "Beak", "Tail"]),
         "Cat" : frozenset(["Ear", "Tail"]),
         "Cow" : frozenset(["Ear", "Horn", "Muzzle", "Tail"]),
@@ -205,6 +205,15 @@ def invert_relation(relation):
                 inverted_relation[value] = frozenset({key})
     return inverted_relation
 
+def class_names_to_codes(class_names, class_name_to_code):
+# names is a set of names
+# name_to_code is the function that association a code to a name
+# returns is a set of codes for each name
+    class_codes = frozenset()
+    for class_name in class_names:
+        class_codes = class_codes.union( { class_name_to_code[class_name] })
+    return class_codes
+
 # Build the variant of an element according to the relation (paths in the relation whose root is the element)
 def element_variants(element, relation):
     singleton_element = frozenset({element})
@@ -218,18 +227,19 @@ def element_variants(element, relation):
     return result     
 
 # Build the variants of all the elements according to the relation (paths in the relation whose roots are the elements)
-def variants(elements,relation):
+def variants(elements,abstracts,relation):
     variant_to_element = {}
     code = 0
     result = {}
     all_variants = frozenset()
     for element in elements:
-        for variant in element_variants(element,relation):
-            if variant not in all_variants:
-                all_variants = all_variants.union({variant})
-                result[code] = variant
-                variant_to_element[code] = element
-                code = code + 1
+        if element not in abstracts:
+            for variant in element_variants(element,relation):
+                if variant not in all_variants:
+                    all_variants = all_variants.union({variant})
+                    result[code] = variant
+                    variant_to_element[code] = element
+                    code = code + 1
     return result, variant_to_element
 
 def non_empty_keys(relation):
