@@ -1,25 +1,25 @@
-Potted_Plant 
-Plant  Potted_Plant 
-Pot  Potted_Plant 
-Potted_Plant 
-Plant  Potted_Plant 
-Pot  Potted_Plant 
-Dog  Animal
-Leg  Dog  Animal
-Leg  Dog  Animal
-Torso  Dog  Animal
-Nose  Dog  Animal
-Muzzle  Dog  Animal
-Eye  Dog  Animal
-Eye  Dog  Animal
-Ear  Dog  Animal
-Ear  Dog  Animal
-Head  Dog  Animal
-Cat  Animal
-Leg  Cat  Animal
-Torso  Cat  Animal
-Head  Cat  Animal
-Eye  Cat  Animal
-Eye  Cat  Animal
-Ear  Cat  Animal
-Ear  Cat  Animal
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 
+variant 100 Pot  Potted_Plant 
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 
+variant 100 Pot  Potted_Plant 
+variant 22 Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 116 Torso  Dog  Animal
+variant 94 Nose  Dog  Animal
+variant 83 Muzzle  Dog  Animal
+variant 34 Eye  Dog  Animal
+variant 34 Eye  Dog  Animal
+variant 27 Ear  Dog  Animal
+variant 27 Ear  Dog  Animal
+variant 48 Head  Dog  Animal
+variant 16 Cat  Animal
+variant 65 Leg  Cat  Animal
+variant 117 Torso  Cat  Animal
+variant 49 Head  Cat  Animal
+variant 33 Eye  Cat  Animal
+variant 33 Eye  Cat  Animal
+variant 25 Ear  Cat  Animal
+variant 25 Ear  Cat  Animal

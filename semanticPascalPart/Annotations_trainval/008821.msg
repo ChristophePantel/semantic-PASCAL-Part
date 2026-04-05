@@ -1,12 +1,12 @@
-Person  Animal
-Hand  Person  Animal
-Hair  Person  Animal
-Head  Person  Animal
-Bird  Animal
-Tail  Bird  Animal
-Leg  Bird  Animal
-Leg  Bird  Animal
-Neck  Bird  Animal
-Torso  Bird  Animal
-Beak  Bird  Animal
-Head  Bird  Animal
+variant 98 Person  Animal
+variant 44 Hand  Person  Animal
+variant 43 Hair  Person  Animal
+variant 55 Head  Person  Animal
+variant 6 Bird  Animal
+variant 112 Tail  Bird  Animal
+variant 68 Leg  Bird  Animal
+variant 68 Leg  Bird  Animal
+variant 88 Neck  Bird  Animal
+variant 121 Torso  Bird  Animal
+variant 4 Beak  Bird  Animal
+variant 47 Head  Bird  Animal

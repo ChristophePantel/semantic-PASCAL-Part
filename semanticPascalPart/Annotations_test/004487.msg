@@ -1,2 +1,2 @@
-Dining_Table 
-Sofa 
+variant 21 Dining_Table 
+variant 106 Sofa 

@@ -1,5 +1,5 @@
-Car  Vehicle
-Window  Car  Vehicle
-Window  Car  Vehicle
-Mirror  Car  Vehicle
-Bodywork  Car  Vehicle
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 78 Mirror  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle

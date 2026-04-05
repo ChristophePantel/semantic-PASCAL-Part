@@ -1,24 +1,24 @@
-Potted_Plant 
-Plant  Potted_Plant 
-Pot  Potted_Plant 
-Person  Animal
-Hand  Person  Animal
-Nose  Person  Animal
-Hair  Person  Animal
-Eyebrow  Person  Animal
-Eyebrow  Person  Animal
-Eye  Person  Animal
-Eye  Person  Animal
-Head  Person  Animal
-Cat  Animal
-Tail  Cat  Animal
-Leg  Cat  Animal
-Leg  Cat  Animal
-Leg  Cat  Animal
-Neck  Cat  Animal
-Torso  Cat  Animal
-Head  Cat  Animal
-Eye  Cat  Animal
-Eye  Cat  Animal
-Ear  Cat  Animal
-Ear  Cat  Animal
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 
+variant 100 Pot  Potted_Plant 
+variant 98 Person  Animal
+variant 44 Hand  Person  Animal
+variant 95 Nose  Person  Animal
+variant 43 Hair  Person  Animal
+variant 41 Eyebrow  Person  Animal
+variant 41 Eyebrow  Person  Animal
+variant 32 Eye  Person  Animal
+variant 32 Eye  Person  Animal
+variant 55 Head  Person  Animal
+variant 16 Cat  Animal
+variant 111 Tail  Cat  Animal
+variant 65 Leg  Cat  Animal
+variant 65 Leg  Cat  Animal
+variant 65 Leg  Cat  Animal
+variant 85 Neck  Cat  Animal
+variant 117 Torso  Cat  Animal
+variant 49 Head  Cat  Animal
+variant 33 Eye  Cat  Animal
+variant 33 Eye  Cat  Animal
+variant 25 Ear  Cat  Animal
+variant 25 Ear  Cat  Animal

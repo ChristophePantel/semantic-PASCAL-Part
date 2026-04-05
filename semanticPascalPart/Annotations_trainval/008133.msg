@@ -1,7 +1,7 @@
-Sheep  Animal
-Neck  Sheep  Animal
-Torso  Sheep  Animal
-Head  Sheep  Animal
-Sheep  Animal
-Tail  Sheep  Animal
-Torso  Sheep  Animal
+variant 105 Sheep  Animal
+variant 86 Neck  Sheep  Animal
+variant 123 Torso  Sheep  Animal
+variant 54 Head  Sheep  Animal
+variant 105 Sheep  Animal
+variant 109 Tail  Sheep  Animal
+variant 123 Torso  Sheep  Animal

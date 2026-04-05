@@ -1,3 +1,3 @@
-TV_Monitor 
-Screen  TV_Monitor 
-Dog  Animal
+variant 108 TV_Monitor 
+variant 104 Screen  TV_Monitor 
+variant 22 Dog  Animal

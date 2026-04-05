@@ -1,5 +1,5 @@
-Car  Vehicle
-Wheel  Car  Vehicle
-Wheel  Car  Vehicle
-Mirror  Car  Vehicle
-Mirror  Car  Vehicle
+variant 15 Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 78 Mirror  Car  Vehicle
+variant 78 Mirror  Car  Vehicle

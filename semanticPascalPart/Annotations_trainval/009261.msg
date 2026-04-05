@@ -1,23 +1,23 @@
-Sheep  Animal
-Tail  Sheep  Animal
-Torso  Sheep  Animal
-Ear  Sheep  Animal
-Head  Sheep  Animal
-Bird  Animal
-Tail  Bird  Animal
-Leg  Bird  Animal
-Leg  Bird  Animal
-Torso  Bird  Animal
-Bird  Animal
-Tail  Bird  Animal
-Torso  Bird  Animal
-Beak  Bird  Animal
-Head  Bird  Animal
-Bird  Animal
-Tail  Bird  Animal
-Leg  Bird  Animal
-Leg  Bird  Animal
-Animal_Wing  Bird  Animal
-Torso  Bird  Animal
-Beak  Bird  Animal
-Head  Bird  Animal
+variant 105 Sheep  Animal
+variant 109 Tail  Sheep  Animal
+variant 123 Torso  Sheep  Animal
+variant 29 Ear  Sheep  Animal
+variant 54 Head  Sheep  Animal
+variant 6 Bird  Animal
+variant 112 Tail  Bird  Animal
+variant 68 Leg  Bird  Animal
+variant 68 Leg  Bird  Animal
+variant 121 Torso  Bird  Animal
+variant 6 Bird  Animal
+variant 112 Tail  Bird  Animal
+variant 121 Torso  Bird  Animal
+variant 4 Beak  Bird  Animal
+variant 47 Head  Bird  Animal
+variant 6 Bird  Animal
+variant 112 Tail  Bird  Animal
+variant 68 Leg  Bird  Animal
+variant 68 Leg  Bird  Animal
+variant 1 Animal_Wing  Bird  Animal
+variant 121 Torso  Bird  Animal
+variant 4 Beak  Bird  Animal
+variant 47 Head  Bird  Animal

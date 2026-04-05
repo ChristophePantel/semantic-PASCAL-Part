@@ -1,66 +1,66 @@
-Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Person  Animal
-Leg  Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Hand  Person  Animal
-Arm  Person  Animal
-Hand  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Person  Animal
-Leg  Person  Animal
-Leg  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Torso  Person  Animal
-Nose  Person  Animal
-Mouth  Person  Animal
-Eye  Person  Animal
-Eye  Person  Animal
-Head  Person  Animal
-Car  Vehicle
-Window  Car  Vehicle
-Window  Car  Vehicle
-Wheel  Car  Vehicle
-Wheel  Car  Vehicle
-Mirror  Car  Vehicle
-Bodywork  Car  Vehicle
-Car  Vehicle
-Window  Car  Vehicle
-Window  Car  Vehicle
-Window  Car  Vehicle
-Wheel  Car  Vehicle
-Wheel  Car  Vehicle
-Headlight  Car  Vehicle
-Headlight  Car  Vehicle
-Mirror  Car  Vehicle
-Bodywork  Car  Vehicle
-License_Plate  Car  Vehicle
-Bus  Vehicle
-Window  Bus  Vehicle
-Window  Bus  Vehicle
-Window  Bus  Vehicle
-Window  Bus  Vehicle
-Window  Bus  Vehicle
-Mirror  Bus  Vehicle
-Bodywork  Bus  Vehicle
+variant 98 Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 67 Leg  Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 44 Hand  Person  Animal
+variant 2 Arm  Person  Animal
+variant 44 Hand  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 67 Leg  Person  Animal
+variant 67 Leg  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 122 Torso  Person  Animal
+variant 95 Nose  Person  Animal
+variant 80 Mouth  Person  Animal
+variant 32 Eye  Person  Animal
+variant 32 Eye  Person  Animal
+variant 55 Head  Person  Animal
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 78 Mirror  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 59 Headlight  Car  Vehicle
+variant 59 Headlight  Car  Vehicle
+variant 78 Mirror  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle
+variant 74 License_Plate  Car  Vehicle
+variant 13 Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 77 Mirror  Bus  Vehicle
+variant 10 Bodywork  Bus  Vehicle

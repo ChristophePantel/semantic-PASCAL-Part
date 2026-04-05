@@ -1,8 +1,8 @@
-Motorbike  Vehicle
-Saddle  Motorbike  Vehicle
-Handlebar  Motorbike  Vehicle
-Wheel  Motorbike  Vehicle
-Wheel  Motorbike  Vehicle
-Motorbike  Vehicle
-Wheel  Motorbike  Vehicle
-Wheel  Motorbike  Vehicle
+variant 79 Motorbike  Vehicle
+variant 102 Saddle  Motorbike  Vehicle
+variant 45 Handlebar  Motorbike  Vehicle
+variant 129 Wheel  Motorbike  Vehicle
+variant 129 Wheel  Motorbike  Vehicle
+variant 79 Motorbike  Vehicle
+variant 129 Wheel  Motorbike  Vehicle
+variant 129 Wheel  Motorbike  Vehicle

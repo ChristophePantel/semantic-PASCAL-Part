@@ -1,8 +1,8 @@
-Boat  Vehicle
-Boat  Vehicle
-Boat  Vehicle
-Boat  Vehicle
-Boat  Vehicle
-Boat  Vehicle
-Boat  Vehicle
-Boat  Vehicle
+variant 7 Boat  Vehicle
+variant 7 Boat  Vehicle
+variant 7 Boat  Vehicle
+variant 7 Boat  Vehicle
+variant 7 Boat  Vehicle
+variant 7 Boat  Vehicle
+variant 7 Boat  Vehicle
+variant 7 Boat  Vehicle

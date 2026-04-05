@@ -1,8 +1,8 @@
-Horse  Animal
-Tail  Horse  Animal
-Leg  Horse  Animal
-Leg  Horse  Animal
-Leg  Horse  Animal
-Leg  Horse  Animal
-Torso  Horse  Animal
-Head  Horse  Animal
+variant 64 Horse  Animal
+variant 113 Tail  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 115 Torso  Horse  Animal
+variant 51 Head  Horse  Animal

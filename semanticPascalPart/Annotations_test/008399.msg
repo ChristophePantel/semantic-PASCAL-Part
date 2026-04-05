@@ -1,7 +1,7 @@
-Cow  Animal
-Leg  Cow  Animal
-Leg  Cow  Animal
-Leg  Cow  Animal
-Neck  Cow  Animal
-Torso  Cow  Animal
-Head  Cow  Animal
+variant 20 Cow  Animal
+variant 70 Leg  Cow  Animal
+variant 70 Leg  Cow  Animal
+variant 70 Leg  Cow  Animal
+variant 91 Neck  Cow  Animal
+variant 118 Torso  Cow  Animal
+variant 50 Head  Cow  Animal

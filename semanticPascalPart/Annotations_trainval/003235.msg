@@ -1,29 +1,29 @@
-Person  Animal
-Leg  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Person  Animal
-Leg  Person  Animal
-Leg  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Aeroplane  Vehicle
-Stern  Aeroplane  Vehicle
-Wheel  Aeroplane  Vehicle
-Wheel  Aeroplane  Vehicle
-Wheel  Aeroplane  Vehicle
-Artifact_Wing  Aeroplane  Vehicle
-Artifact_Wing  Aeroplane  Vehicle
-Body  Aeroplane  Vehicle
+variant 98 Person  Animal
+variant 67 Leg  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 67 Leg  Person  Animal
+variant 67 Leg  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 0 Aeroplane  Vehicle
+variant 107 Stern  Aeroplane  Vehicle
+variant 127 Wheel  Aeroplane  Vehicle
+variant 127 Wheel  Aeroplane  Vehicle
+variant 127 Wheel  Aeroplane  Vehicle
+variant 3 Artifact_Wing  Aeroplane  Vehicle
+variant 3 Artifact_Wing  Aeroplane  Vehicle
+variant 9 Body  Aeroplane  Vehicle

@@ -1,23 +1,23 @@
-Horse  Animal
-Leg  Horse  Animal
-Leg  Horse  Animal
-Torso  Horse  Animal
-Muzzle  Horse  Animal
-Eye  Horse  Animal
-Ear  Horse  Animal
-Ear  Horse  Animal
-Head  Horse  Animal
-Bottle 
-Cap  Bottle 
-Body  Bottle 
-Person  Animal
-Leg  Person  Animal
-Leg  Person  Animal
-Hand  Person  Animal
-Arm  Person  Animal
-Hand  Person  Animal
-Arm  Person  Animal
-Neck  Person  Animal
-Torso  Person  Animal
-Ear  Person  Animal
-Head  Person  Animal
+variant 64 Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 115 Torso  Horse  Animal
+variant 81 Muzzle  Horse  Animal
+variant 36 Eye  Horse  Animal
+variant 30 Ear  Horse  Animal
+variant 30 Ear  Horse  Animal
+variant 51 Head  Horse  Animal
+variant 12 Bottle 
+variant 14 Cap  Bottle 
+variant 8 Body  Bottle 
+variant 98 Person  Animal
+variant 67 Leg  Person  Animal
+variant 67 Leg  Person  Animal
+variant 44 Hand  Person  Animal
+variant 2 Arm  Person  Animal
+variant 44 Hand  Person  Animal
+variant 2 Arm  Person  Animal
+variant 87 Neck  Person  Animal
+variant 122 Torso  Person  Animal
+variant 26 Ear  Person  Animal
+variant 55 Head  Person  Animal

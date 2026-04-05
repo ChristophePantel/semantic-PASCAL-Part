@@ -1,18 +1,18 @@
-Car  Vehicle
-Window  Car  Vehicle
-Window  Car  Vehicle
-Wheel  Car  Vehicle
-Wheel  Car  Vehicle
-Wheel  Car  Vehicle
-Headlight  Car  Vehicle
-Headlight  Car  Vehicle
-Mirror  Car  Vehicle
-Mirror  Car  Vehicle
-Door  Car  Vehicle
-Door  Car  Vehicle
-Bodywork  Car  Vehicle
-License_Plate  Car  Vehicle
-Person  Animal
-Neck  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 59 Headlight  Car  Vehicle
+variant 59 Headlight  Car  Vehicle
+variant 78 Mirror  Car  Vehicle
+variant 78 Mirror  Car  Vehicle
+variant 24 Door  Car  Vehicle
+variant 24 Door  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle
+variant 74 License_Plate  Car  Vehicle
+variant 98 Person  Animal
+variant 87 Neck  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal

@@ -1,1 +1,1 @@
-Sofa 
+variant 106 Sofa 

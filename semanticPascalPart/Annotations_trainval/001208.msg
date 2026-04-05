@@ -1,19 +1,19 @@
-Car  Vehicle
-Bodywork  Car  Vehicle
-License_Plate  Car  Vehicle
-Chair 
-Chair 
-Chair 
-Chair 
-Chair 
-Chair 
-Dog  Animal
-Leg  Dog  Animal
-Torso  Dog  Animal
-Nose  Dog  Animal
-Muzzle  Dog  Animal
-Eye  Dog  Animal
-Eye  Dog  Animal
-Ear  Dog  Animal
-Ear  Dog  Animal
-Head  Dog  Animal
+variant 15 Car  Vehicle
+variant 11 Bodywork  Car  Vehicle
+variant 74 License_Plate  Car  Vehicle
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 22 Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 116 Torso  Dog  Animal
+variant 94 Nose  Dog  Animal
+variant 83 Muzzle  Dog  Animal
+variant 34 Eye  Dog  Animal
+variant 34 Eye  Dog  Animal
+variant 27 Ear  Dog  Animal
+variant 27 Ear  Dog  Animal
+variant 48 Head  Dog  Animal

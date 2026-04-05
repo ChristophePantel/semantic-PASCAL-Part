@@ -1,7 +1,7 @@
-Car  Vehicle
-Mirror  Car  Vehicle
-Bodywork  Car  Vehicle
-Aeroplane  Vehicle
-Stern  Aeroplane  Vehicle
-Artifact_Wing  Aeroplane  Vehicle
-Body  Aeroplane  Vehicle
+variant 15 Car  Vehicle
+variant 78 Mirror  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle
+variant 0 Aeroplane  Vehicle
+variant 107 Stern  Aeroplane  Vehicle
+variant 3 Artifact_Wing  Aeroplane  Vehicle
+variant 9 Body  Aeroplane  Vehicle

@@ -297,3 +297,30 @@ def encode_variants(class_number, class_variants):
         for class_index in class_variants[variant_index]:
             result[variant_index,class_index] = 1.0
     return result
+
+def get_variant_code(variant_classes, variants):
+    # variant_classes : set of classes in the variant
+    # variants : dict which associate to a variant number, the set of classes
+    # Return : number of the variant
+    variant_number = -1
+    for key, value in variants.items():
+        if value == variant_classes:
+            variant_number = key
+    if (variant_number == -1):
+        raise VariantNotFound
+    else: 
+        return variant_number
+    
+def get_candidate_variants(variant_classes, variant_to_classes):
+    if len(variant_classes) == 0:
+        variant_set = frozenset()
+    else:
+        class_to_variants = invert_relation(variant_to_classes)
+        variant_classes = set(variant_classes)
+        first_class = variant_classes.pop()
+        variant_set = class_to_variants[first_class]
+        #print(variant_set)
+        for other_class in variant_classes:
+            variant_set = variant_set.intersection(class_to_variants[other_class])
+            #print(variant_set)
+    return variant_set

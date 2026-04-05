@@ -81,8 +81,8 @@ composition:
   19 : [57 , 34 , 42 , 23]
   # Dog : Tail , Muzzle , Nose , Ear
   21 : [57 , 42 , 44 , 23]
-  # Horse : Tail , Muzzle , Hoof , Ear
-  35 : [57 , 42 , 33 , 23]
+  # Horse : Tail , Muzzle , Ear , Hoof
+  35 : [57 , 42 , 23 , 33]
   # Person : Arm , Ear , Mouth , Eyebrow , Foot , Hair , Hand , Nose
   47 : [3 , 23 , 41 , 26 , 27 , 28 , 29 , 44]
   # Sheep : Tail , Horn , Muzzle , Ear

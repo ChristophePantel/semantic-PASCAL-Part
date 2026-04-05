@@ -1,18 +1,18 @@
-Bus  Vehicle
-Window  Bus  Vehicle
-Window  Bus  Vehicle
-Window  Bus  Vehicle
-Window  Bus  Vehicle
-Window  Bus  Vehicle
-Mirror  Bus  Vehicle
-Mirror  Bus  Vehicle
-Door  Bus  Vehicle
-Door  Bus  Vehicle
-Bodywork  Bus  Vehicle
-Car  Vehicle
-Window  Car  Vehicle
-Window  Car  Vehicle
-Wheel  Car  Vehicle
-Wheel  Car  Vehicle
-Mirror  Car  Vehicle
-Bodywork  Car  Vehicle
+variant 13 Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 77 Mirror  Bus  Vehicle
+variant 77 Mirror  Bus  Vehicle
+variant 23 Door  Bus  Vehicle
+variant 23 Door  Bus  Vehicle
+variant 10 Bodywork  Bus  Vehicle
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 78 Mirror  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle

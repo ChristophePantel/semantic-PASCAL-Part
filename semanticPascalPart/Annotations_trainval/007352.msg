@@ -1,6 +1,6 @@
-Sofa 
-Chair 
-Chair 
-Bottle 
-Cap  Bottle 
-Body  Bottle 
+variant 106 Sofa 
+variant 18 Chair 
+variant 18 Chair 
+variant 12 Bottle 
+variant 14 Cap  Bottle 
+variant 8 Body  Bottle 

@@ -1,16 +1,16 @@
-Dining_Table 
-Chair 
-Chair 
-Chair 
-Chair 
-Chair 
-Potted_Plant 
-Plant  Potted_Plant 
-Pot  Potted_Plant 
-Car  Vehicle
-Window  Car  Vehicle
-Mirror  Car  Vehicle
-Bodywork  Car  Vehicle
-Car  Vehicle
-Window  Car  Vehicle
-Bodywork  Car  Vehicle
+variant 21 Dining_Table 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 
+variant 100 Pot  Potted_Plant 
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 78 Mirror  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle

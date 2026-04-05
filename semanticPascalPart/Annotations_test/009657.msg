@@ -1,37 +1,37 @@
-Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Hand  Person  Animal
-Arm  Person  Animal
-Arm  Person  Animal
-Neck  Person  Animal
-Torso  Person  Animal
-Nose  Person  Animal
-Hair  Person  Animal
-Mouth  Person  Animal
-Eyebrow  Person  Animal
-Eyebrow  Person  Animal
-Eye  Person  Animal
-Eye  Person  Animal
-Ear  Person  Animal
-Head  Person  Animal
-Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Neck  Person  Animal
-Nose  Person  Animal
-Hair  Person  Animal
-Ear  Person  Animal
-Head  Person  Animal
-Chair 
-Chair 
-Cat  Animal
-Tail  Cat  Animal
-Neck  Cat  Animal
-Torso  Cat  Animal
-Head  Cat  Animal
-Eye  Cat  Animal
-Ear  Cat  Animal
-Ear  Cat  Animal
+variant 98 Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 44 Hand  Person  Animal
+variant 2 Arm  Person  Animal
+variant 2 Arm  Person  Animal
+variant 87 Neck  Person  Animal
+variant 122 Torso  Person  Animal
+variant 95 Nose  Person  Animal
+variant 43 Hair  Person  Animal
+variant 80 Mouth  Person  Animal
+variant 41 Eyebrow  Person  Animal
+variant 41 Eyebrow  Person  Animal
+variant 32 Eye  Person  Animal
+variant 32 Eye  Person  Animal
+variant 26 Ear  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 87 Neck  Person  Animal
+variant 95 Nose  Person  Animal
+variant 43 Hair  Person  Animal
+variant 26 Ear  Person  Animal
+variant 55 Head  Person  Animal
+variant 18 Chair 
+variant 18 Chair 
+variant 16 Cat  Animal
+variant 111 Tail  Cat  Animal
+variant 85 Neck  Cat  Animal
+variant 117 Torso  Cat  Animal
+variant 49 Head  Cat  Animal
+variant 33 Eye  Cat  Animal
+variant 25 Ear  Cat  Animal
+variant 25 Ear  Cat  Animal

@@ -1,2 +1,2 @@
-Boat  Vehicle
-Bird  Animal
+variant 7 Boat  Vehicle
+variant 6 Bird  Animal

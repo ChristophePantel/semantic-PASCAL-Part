@@ -1,12 +1,12 @@
-Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Train  Vehicle
-Coach  Train  Vehicle
+variant 98 Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 98 Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 124 Train  Vehicle
+variant 19 Coach  Train  Vehicle

@@ -1,34 +1,34 @@
-Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Arm  Person  Animal
-Hand  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Nose  Person  Animal
-Mouth  Person  Animal
-Head  Person  Animal
-Motorbike  Vehicle
-Headlight  Motorbike  Vehicle
-Wheel  Motorbike  Vehicle
-Wheel  Motorbike  Vehicle
-Dog  Animal
-Leg  Dog  Animal
-Leg  Dog  Animal
-Leg  Dog  Animal
-Leg  Dog  Animal
-Nose  Dog  Animal
-Muzzle  Dog  Animal
-Ear  Dog  Animal
-Head  Dog  Animal
-Car  Vehicle
-Window  Car  Vehicle
-Window  Car  Vehicle
-Window  Car  Vehicle
-Window  Car  Vehicle
-Wheel  Car  Vehicle
-Door  Car  Vehicle
-Door  Car  Vehicle
-Bodywork  Car  Vehicle
+variant 98 Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 2 Arm  Person  Animal
+variant 44 Hand  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 95 Nose  Person  Animal
+variant 80 Mouth  Person  Animal
+variant 55 Head  Person  Animal
+variant 79 Motorbike  Vehicle
+variant 57 Headlight  Motorbike  Vehicle
+variant 129 Wheel  Motorbike  Vehicle
+variant 129 Wheel  Motorbike  Vehicle
+variant 22 Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 94 Nose  Dog  Animal
+variant 83 Muzzle  Dog  Animal
+variant 27 Ear  Dog  Animal
+variant 48 Head  Dog  Animal
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 24 Door  Car  Vehicle
+variant 24 Door  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle

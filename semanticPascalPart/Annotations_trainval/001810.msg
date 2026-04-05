@@ -1,24 +1,24 @@
-Car  Vehicle
-Window  Car  Vehicle
-Window  Car  Vehicle
-Window  Car  Vehicle
-Wheel  Car  Vehicle
-Bodywork  Car  Vehicle
-Car  Vehicle
-Window  Car  Vehicle
-Window  Car  Vehicle
-Window  Car  Vehicle
-Window  Car  Vehicle
-Mirror  Car  Vehicle
-Bodywork  Car  Vehicle
-License_Plate  Car  Vehicle
-Bus  Vehicle
-Window  Bus  Vehicle
-Window  Bus  Vehicle
-Bodywork  Bus  Vehicle
-Aeroplane  Vehicle
-Stern  Aeroplane  Vehicle
-Wheel  Aeroplane  Vehicle
-Engine  Aeroplane  Vehicle
-Artifact_Wing  Aeroplane  Vehicle
-Body  Aeroplane  Vehicle
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 78 Mirror  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle
+variant 74 License_Plate  Car  Vehicle
+variant 13 Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 10 Bodywork  Bus  Vehicle
+variant 0 Aeroplane  Vehicle
+variant 107 Stern  Aeroplane  Vehicle
+variant 127 Wheel  Aeroplane  Vehicle
+variant 31 Engine  Aeroplane  Vehicle
+variant 3 Artifact_Wing  Aeroplane  Vehicle
+variant 9 Body  Aeroplane  Vehicle

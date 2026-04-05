@@ -263,6 +263,11 @@ def add_refined_classes(refined_classes_codes, code_to_class, object_class):
         msg_line = msg_line + ' ' + code_to_class[refined_class]
     return km_line, msg_line
 
+def add_refined_classes_to_variant(refined_classes_codes, object_class, object_variant):
+    object_class_refined_classes = refined_classes_codes.get(object_class,[])
+    for refined_class in object_class_refined_classes:
+        object_variant.append(refined_class)
+
 def extract_bb_coordinates(id, ann_dict):
 	if id > -1:
 		x_1 = int(ann_dict[id]['polygon']['pt'][0]['x'])
@@ -559,6 +564,7 @@ class PASCALPart_annotations:
                     with open(msg_filename, 'w', encoding='utf-8') as msg_file:
                         for object_id in self.annotations[filename]['objects'].keys():
                             object_class = adapted_class_to_code[self.get_obj_class(filename, object_id)]
+                            object_variant = [ object_class ]
                             x_lu, y_lu, x_rb, y_rb = self.get_bounding_box( filename, object_id)
                             if ((x_lu == x_rb) or (y_lu == y_rb)):
                                 print(f"Object {object_id} in image {filename} is too small (left upper ({x_lu}, {y_lu}) right bottom ({x_rb}, {y_rb})")
@@ -573,6 +579,7 @@ class PASCALPart_annotations:
     
                             # Handling specialization / generalization relations
                             km_refined_classes, msg_refined_classes = add_refined_classes(coded_class_hierarchy, code_to_class, object_class)
+                            add_refined_classes_to_variant(coded_class_hierarchy, object_class, object_variant)
                             km_line = km_line + ' ' + km_refined_classes
                             msg_line = msg_line + ' ' + msg_refined_classes
                             container = self.get_whole_ids(filename, object_id) 
@@ -581,17 +588,28 @@ class PASCALPart_annotations:
                             if (container != None):
                                 while (container != None):
                                     container_class = adapted_class_to_code[self.get_obj_class(filename, container)]
+                                    object_variant.append(container_class)
                                     km_line = km_line + ' ' + str(container_class)
                                     msg_line = msg_line + ' ' + code_to_class[container_class]
                                     km_refined_classes, msg_refined_classes = add_refined_classes(coded_class_hierarchy, code_to_class, container_class)
+                                    add_refined_classes_to_variant(coded_class_hierarchy, container_class, object_variant)
                                     km_line = km_line + ' ' + km_refined_classes
                                     msg_line = msg_line + ' ' + msg_refined_classes
                                     container = self.get_whole_ids(filename, container)
-                            km_line = km_line + '\n'
+                            variant_number = km.get_variant_code(frozenset(object_variant), generalized_class_variants)
+                            km_line = str(variant_number) + ' ' + km_line + '\n'
                             km_file.write(km_line)
-                            msg_line = msg_line + '\n'
+                            msg_line = 'variant ' + str(variant_number) + ' ' + msg_line + '\n'
                             msg_file.write(msg_line)
-
+                            # Recherche les codes des variants correspondant à frozenset( object_variant ) avec la fonction get_candidate_variants
+                            # variant_codes_set = km.get_candidate_variants(frozenset(object_variant), generalized_class_variants)
+                            # variant_number = km.get_variant_code(frozenset(object_variant), generalized_class_variants)
+                            
+                            # Il doit y avoir exactement un variant, signaler s'il n'y en a aucun ou plusieurs
+                            # if len(variant_codes_set) == 0:
+                            #     print("Il y a aucun variant.")
+                            # elif len(variant_codes_set) > 1:
+                            #     print("Il y a plusieurs variants dans " + yolo_filename, variant_codes_set, " pour les classes ", object_variant)
 
     def toRDF(self, name=""):
         print("RDF conversion ...")

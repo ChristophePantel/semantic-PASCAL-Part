@@ -1,21 +1,21 @@
-Person  Animal
-Leg  Person  Animal
-Hand  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Person  Animal
-Leg  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Train  Vehicle
-Coach  Train  Vehicle
-Locomotive  Train  Vehicle
-Headlight  Train  Vehicle
-Coach  Train  Vehicle
-Coach  Train  Vehicle
-Car  Vehicle
-Window  Car  Vehicle
-Wheel  Car  Vehicle
-Bodywork  Car  Vehicle
+variant 98 Person  Animal
+variant 67 Leg  Person  Animal
+variant 44 Hand  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 67 Leg  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 124 Train  Vehicle
+variant 19 Coach  Train  Vehicle
+variant 76 Locomotive  Train  Vehicle
+variant 60 Headlight  Train  Vehicle
+variant 19 Coach  Train  Vehicle
+variant 19 Coach  Train  Vehicle
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle

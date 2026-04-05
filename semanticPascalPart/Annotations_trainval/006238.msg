@@ -1,10 +1,10 @@
-Potted_Plant 
-Plant  Potted_Plant 
-Pot  Potted_Plant 
-Cat  Animal
-Neck  Cat  Animal
-Torso  Cat  Animal
-Head  Cat  Animal
-Eye  Cat  Animal
-Ear  Cat  Animal
-Ear  Cat  Animal
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 
+variant 100 Pot  Potted_Plant 
+variant 16 Cat  Animal
+variant 85 Neck  Cat  Animal
+variant 117 Torso  Cat  Animal
+variant 49 Head  Cat  Animal
+variant 33 Eye  Cat  Animal
+variant 25 Ear  Cat  Animal
+variant 25 Ear  Cat  Animal

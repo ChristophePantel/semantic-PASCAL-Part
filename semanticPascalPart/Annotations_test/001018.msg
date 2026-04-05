@@ -1,8 +1,8 @@
-Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Person  Animal
-Torso  Person  Animal
-Eyebrow  Person  Animal
-Eyebrow  Person  Animal
-Head  Person  Animal
+variant 98 Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 122 Torso  Person  Animal
+variant 41 Eyebrow  Person  Animal
+variant 41 Eyebrow  Person  Animal
+variant 55 Head  Person  Animal

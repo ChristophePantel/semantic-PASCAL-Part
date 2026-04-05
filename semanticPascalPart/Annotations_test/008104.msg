@@ -1,1 +1,1 @@
-Boat  Vehicle
+variant 7 Boat  Vehicle

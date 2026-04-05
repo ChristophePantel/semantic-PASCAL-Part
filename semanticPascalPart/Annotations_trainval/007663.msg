@@ -1,27 +1,27 @@
-Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Arm  Person  Animal
-Person  Animal
-Leg  Person  Animal
-Leg  Person  Animal
-Hand  Person  Animal
-Dog  Animal
-Tail  Dog  Animal
-Leg  Dog  Animal
-Leg  Dog  Animal
-Leg  Dog  Animal
-Torso  Dog  Animal
-Nose  Dog  Animal
-Muzzle  Dog  Animal
-Eye  Dog  Animal
-Eye  Dog  Animal
-Ear  Dog  Animal
-Head  Dog  Animal
-Dog  Animal
-Torso  Dog  Animal
-Nose  Dog  Animal
-Muzzle  Dog  Animal
-Head  Dog  Animal
+variant 98 Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 2 Arm  Person  Animal
+variant 98 Person  Animal
+variant 67 Leg  Person  Animal
+variant 67 Leg  Person  Animal
+variant 44 Hand  Person  Animal
+variant 22 Dog  Animal
+variant 110 Tail  Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 116 Torso  Dog  Animal
+variant 94 Nose  Dog  Animal
+variant 83 Muzzle  Dog  Animal
+variant 34 Eye  Dog  Animal
+variant 34 Eye  Dog  Animal
+variant 27 Ear  Dog  Animal
+variant 48 Head  Dog  Animal
+variant 22 Dog  Animal
+variant 116 Torso  Dog  Animal
+variant 94 Nose  Dog  Animal
+variant 83 Muzzle  Dog  Animal
+variant 48 Head  Dog  Animal

@@ -1,12 +1,12 @@
-Dog  Animal
-Neck  Dog  Animal
-Torso  Dog  Animal
-Ear  Dog  Animal
-Ear  Dog  Animal
-Head  Dog  Animal
-Car  Vehicle
-Window  Car  Vehicle
-Wheel  Car  Vehicle
-Headlight  Car  Vehicle
-Mirror  Car  Vehicle
-Bodywork  Car  Vehicle
+variant 22 Dog  Animal
+variant 92 Neck  Dog  Animal
+variant 116 Torso  Dog  Animal
+variant 27 Ear  Dog  Animal
+variant 27 Ear  Dog  Animal
+variant 48 Head  Dog  Animal
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 59 Headlight  Car  Vehicle
+variant 78 Mirror  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle

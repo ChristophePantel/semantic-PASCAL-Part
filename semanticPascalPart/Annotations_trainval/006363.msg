@@ -1,11 +1,11 @@
-Person  Animal
-Head  Person  Animal
-Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Train  Vehicle
-Locomotive  Train  Vehicle
-Headlight  Train  Vehicle
-Headlight  Train  Vehicle
-Headlight  Train  Vehicle
+variant 98 Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 124 Train  Vehicle
+variant 76 Locomotive  Train  Vehicle
+variant 60 Headlight  Train  Vehicle
+variant 60 Headlight  Train  Vehicle
+variant 60 Headlight  Train  Vehicle

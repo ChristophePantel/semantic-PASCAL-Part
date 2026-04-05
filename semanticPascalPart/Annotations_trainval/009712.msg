@@ -1,12 +1,12 @@
-Dog  Animal
-Leg  Dog  Animal
-Leg  Dog  Animal
-Torso  Dog  Animal
-Dog  Animal
-Tail  Dog  Animal
-Leg  Dog  Animal
-Leg  Dog  Animal
-Leg  Dog  Animal
-Leg  Dog  Animal
-Torso  Dog  Animal
-Head  Dog  Animal
+variant 22 Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 116 Torso  Dog  Animal
+variant 22 Dog  Animal
+variant 110 Tail  Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 116 Torso  Dog  Animal
+variant 48 Head  Dog  Animal

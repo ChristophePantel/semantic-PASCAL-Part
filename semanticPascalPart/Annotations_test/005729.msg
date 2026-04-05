@@ -1,7 +1,7 @@
-Person  Animal
-Neck  Person  Animal
-Hair  Person  Animal
-Ear  Person  Animal
-Head  Person  Animal
-TV_Monitor 
-Screen  TV_Monitor 
+variant 98 Person  Animal
+variant 87 Neck  Person  Animal
+variant 43 Hair  Person  Animal
+variant 26 Ear  Person  Animal
+variant 55 Head  Person  Animal
+variant 108 TV_Monitor 
+variant 104 Screen  TV_Monitor 

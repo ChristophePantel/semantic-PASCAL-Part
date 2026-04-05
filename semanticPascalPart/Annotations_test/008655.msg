@@ -1,37 +1,37 @@
-Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Hair  Person  Animal
-Head  Person  Animal
-Person  Animal
-Arm  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Hair  Person  Animal
-Ear  Person  Animal
-Ear  Person  Animal
-Head  Person  Animal
-Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Hair  Person  Animal
-Head  Person  Animal
-Person  Animal
-Arm  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Hair  Person  Animal
-Ear  Person  Animal
-Head  Person  Animal
-Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Hair  Person  Animal
-Ear  Person  Animal
-Head  Person  Animal
-Car  Vehicle
-Wheel  Car  Vehicle
-Bodywork  Car  Vehicle
+variant 98 Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 43 Hair  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 2 Arm  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 43 Hair  Person  Animal
+variant 26 Ear  Person  Animal
+variant 26 Ear  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 43 Hair  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 2 Arm  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 43 Hair  Person  Animal
+variant 26 Ear  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 43 Hair  Person  Animal
+variant 26 Ear  Person  Animal
+variant 55 Head  Person  Animal
+variant 15 Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle

@@ -1,20 +1,20 @@
-Person  Animal
-Leg  Person  Animal
-Hand  Person  Animal
-Arm  Person  Animal
-Hand  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Hair  Person  Animal
-Ear  Person  Animal
-Head  Person  Animal
-Boat  Vehicle
-Dog  Animal
-Torso  Dog  Animal
-Nose  Dog  Animal
-Muzzle  Dog  Animal
-Eye  Dog  Animal
-Eye  Dog  Animal
-Ear  Dog  Animal
-Ear  Dog  Animal
-Head  Dog  Animal
+variant 98 Person  Animal
+variant 67 Leg  Person  Animal
+variant 44 Hand  Person  Animal
+variant 2 Arm  Person  Animal
+variant 44 Hand  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 43 Hair  Person  Animal
+variant 26 Ear  Person  Animal
+variant 55 Head  Person  Animal
+variant 7 Boat  Vehicle
+variant 22 Dog  Animal
+variant 116 Torso  Dog  Animal
+variant 94 Nose  Dog  Animal
+variant 83 Muzzle  Dog  Animal
+variant 34 Eye  Dog  Animal
+variant 34 Eye  Dog  Animal
+variant 27 Ear  Dog  Animal
+variant 27 Ear  Dog  Animal
+variant 48 Head  Dog  Animal

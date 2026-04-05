@@ -1,16 +1,16 @@
-Chair 
-Dog  Animal
-Torso  Dog  Animal
-Nose  Dog  Animal
-Muzzle  Dog  Animal
-Eye  Dog  Animal
-Eye  Dog  Animal
-Ear  Dog  Animal
-Ear  Dog  Animal
-Head  Dog  Animal
-Bottle 
-Cap  Bottle 
-Body  Bottle 
-Bottle 
-Cap  Bottle 
-Body  Bottle 
+variant 18 Chair 
+variant 22 Dog  Animal
+variant 116 Torso  Dog  Animal
+variant 94 Nose  Dog  Animal
+variant 83 Muzzle  Dog  Animal
+variant 34 Eye  Dog  Animal
+variant 34 Eye  Dog  Animal
+variant 27 Ear  Dog  Animal
+variant 27 Ear  Dog  Animal
+variant 48 Head  Dog  Animal
+variant 12 Bottle 
+variant 14 Cap  Bottle 
+variant 8 Body  Bottle 
+variant 12 Bottle 
+variant 14 Cap  Bottle 
+variant 8 Body  Bottle 

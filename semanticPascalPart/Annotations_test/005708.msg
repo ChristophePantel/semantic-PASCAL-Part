@@ -1,37 +1,37 @@
-Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Hand  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Person  Animal
-Leg  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Arm  Person  Animal
-Hand  Person  Animal
-Arm  Person  Animal
-Neck  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Train  Vehicle
-Locomotive  Train  Vehicle
-Headlight  Train  Vehicle
-Headlight  Train  Vehicle
-Train  Vehicle
-Locomotive  Train  Vehicle
-Headlight  Train  Vehicle
-Headlight  Train  Vehicle
-Potted_Plant 
-Plant  Potted_Plant 
-Potted_Plant 
-Plant  Potted_Plant 
+variant 98 Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 44 Hand  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 67 Leg  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 2 Arm  Person  Animal
+variant 44 Hand  Person  Animal
+variant 2 Arm  Person  Animal
+variant 87 Neck  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 124 Train  Vehicle
+variant 76 Locomotive  Train  Vehicle
+variant 60 Headlight  Train  Vehicle
+variant 60 Headlight  Train  Vehicle
+variant 124 Train  Vehicle
+variant 76 Locomotive  Train  Vehicle
+variant 60 Headlight  Train  Vehicle
+variant 60 Headlight  Train  Vehicle
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 

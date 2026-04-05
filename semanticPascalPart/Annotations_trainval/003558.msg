@@ -1,26 +1,26 @@
-Person  Animal
-Neck  Person  Animal
-Torso  Person  Animal
-Nose  Person  Animal
-Hair  Person  Animal
-Mouth  Person  Animal
-Eyebrow  Person  Animal
-Eyebrow  Person  Animal
-Eye  Person  Animal
-Eye  Person  Animal
-Ear  Person  Animal
-Head  Person  Animal
-Car  Vehicle
-Window  Car  Vehicle
-Window  Car  Vehicle
-Wheel  Car  Vehicle
-Wheel  Car  Vehicle
-Mirror  Car  Vehicle
-Door  Car  Vehicle
-Bodywork  Car  Vehicle
-Aeroplane  Vehicle
-Stern  Aeroplane  Vehicle
-Wheel  Aeroplane  Vehicle
-Wheel  Aeroplane  Vehicle
-Engine  Aeroplane  Vehicle
-Body  Aeroplane  Vehicle
+variant 98 Person  Animal
+variant 87 Neck  Person  Animal
+variant 122 Torso  Person  Animal
+variant 95 Nose  Person  Animal
+variant 43 Hair  Person  Animal
+variant 80 Mouth  Person  Animal
+variant 41 Eyebrow  Person  Animal
+variant 41 Eyebrow  Person  Animal
+variant 32 Eye  Person  Animal
+variant 32 Eye  Person  Animal
+variant 26 Ear  Person  Animal
+variant 55 Head  Person  Animal
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 78 Mirror  Car  Vehicle
+variant 24 Door  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle
+variant 0 Aeroplane  Vehicle
+variant 107 Stern  Aeroplane  Vehicle
+variant 127 Wheel  Aeroplane  Vehicle
+variant 127 Wheel  Aeroplane  Vehicle
+variant 31 Engine  Aeroplane  Vehicle
+variant 9 Body  Aeroplane  Vehicle

@@ -1,15 +1,15 @@
-Horse  Animal
-Tail  Horse  Animal
-Hoof  Horse  Animal
-Leg  Horse  Animal
-Hoof  Horse  Animal
-Leg  Horse  Animal
-Hoof  Horse  Animal
-Leg  Horse  Animal
-Hoof  Horse  Animal
-Leg  Horse  Animal
-Torso  Horse  Animal
-Muzzle  Horse  Animal
-Ear  Horse  Animal
-Ear  Horse  Animal
-Head  Horse  Animal
+variant 64 Horse  Animal
+variant 113 Tail  Horse  Animal
+variant 61 Hoof  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 61 Hoof  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 61 Hoof  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 61 Hoof  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 115 Torso  Horse  Animal
+variant 81 Muzzle  Horse  Animal
+variant 30 Ear  Horse  Animal
+variant 30 Ear  Horse  Animal
+variant 51 Head  Horse  Animal

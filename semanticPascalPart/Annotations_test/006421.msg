@@ -1,7 +1,7 @@
-Aeroplane  Vehicle
-Stern  Aeroplane  Vehicle
-Artifact_Wing  Aeroplane  Vehicle
-Body  Aeroplane  Vehicle
-Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
+variant 0 Aeroplane  Vehicle
+variant 107 Stern  Aeroplane  Vehicle
+variant 3 Artifact_Wing  Aeroplane  Vehicle
+variant 9 Body  Aeroplane  Vehicle
+variant 98 Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal

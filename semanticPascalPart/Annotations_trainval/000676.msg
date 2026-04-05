@@ -1,6 +1,6 @@
-Aeroplane  Vehicle
-Stern  Aeroplane  Vehicle
-Wheel  Aeroplane  Vehicle
-Wheel  Aeroplane  Vehicle
-Wheel  Aeroplane  Vehicle
-Body  Aeroplane  Vehicle
+variant 0 Aeroplane  Vehicle
+variant 107 Stern  Aeroplane  Vehicle
+variant 127 Wheel  Aeroplane  Vehicle
+variant 127 Wheel  Aeroplane  Vehicle
+variant 127 Wheel  Aeroplane  Vehicle
+variant 9 Body  Aeroplane  Vehicle

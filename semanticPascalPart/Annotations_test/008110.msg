@@ -1,5 +1,5 @@
-Dog  Animal
-Nose  Dog  Animal
-Ear  Dog  Animal
-Ear  Dog  Animal
-Head  Dog  Animal
+variant 22 Dog  Animal
+variant 94 Nose  Dog  Animal
+variant 27 Ear  Dog  Animal
+variant 27 Ear  Dog  Animal
+variant 48 Head  Dog  Animal

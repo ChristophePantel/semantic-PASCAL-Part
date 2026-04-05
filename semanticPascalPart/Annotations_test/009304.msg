@@ -1,7 +1,7 @@
-Cat  Animal
-Tail  Cat  Animal
-Leg  Cat  Animal
-Leg  Cat  Animal
-Leg  Cat  Animal
-Leg  Cat  Animal
-Torso  Cat  Animal
+variant 16 Cat  Animal
+variant 111 Tail  Cat  Animal
+variant 65 Leg  Cat  Animal
+variant 65 Leg  Cat  Animal
+variant 65 Leg  Cat  Animal
+variant 65 Leg  Cat  Animal
+variant 117 Torso  Cat  Animal

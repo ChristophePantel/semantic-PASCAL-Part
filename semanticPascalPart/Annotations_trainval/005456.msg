@@ -1,18 +1,18 @@
-Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Torso  Person  Animal
-Motorbike  Vehicle
-Motorbike  Vehicle
-Motorbike  Vehicle
-Wheel  Motorbike  Vehicle
-Motorbike  Vehicle
-Wheel  Motorbike  Vehicle
-Wheel  Motorbike  Vehicle
-Motorbike  Vehicle
-Wheel  Motorbike  Vehicle
-Wheel  Motorbike  Vehicle
-Motorbike  Vehicle
-Wheel  Motorbike  Vehicle
+variant 98 Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 122 Torso  Person  Animal
+variant 79 Motorbike  Vehicle
+variant 79 Motorbike  Vehicle
+variant 79 Motorbike  Vehicle
+variant 129 Wheel  Motorbike  Vehicle
+variant 79 Motorbike  Vehicle
+variant 129 Wheel  Motorbike  Vehicle
+variant 129 Wheel  Motorbike  Vehicle
+variant 79 Motorbike  Vehicle
+variant 129 Wheel  Motorbike  Vehicle
+variant 129 Wheel  Motorbike  Vehicle
+variant 79 Motorbike  Vehicle
+variant 129 Wheel  Motorbike  Vehicle

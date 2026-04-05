@@ -1,10 +1,10 @@
-TV_Monitor 
-Screen  TV_Monitor 
-Bird  Animal
-Leg  Bird  Animal
-Leg  Bird  Animal
-Animal_Wing  Bird  Animal
-Torso  Bird  Animal
-Beak  Bird  Animal
-Eye  Bird  Animal
-Head  Bird  Animal
+variant 108 TV_Monitor 
+variant 104 Screen  TV_Monitor 
+variant 6 Bird  Animal
+variant 68 Leg  Bird  Animal
+variant 68 Leg  Bird  Animal
+variant 1 Animal_Wing  Bird  Animal
+variant 121 Torso  Bird  Animal
+variant 4 Beak  Bird  Animal
+variant 35 Eye  Bird  Animal
+variant 47 Head  Bird  Animal

@@ -1,5 +1,5 @@
-Aeroplane  Vehicle
-Engine  Aeroplane  Vehicle
-Engine  Aeroplane  Vehicle
-Engine  Aeroplane  Vehicle
-Artifact_Wing  Aeroplane  Vehicle
+variant 0 Aeroplane  Vehicle
+variant 31 Engine  Aeroplane  Vehicle
+variant 31 Engine  Aeroplane  Vehicle
+variant 31 Engine  Aeroplane  Vehicle
+variant 3 Artifact_Wing  Aeroplane  Vehicle

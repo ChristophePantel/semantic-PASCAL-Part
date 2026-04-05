@@ -1,7 +1,7 @@
-Dining_Table 
-Person  Animal
-Hand  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Bottle 
-Body  Bottle 
+variant 21 Dining_Table 
+variant 98 Person  Animal
+variant 44 Hand  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 12 Bottle 
+variant 8 Body  Bottle 

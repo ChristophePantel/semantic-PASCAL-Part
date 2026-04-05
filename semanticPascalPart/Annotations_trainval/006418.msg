@@ -1,13 +1,13 @@
-Person  Animal
-Neck  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Bus  Vehicle
-Window  Bus  Vehicle
-Window  Bus  Vehicle
-Window  Bus  Vehicle
-Wheel  Bus  Vehicle
-Headlight  Bus  Vehicle
-Mirror  Bus  Vehicle
-Door  Bus  Vehicle
-Bodywork  Bus  Vehicle
+variant 98 Person  Animal
+variant 87 Neck  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 13 Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 126 Wheel  Bus  Vehicle
+variant 56 Headlight  Bus  Vehicle
+variant 77 Mirror  Bus  Vehicle
+variant 23 Door  Bus  Vehicle
+variant 10 Bodywork  Bus  Vehicle

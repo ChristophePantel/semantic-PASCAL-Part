@@ -1,32 +1,32 @@
-Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Arm  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Person  Animal
-Leg  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Person  Animal
-Leg  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Dining_Table 
-Car  Vehicle
-Window  Car  Vehicle
-Window  Car  Vehicle
-Wheel  Car  Vehicle
-Wheel  Car  Vehicle
-Door  Car  Vehicle
-Door  Car  Vehicle
-Bodywork  Car  Vehicle
-License_Plate  Car  Vehicle
-Bottle 
-Cap  Bottle 
-Body  Bottle 
+variant 98 Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 2 Arm  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 67 Leg  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 98 Person  Animal
+variant 67 Leg  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 21 Dining_Table 
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 24 Door  Car  Vehicle
+variant 24 Door  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle
+variant 74 License_Plate  Car  Vehicle
+variant 12 Bottle 
+variant 14 Cap  Bottle 
+variant 8 Body  Bottle 

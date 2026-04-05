@@ -1,10 +1,10 @@
-Boat  Vehicle
-Car  Vehicle
-Window  Car  Vehicle
-Wheel  Car  Vehicle
-Bodywork  Car  Vehicle
-Car  Vehicle
-Window  Car  Vehicle
-Headlight  Car  Vehicle
-Headlight  Car  Vehicle
-Bodywork  Car  Vehicle
+variant 7 Boat  Vehicle
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 59 Headlight  Car  Vehicle
+variant 59 Headlight  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle

@@ -1,13 +1,13 @@
-Train  Vehicle
-Locomotive  Train  Vehicle
-Person  Animal
-Leg  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Hair  Person  Animal
-Ear  Person  Animal
-Head  Person  Animal
+variant 124 Train  Vehicle
+variant 76 Locomotive  Train  Vehicle
+variant 98 Person  Animal
+variant 67 Leg  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 43 Hair  Person  Animal
+variant 26 Ear  Person  Animal
+variant 55 Head  Person  Animal

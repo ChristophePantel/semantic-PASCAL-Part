@@ -1,18 +1,18 @@
-Person  Animal
-Leg  Person  Animal
-Arm  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Potted_Plant 
-Plant  Potted_Plant 
-Pot  Potted_Plant 
-Bicycle  Vehicle
-Saddle  Bicycle  Vehicle
-Handlebar  Bicycle  Vehicle
-Chain_Wheel  Bicycle  Vehicle
-Wheel  Bicycle  Vehicle
-Wheel  Bicycle  Vehicle
-Bottle 
-Cap  Bottle 
-Body  Bottle 
+variant 98 Person  Animal
+variant 67 Leg  Person  Animal
+variant 2 Arm  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 
+variant 100 Pot  Potted_Plant 
+variant 5 Bicycle  Vehicle
+variant 103 Saddle  Bicycle  Vehicle
+variant 46 Handlebar  Bicycle  Vehicle
+variant 17 Chain_Wheel  Bicycle  Vehicle
+variant 128 Wheel  Bicycle  Vehicle
+variant 128 Wheel  Bicycle  Vehicle
+variant 12 Bottle 
+variant 14 Cap  Bottle 
+variant 8 Body  Bottle 

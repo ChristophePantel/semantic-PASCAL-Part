@@ -1,22 +1,22 @@
-Cow  Animal
-Neck  Cow  Animal
-Torso  Cow  Animal
-Muzzle  Cow  Animal
-Eye  Cow  Animal
-Ear  Cow  Animal
-Head  Cow  Animal
-Cow  Animal
-Tail  Cow  Animal
-Leg  Cow  Animal
-Leg  Cow  Animal
-Leg  Cow  Animal
-Leg  Cow  Animal
-Neck  Cow  Animal
-Torso  Cow  Animal
-Muzzle  Cow  Animal
-Horn  Cow  Animal
-Horn  Cow  Animal
-Eye  Cow  Animal
-Ear  Cow  Animal
-Ear  Cow  Animal
-Head  Cow  Animal
+variant 20 Cow  Animal
+variant 91 Neck  Cow  Animal
+variant 118 Torso  Cow  Animal
+variant 84 Muzzle  Cow  Animal
+variant 38 Eye  Cow  Animal
+variant 28 Ear  Cow  Animal
+variant 50 Head  Cow  Animal
+variant 20 Cow  Animal
+variant 114 Tail  Cow  Animal
+variant 70 Leg  Cow  Animal
+variant 70 Leg  Cow  Animal
+variant 70 Leg  Cow  Animal
+variant 70 Leg  Cow  Animal
+variant 91 Neck  Cow  Animal
+variant 118 Torso  Cow  Animal
+variant 84 Muzzle  Cow  Animal
+variant 63 Horn  Cow  Animal
+variant 63 Horn  Cow  Animal
+variant 38 Eye  Cow  Animal
+variant 28 Ear  Cow  Animal
+variant 28 Ear  Cow  Animal
+variant 50 Head  Cow  Animal

@@ -1,29 +1,29 @@
-Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Arm  Person  Animal
-Hand  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Hair  Person  Animal
-Ear  Person  Animal
-Head  Person  Animal
-Potted_Plant 
-Plant  Potted_Plant 
-Potted_Plant 
-Plant  Potted_Plant 
-Pot  Potted_Plant 
-Potted_Plant 
-Plant  Potted_Plant 
-Pot  Potted_Plant 
-Potted_Plant 
-Plant  Potted_Plant 
-Pot  Potted_Plant 
-Potted_Plant 
-Plant  Potted_Plant 
-Pot  Potted_Plant 
-Potted_Plant 
-Plant  Potted_Plant 
-Dog  Animal
+variant 98 Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 2 Arm  Person  Animal
+variant 44 Hand  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 43 Hair  Person  Animal
+variant 26 Ear  Person  Animal
+variant 55 Head  Person  Animal
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 
+variant 100 Pot  Potted_Plant 
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 
+variant 100 Pot  Potted_Plant 
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 
+variant 100 Pot  Potted_Plant 
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 
+variant 100 Pot  Potted_Plant 
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 
+variant 22 Dog  Animal

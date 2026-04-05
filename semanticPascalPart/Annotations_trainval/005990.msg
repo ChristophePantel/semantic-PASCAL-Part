@@ -1,17 +1,17 @@
-Person  Animal
-Torso  Person  Animal
-Nose  Person  Animal
-Hair  Person  Animal
-Head  Person  Animal
-Person  Animal
-Torso  Person  Animal
-Nose  Person  Animal
-Hair  Person  Animal
-Head  Person  Animal
-TV_Monitor 
-Screen  TV_Monitor 
-TV_Monitor 
-Screen  TV_Monitor 
-Bottle 
-Cap  Bottle 
-Body  Bottle 
+variant 98 Person  Animal
+variant 122 Torso  Person  Animal
+variant 95 Nose  Person  Animal
+variant 43 Hair  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 122 Torso  Person  Animal
+variant 95 Nose  Person  Animal
+variant 43 Hair  Person  Animal
+variant 55 Head  Person  Animal
+variant 108 TV_Monitor 
+variant 104 Screen  TV_Monitor 
+variant 108 TV_Monitor 
+variant 104 Screen  TV_Monitor 
+variant 12 Bottle 
+variant 14 Cap  Bottle 
+variant 8 Body  Bottle 

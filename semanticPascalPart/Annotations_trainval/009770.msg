@@ -1,4 +1,4 @@
-Cat  Animal
-Leg  Cat  Animal
-Head  Cat  Animal
-Eye  Cat  Animal
+variant 16 Cat  Animal
+variant 65 Leg  Cat  Animal
+variant 49 Head  Cat  Animal
+variant 33 Eye  Cat  Animal

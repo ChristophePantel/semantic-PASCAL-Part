@@ -1,18 +1,18 @@
-Chair 
-Chair 
-Chair 
-Cat  Animal
-Tail  Cat  Animal
-Leg  Cat  Animal
-Leg  Cat  Animal
-Torso  Cat  Animal
-Head  Cat  Animal
-Ear  Cat  Animal
-Cat  Animal
-Leg  Cat  Animal
-Leg  Cat  Animal
-Leg  Cat  Animal
-Torso  Cat  Animal
-Ear  Cat  Animal
-Ear  Cat  Animal
-Head  Cat  Animal
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 16 Cat  Animal
+variant 111 Tail  Cat  Animal
+variant 65 Leg  Cat  Animal
+variant 65 Leg  Cat  Animal
+variant 117 Torso  Cat  Animal
+variant 49 Head  Cat  Animal
+variant 25 Ear  Cat  Animal
+variant 16 Cat  Animal
+variant 65 Leg  Cat  Animal
+variant 65 Leg  Cat  Animal
+variant 65 Leg  Cat  Animal
+variant 117 Torso  Cat  Animal
+variant 25 Ear  Cat  Animal
+variant 25 Ear  Cat  Animal
+variant 49 Head  Cat  Animal

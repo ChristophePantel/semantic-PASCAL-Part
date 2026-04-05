@@ -1,25 +1,25 @@
-Person  Animal
-Leg  Person  Animal
-Leg  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Hair  Person  Animal
-Head  Person  Animal
-Person  Animal
-Leg  Person  Animal
-Arm  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Hair  Person  Animal
-Head  Person  Animal
-Car  Vehicle
-Bus  Vehicle
-Window  Bus  Vehicle
-Window  Bus  Vehicle
-Wheel  Bus  Vehicle
-Wheel  Bus  Vehicle
-Mirror  Bus  Vehicle
-Mirror  Bus  Vehicle
-Door  Bus  Vehicle
-Door  Bus  Vehicle
-Bodywork  Bus  Vehicle
+variant 98 Person  Animal
+variant 67 Leg  Person  Animal
+variant 67 Leg  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 43 Hair  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 67 Leg  Person  Animal
+variant 2 Arm  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 43 Hair  Person  Animal
+variant 55 Head  Person  Animal
+variant 15 Car  Vehicle
+variant 13 Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 126 Wheel  Bus  Vehicle
+variant 126 Wheel  Bus  Vehicle
+variant 77 Mirror  Bus  Vehicle
+variant 77 Mirror  Bus  Vehicle
+variant 23 Door  Bus  Vehicle
+variant 23 Door  Bus  Vehicle
+variant 10 Bodywork  Bus  Vehicle

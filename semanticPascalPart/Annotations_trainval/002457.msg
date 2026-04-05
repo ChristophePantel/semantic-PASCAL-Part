@@ -1,16 +1,16 @@
-Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Hand  Person  Animal
-Hand  Person  Animal
-Cat  Animal
-Tail  Cat  Animal
-Leg  Cat  Animal
-Leg  Cat  Animal
-Neck  Cat  Animal
-Torso  Cat  Animal
-Ear  Cat  Animal
-Ear  Cat  Animal
-Head  Cat  Animal
+variant 98 Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 44 Hand  Person  Animal
+variant 44 Hand  Person  Animal
+variant 16 Cat  Animal
+variant 111 Tail  Cat  Animal
+variant 65 Leg  Cat  Animal
+variant 65 Leg  Cat  Animal
+variant 85 Neck  Cat  Animal
+variant 117 Torso  Cat  Animal
+variant 25 Ear  Cat  Animal
+variant 25 Ear  Cat  Animal
+variant 49 Head  Cat  Animal

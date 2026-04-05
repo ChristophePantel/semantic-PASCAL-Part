@@ -1,9 +1,9 @@
-Person  Animal
-Neck  Person  Animal
-Head  Person  Animal
-Person  Animal
-Head  Person  Animal
-Boat  Vehicle
-Boat  Vehicle
-Boat  Vehicle
-Boat  Vehicle
+variant 98 Person  Animal
+variant 87 Neck  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 55 Head  Person  Animal
+variant 7 Boat  Vehicle
+variant 7 Boat  Vehicle
+variant 7 Boat  Vehicle
+variant 7 Boat  Vehicle

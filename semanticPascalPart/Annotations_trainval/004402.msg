@@ -1,13 +1,13 @@
-Person  Animal
-Hand  Person  Animal
-Arm  Person  Animal
-Neck  Person  Animal
-Torso  Person  Animal
-Hair  Person  Animal
-Head  Person  Animal
-Cat  Animal
-Torso  Cat  Animal
-Head  Cat  Animal
-Eye  Cat  Animal
-Ear  Cat  Animal
-Ear  Cat  Animal
+variant 98 Person  Animal
+variant 44 Hand  Person  Animal
+variant 2 Arm  Person  Animal
+variant 87 Neck  Person  Animal
+variant 122 Torso  Person  Animal
+variant 43 Hair  Person  Animal
+variant 55 Head  Person  Animal
+variant 16 Cat  Animal
+variant 117 Torso  Cat  Animal
+variant 49 Head  Cat  Animal
+variant 33 Eye  Cat  Animal
+variant 25 Ear  Cat  Animal
+variant 25 Ear  Cat  Animal

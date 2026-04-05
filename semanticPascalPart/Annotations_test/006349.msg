@@ -1,3 +1,3 @@
-Dining_Table 
-Bottle 
-Body  Bottle 
+variant 21 Dining_Table 
+variant 12 Bottle 
+variant 8 Body  Bottle 

@@ -1,10 +1,10 @@
-Potted_Plant 
-Plant  Potted_Plant 
-Pot  Potted_Plant 
-Potted_Plant 
-Plant  Potted_Plant 
-Pot  Potted_Plant 
-Motorbike  Vehicle
-Headlight  Motorbike  Vehicle
-Wheel  Motorbike  Vehicle
-Wheel  Motorbike  Vehicle
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 
+variant 100 Pot  Potted_Plant 
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 
+variant 100 Pot  Potted_Plant 
+variant 79 Motorbike  Vehicle
+variant 57 Headlight  Motorbike  Vehicle
+variant 129 Wheel  Motorbike  Vehicle
+variant 129 Wheel  Motorbike  Vehicle

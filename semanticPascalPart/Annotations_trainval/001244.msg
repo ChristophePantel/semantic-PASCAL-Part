@@ -1,13 +1,13 @@
-Sofa 
-Sofa 
-Chair 
-Chair 
-Chair 
-Chair 
-Dining_Table 
-Chair 
-Chair 
-Chair 
-Chair 
-Chair 
-Chair 
+variant 106 Sofa 
+variant 106 Sofa 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 21 Dining_Table 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 

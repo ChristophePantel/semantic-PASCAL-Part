@@ -1,26 +1,26 @@
-Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Car  Vehicle
-Window  Car  Vehicle
-Wheel  Car  Vehicle
-Headlight  Car  Vehicle
-Bodywork  Car  Vehicle
-Bus  Vehicle
-Window  Bus  Vehicle
-Window  Bus  Vehicle
-Window  Bus  Vehicle
-Window  Bus  Vehicle
-Window  Bus  Vehicle
-Window  Bus  Vehicle
-Window  Bus  Vehicle
-Window  Bus  Vehicle
-Window  Bus  Vehicle
-Wheel  Bus  Vehicle
-Wheel  Bus  Vehicle
-Wheel  Bus  Vehicle
-Headlight  Bus  Vehicle
-Headlight  Bus  Vehicle
-Mirror  Bus  Vehicle
-Bodywork  Bus  Vehicle
+variant 98 Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 59 Headlight  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle
+variant 13 Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 130 Window  Bus  Vehicle
+variant 126 Wheel  Bus  Vehicle
+variant 126 Wheel  Bus  Vehicle
+variant 126 Wheel  Bus  Vehicle
+variant 56 Headlight  Bus  Vehicle
+variant 56 Headlight  Bus  Vehicle
+variant 77 Mirror  Bus  Vehicle
+variant 10 Bodywork  Bus  Vehicle

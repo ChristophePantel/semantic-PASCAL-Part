@@ -1,22 +1,22 @@
-Car  Vehicle
-Window  Car  Vehicle
-Window  Car  Vehicle
-Mirror  Car  Vehicle
-Door  Car  Vehicle
-Bodywork  Car  Vehicle
-Motorbike  Vehicle
-Person  Animal
-Leg  Person  Animal
-Leg  Person  Animal
-Hand  Person  Animal
-Arm  Person  Animal
-Hand  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Nose  Person  Animal
-Mouth  Person  Animal
-Eye  Person  Animal
-Eye  Person  Animal
-Ear  Person  Animal
-Ear  Person  Animal
-Head  Person  Animal
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 78 Mirror  Car  Vehicle
+variant 24 Door  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle
+variant 79 Motorbike  Vehicle
+variant 98 Person  Animal
+variant 67 Leg  Person  Animal
+variant 67 Leg  Person  Animal
+variant 44 Hand  Person  Animal
+variant 2 Arm  Person  Animal
+variant 44 Hand  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 95 Nose  Person  Animal
+variant 80 Mouth  Person  Animal
+variant 32 Eye  Person  Animal
+variant 32 Eye  Person  Animal
+variant 26 Ear  Person  Animal
+variant 26 Ear  Person  Animal
+variant 55 Head  Person  Animal

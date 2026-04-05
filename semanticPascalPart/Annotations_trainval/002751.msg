@@ -1,19 +1,19 @@
-Bottle 
-Cap  Bottle 
-Body  Bottle 
-Bottle 
-Cap  Bottle 
-Body  Bottle 
-Bottle 
-Cap  Bottle 
-Body  Bottle 
-Cat  Animal
-Tail  Cat  Animal
-Leg  Cat  Animal
-Leg  Cat  Animal
-Leg  Cat  Animal
-Neck  Cat  Animal
-Torso  Cat  Animal
-Ear  Cat  Animal
-Ear  Cat  Animal
-Head  Cat  Animal
+variant 12 Bottle 
+variant 14 Cap  Bottle 
+variant 8 Body  Bottle 
+variant 12 Bottle 
+variant 14 Cap  Bottle 
+variant 8 Body  Bottle 
+variant 12 Bottle 
+variant 14 Cap  Bottle 
+variant 8 Body  Bottle 
+variant 16 Cat  Animal
+variant 111 Tail  Cat  Animal
+variant 65 Leg  Cat  Animal
+variant 65 Leg  Cat  Animal
+variant 65 Leg  Cat  Animal
+variant 85 Neck  Cat  Animal
+variant 117 Torso  Cat  Animal
+variant 25 Ear  Cat  Animal
+variant 25 Ear  Cat  Animal
+variant 49 Head  Cat  Animal

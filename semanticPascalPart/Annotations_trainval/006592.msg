@@ -1,21 +1,21 @@
-Dining_Table 
-Potted_Plant 
-Plant  Potted_Plant 
-Potted_Plant 
-Plant  Potted_Plant 
-Potted_Plant 
-Plant  Potted_Plant 
-Pot  Potted_Plant 
-Potted_Plant 
-Plant  Potted_Plant 
-Pot  Potted_Plant 
-Cat  Animal
-Tail  Cat  Animal
-Neck  Cat  Animal
-Torso  Cat  Animal
-Head  Cat  Animal
-Ear  Cat  Animal
-Ear  Cat  Animal
-Bottle 
-Cap  Bottle 
-Body  Bottle 
+variant 21 Dining_Table 
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 
+variant 100 Pot  Potted_Plant 
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 
+variant 100 Pot  Potted_Plant 
+variant 16 Cat  Animal
+variant 111 Tail  Cat  Animal
+variant 85 Neck  Cat  Animal
+variant 117 Torso  Cat  Animal
+variant 49 Head  Cat  Animal
+variant 25 Ear  Cat  Animal
+variant 25 Ear  Cat  Animal
+variant 12 Bottle 
+variant 14 Cap  Bottle 
+variant 8 Body  Bottle 

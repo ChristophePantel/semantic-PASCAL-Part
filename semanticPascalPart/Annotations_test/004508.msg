@@ -1,12 +1,12 @@
-Motorbike  Vehicle
-Headlight  Motorbike  Vehicle
-Wheel  Motorbike  Vehicle
-Wheel  Motorbike  Vehicle
-Car  Vehicle
-Window  Car  Vehicle
-Mirror  Car  Vehicle
-Bodywork  Car  Vehicle
-Car  Vehicle
-Window  Car  Vehicle
-Bodywork  Car  Vehicle
-License_Plate  Car  Vehicle
+variant 79 Motorbike  Vehicle
+variant 57 Headlight  Motorbike  Vehicle
+variant 129 Wheel  Motorbike  Vehicle
+variant 129 Wheel  Motorbike  Vehicle
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 78 Mirror  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle
+variant 74 License_Plate  Car  Vehicle

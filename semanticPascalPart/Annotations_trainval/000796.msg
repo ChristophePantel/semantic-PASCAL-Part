@@ -1,18 +1,18 @@
-Person  Animal
-Leg  Person  Animal
-Leg  Person  Animal
-Arm  Person  Animal
-Arm  Person  Animal
-Neck  Person  Animal
-Torso  Person  Animal
-Hair  Person  Animal
-Head  Person  Animal
-Person  Animal
-Neck  Person  Animal
-Torso  Person  Animal
-Nose  Person  Animal
-Hair  Person  Animal
-Head  Person  Animal
-Chair 
-Chair 
-Chair 
+variant 98 Person  Animal
+variant 67 Leg  Person  Animal
+variant 67 Leg  Person  Animal
+variant 2 Arm  Person  Animal
+variant 2 Arm  Person  Animal
+variant 87 Neck  Person  Animal
+variant 122 Torso  Person  Animal
+variant 43 Hair  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 87 Neck  Person  Animal
+variant 122 Torso  Person  Animal
+variant 95 Nose  Person  Animal
+variant 43 Hair  Person  Animal
+variant 55 Head  Person  Animal
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 

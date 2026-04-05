@@ -1,17 +1,17 @@
-Dining_Table 
-Dining_Table 
-Chair 
-Chair 
-Chair 
-Chair 
-Chair 
-Chair 
-Potted_Plant 
-Plant  Potted_Plant 
-Pot  Potted_Plant 
-Bottle 
-Cap  Bottle 
-Body  Bottle 
-Bottle 
-Cap  Bottle 
-Body  Bottle 
+variant 21 Dining_Table 
+variant 21 Dining_Table 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 
+variant 100 Pot  Potted_Plant 
+variant 12 Bottle 
+variant 14 Cap  Bottle 
+variant 8 Body  Bottle 
+variant 12 Bottle 
+variant 14 Cap  Bottle 
+variant 8 Body  Bottle 

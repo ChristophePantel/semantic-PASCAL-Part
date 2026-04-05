@@ -1,21 +1,21 @@
-Dining_Table 
-Sofa 
-Sofa 
-Sofa 
-Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Hair  Person  Animal
-Head  Person  Animal
-Chair 
-Chair 
-Chair 
-Chair 
-Chair 
-Chair 
-Chair 
-Chair 
-Chair 
-Chair 
-TV_Monitor 
-Screen  TV_Monitor 
+variant 21 Dining_Table 
+variant 106 Sofa 
+variant 106 Sofa 
+variant 106 Sofa 
+variant 98 Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 43 Hair  Person  Animal
+variant 55 Head  Person  Animal
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 108 TV_Monitor 
+variant 104 Screen  TV_Monitor 

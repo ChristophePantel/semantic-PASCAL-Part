@@ -1,57 +1,57 @@
-Person  Animal
-Torso  Person  Animal
-Nose  Person  Animal
-Hair  Person  Animal
-Ear  Person  Animal
-Head  Person  Animal
-Person  Animal
-Nose  Person  Animal
-Hair  Person  Animal
-Mouth  Person  Animal
-Head  Person  Animal
-Person  Animal
-Hair  Person  Animal
-Ear  Person  Animal
-Head  Person  Animal
-Person  Animal
-Hand  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Hair  Person  Animal
-Ear  Person  Animal
-Head  Person  Animal
-Person  Animal
-Leg  Person  Animal
-Arm  Person  Animal
-Neck  Person  Animal
-Torso  Person  Animal
-Hair  Person  Animal
-Ear  Person  Animal
-Head  Person  Animal
-Person  Animal
-Hand  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Nose  Person  Animal
-Hair  Person  Animal
-Mouth  Person  Animal
-Ear  Person  Animal
-Head  Person  Animal
-Cow  Animal
-Muzzle  Cow  Animal
-Horn  Cow  Animal
-Head  Cow  Animal
-Cow  Animal
-Torso  Cow  Animal
-Muzzle  Cow  Animal
-Horn  Cow  Animal
-Eye  Cow  Animal
-Ear  Cow  Animal
-Head  Cow  Animal
-Cow  Animal
-Neck  Cow  Animal
-Torso  Cow  Animal
-Muzzle  Cow  Animal
-Eye  Cow  Animal
-Ear  Cow  Animal
-Head  Cow  Animal
+variant 98 Person  Animal
+variant 122 Torso  Person  Animal
+variant 95 Nose  Person  Animal
+variant 43 Hair  Person  Animal
+variant 26 Ear  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 95 Nose  Person  Animal
+variant 43 Hair  Person  Animal
+variant 80 Mouth  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 43 Hair  Person  Animal
+variant 26 Ear  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 44 Hand  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 43 Hair  Person  Animal
+variant 26 Ear  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 67 Leg  Person  Animal
+variant 2 Arm  Person  Animal
+variant 87 Neck  Person  Animal
+variant 122 Torso  Person  Animal
+variant 43 Hair  Person  Animal
+variant 26 Ear  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 44 Hand  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 95 Nose  Person  Animal
+variant 43 Hair  Person  Animal
+variant 80 Mouth  Person  Animal
+variant 26 Ear  Person  Animal
+variant 55 Head  Person  Animal
+variant 20 Cow  Animal
+variant 84 Muzzle  Cow  Animal
+variant 63 Horn  Cow  Animal
+variant 50 Head  Cow  Animal
+variant 20 Cow  Animal
+variant 118 Torso  Cow  Animal
+variant 84 Muzzle  Cow  Animal
+variant 63 Horn  Cow  Animal
+variant 38 Eye  Cow  Animal
+variant 28 Ear  Cow  Animal
+variant 50 Head  Cow  Animal
+variant 20 Cow  Animal
+variant 91 Neck  Cow  Animal
+variant 118 Torso  Cow  Animal
+variant 84 Muzzle  Cow  Animal
+variant 38 Eye  Cow  Animal
+variant 28 Ear  Cow  Animal
+variant 50 Head  Cow  Animal

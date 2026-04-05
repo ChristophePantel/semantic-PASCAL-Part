@@ -1,8 +1,8 @@
-Sofa 
-Sofa 
-Sofa 
-Sofa 
-Chair 
-Chair 
-Chair 
-Chair 
+variant 106 Sofa 
+variant 106 Sofa 
+variant 106 Sofa 
+variant 106 Sofa 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 

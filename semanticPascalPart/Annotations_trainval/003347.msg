@@ -1,6 +1,6 @@
-Dining_Table 
-Dining_Table 
-Sofa 
-Sofa 
-TV_Monitor 
-Screen  TV_Monitor 
+variant 21 Dining_Table 
+variant 21 Dining_Table 
+variant 106 Sofa 
+variant 106 Sofa 
+variant 108 TV_Monitor 
+variant 104 Screen  TV_Monitor 

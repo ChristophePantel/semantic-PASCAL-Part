@@ -1,24 +1,24 @@
-Dog  Animal
-Torso  Dog  Animal
-Muzzle  Dog  Animal
-Eye  Dog  Animal
-Ear  Dog  Animal
-Head  Dog  Animal
-Dog  Animal
-Neck  Dog  Animal
-Torso  Dog  Animal
-Nose  Dog  Animal
-Muzzle  Dog  Animal
-Eye  Dog  Animal
-Ear  Dog  Animal
-Head  Dog  Animal
-Person  Animal
-Torso  Person  Animal
-Nose  Person  Animal
-Mouth  Person  Animal
-Eyebrow  Person  Animal
-Eyebrow  Person  Animal
-Eye  Person  Animal
-Eye  Person  Animal
-Ear  Person  Animal
-Head  Person  Animal
+variant 22 Dog  Animal
+variant 116 Torso  Dog  Animal
+variant 83 Muzzle  Dog  Animal
+variant 34 Eye  Dog  Animal
+variant 27 Ear  Dog  Animal
+variant 48 Head  Dog  Animal
+variant 22 Dog  Animal
+variant 92 Neck  Dog  Animal
+variant 116 Torso  Dog  Animal
+variant 94 Nose  Dog  Animal
+variant 83 Muzzle  Dog  Animal
+variant 34 Eye  Dog  Animal
+variant 27 Ear  Dog  Animal
+variant 48 Head  Dog  Animal
+variant 98 Person  Animal
+variant 122 Torso  Person  Animal
+variant 95 Nose  Person  Animal
+variant 80 Mouth  Person  Animal
+variant 41 Eyebrow  Person  Animal
+variant 41 Eyebrow  Person  Animal
+variant 32 Eye  Person  Animal
+variant 32 Eye  Person  Animal
+variant 26 Ear  Person  Animal
+variant 55 Head  Person  Animal

@@ -1,33 +1,33 @@
-Bird  Animal
-Torso  Bird  Animal
-Head  Bird  Animal
-Dog  Animal
-Tail  Dog  Animal
-Leg  Dog  Animal
-Leg  Dog  Animal
-Leg  Dog  Animal
-Leg  Dog  Animal
-Neck  Dog  Animal
-Torso  Dog  Animal
-Nose  Dog  Animal
-Muzzle  Dog  Animal
-Eye  Dog  Animal
-Eye  Dog  Animal
-Ear  Dog  Animal
-Ear  Dog  Animal
-Head  Dog  Animal
-Dog  Animal
-Tail  Dog  Animal
-Leg  Dog  Animal
-Leg  Dog  Animal
-Leg  Dog  Animal
-Leg  Dog  Animal
-Neck  Dog  Animal
-Torso  Dog  Animal
-Nose  Dog  Animal
-Muzzle  Dog  Animal
-Eye  Dog  Animal
-Eye  Dog  Animal
-Ear  Dog  Animal
-Ear  Dog  Animal
-Head  Dog  Animal
+variant 6 Bird  Animal
+variant 121 Torso  Bird  Animal
+variant 47 Head  Bird  Animal
+variant 22 Dog  Animal
+variant 110 Tail  Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 92 Neck  Dog  Animal
+variant 116 Torso  Dog  Animal
+variant 94 Nose  Dog  Animal
+variant 83 Muzzle  Dog  Animal
+variant 34 Eye  Dog  Animal
+variant 34 Eye  Dog  Animal
+variant 27 Ear  Dog  Animal
+variant 27 Ear  Dog  Animal
+variant 48 Head  Dog  Animal
+variant 22 Dog  Animal
+variant 110 Tail  Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 66 Leg  Dog  Animal
+variant 92 Neck  Dog  Animal
+variant 116 Torso  Dog  Animal
+variant 94 Nose  Dog  Animal
+variant 83 Muzzle  Dog  Animal
+variant 34 Eye  Dog  Animal
+variant 34 Eye  Dog  Animal
+variant 27 Ear  Dog  Animal
+variant 27 Ear  Dog  Animal
+variant 48 Head  Dog  Animal

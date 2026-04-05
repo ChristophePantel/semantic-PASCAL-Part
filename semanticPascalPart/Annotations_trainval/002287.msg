@@ -1,14 +1,14 @@
-Motorbike  Vehicle
-Saddle  Motorbike  Vehicle
-Handlebar  Motorbike  Vehicle
-Motorbike  Vehicle
-Saddle  Motorbike  Vehicle
-Handlebar  Motorbike  Vehicle
-Wheel  Motorbike  Vehicle
-Potted_Plant 
-Plant  Potted_Plant 
-Pot  Potted_Plant 
-Motorbike  Vehicle
-Headlight  Motorbike  Vehicle
-Wheel  Motorbike  Vehicle
-Wheel  Motorbike  Vehicle
+variant 79 Motorbike  Vehicle
+variant 102 Saddle  Motorbike  Vehicle
+variant 45 Handlebar  Motorbike  Vehicle
+variant 79 Motorbike  Vehicle
+variant 102 Saddle  Motorbike  Vehicle
+variant 45 Handlebar  Motorbike  Vehicle
+variant 129 Wheel  Motorbike  Vehicle
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 
+variant 100 Pot  Potted_Plant 
+variant 79 Motorbike  Vehicle
+variant 57 Headlight  Motorbike  Vehicle
+variant 129 Wheel  Motorbike  Vehicle
+variant 129 Wheel  Motorbike  Vehicle

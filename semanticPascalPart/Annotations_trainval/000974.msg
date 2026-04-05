@@ -1,9 +1,9 @@
-Bird  Animal
-Tail  Bird  Animal
-Leg  Bird  Animal
-Torso  Bird  Animal
-Beak  Bird  Animal
-Eye  Bird  Animal
-Head  Bird  Animal
-Potted_Plant 
-Pot  Potted_Plant 
+variant 6 Bird  Animal
+variant 112 Tail  Bird  Animal
+variant 68 Leg  Bird  Animal
+variant 121 Torso  Bird  Animal
+variant 4 Beak  Bird  Animal
+variant 35 Eye  Bird  Animal
+variant 47 Head  Bird  Animal
+variant 101 Potted_Plant 
+variant 100 Pot  Potted_Plant 

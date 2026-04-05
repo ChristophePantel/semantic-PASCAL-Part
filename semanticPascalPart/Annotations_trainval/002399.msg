@@ -1,16 +1,16 @@
-Cow  Animal
-Leg  Cow  Animal
-Leg  Cow  Animal
-Leg  Cow  Animal
-Torso  Cow  Animal
-Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Foot  Person  Animal
-Leg  Person  Animal
-Hand  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Hair  Person  Animal
-Ear  Person  Animal
-Head  Person  Animal
+variant 20 Cow  Animal
+variant 70 Leg  Cow  Animal
+variant 70 Leg  Cow  Animal
+variant 70 Leg  Cow  Animal
+variant 118 Torso  Cow  Animal
+variant 98 Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 42 Foot  Person  Animal
+variant 67 Leg  Person  Animal
+variant 44 Hand  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 43 Hair  Person  Animal
+variant 26 Ear  Person  Animal
+variant 55 Head  Person  Animal

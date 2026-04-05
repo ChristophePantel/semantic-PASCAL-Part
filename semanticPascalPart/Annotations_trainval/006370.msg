@@ -1,10 +1,10 @@
-Potted_Plant 
-Plant  Potted_Plant 
-Pot  Potted_Plant 
-Chair 
-Chair 
-Chair 
-Dining_Table 
-Chair 
-Sofa 
-Sofa 
+variant 101 Potted_Plant 
+variant 99 Plant  Potted_Plant 
+variant 100 Pot  Potted_Plant 
+variant 18 Chair 
+variant 18 Chair 
+variant 18 Chair 
+variant 21 Dining_Table 
+variant 18 Chair 
+variant 106 Sofa 
+variant 106 Sofa 

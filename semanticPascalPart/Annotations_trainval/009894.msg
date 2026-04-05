@@ -1,4 +1,4 @@
-Car  Vehicle
-Mirror  Car  Vehicle
-Mirror  Car  Vehicle
-Bodywork  Car  Vehicle
+variant 15 Car  Vehicle
+variant 78 Mirror  Car  Vehicle
+variant 78 Mirror  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle

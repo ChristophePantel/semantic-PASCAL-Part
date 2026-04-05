@@ -1,5 +1,5 @@
-Sofa 
-Sofa 
-Sofa 
-Sofa 
-Sofa 
+variant 106 Sofa 
+variant 106 Sofa 
+variant 106 Sofa 
+variant 106 Sofa 
+variant 106 Sofa 

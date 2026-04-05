@@ -1,4 +1,4 @@
-Bird  Animal
-Torso  Bird  Animal
-Beak  Bird  Animal
-Head  Bird  Animal
+variant 6 Bird  Animal
+variant 121 Torso  Bird  Animal
+variant 4 Beak  Bird  Animal
+variant 47 Head  Bird  Animal

@@ -1,11 +1,11 @@
-Dog  Animal
-Torso  Dog  Animal
-Ear  Dog  Animal
-Ear  Dog  Animal
-Head  Dog  Animal
-Cat  Animal
-Neck  Cat  Animal
-Torso  Cat  Animal
-Ear  Cat  Animal
-Ear  Cat  Animal
-Head  Cat  Animal
+variant 22 Dog  Animal
+variant 116 Torso  Dog  Animal
+variant 27 Ear  Dog  Animal
+variant 27 Ear  Dog  Animal
+variant 48 Head  Dog  Animal
+variant 16 Cat  Animal
+variant 85 Neck  Cat  Animal
+variant 117 Torso  Cat  Animal
+variant 25 Ear  Cat  Animal
+variant 25 Ear  Cat  Animal
+variant 49 Head  Cat  Animal

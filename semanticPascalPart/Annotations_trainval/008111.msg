@@ -1,32 +1,32 @@
-Sheep  Animal
-Sheep  Animal
-Torso  Sheep  Animal
-Sheep  Animal
-Torso  Sheep  Animal
-Head  Sheep  Animal
-Sheep  Animal
-Torso  Sheep  Animal
-Muzzle  Sheep  Animal
-Eye  Sheep  Animal
-Ear  Sheep  Animal
-Ear  Sheep  Animal
-Head  Sheep  Animal
-Sheep  Animal
-Torso  Sheep  Animal
-Ear  Sheep  Animal
-Ear  Sheep  Animal
-Head  Sheep  Animal
-Sheep  Animal
-Torso  Sheep  Animal
-Muzzle  Sheep  Animal
-Eye  Sheep  Animal
-Ear  Sheep  Animal
-Ear  Sheep  Animal
-Head  Sheep  Animal
-Sheep  Animal
-Torso  Sheep  Animal
-Muzzle  Sheep  Animal
-Eye  Sheep  Animal
-Ear  Sheep  Animal
-Ear  Sheep  Animal
-Head  Sheep  Animal
+variant 105 Sheep  Animal
+variant 105 Sheep  Animal
+variant 123 Torso  Sheep  Animal
+variant 105 Sheep  Animal
+variant 123 Torso  Sheep  Animal
+variant 54 Head  Sheep  Animal
+variant 105 Sheep  Animal
+variant 123 Torso  Sheep  Animal
+variant 82 Muzzle  Sheep  Animal
+variant 37 Eye  Sheep  Animal
+variant 29 Ear  Sheep  Animal
+variant 29 Ear  Sheep  Animal
+variant 54 Head  Sheep  Animal
+variant 105 Sheep  Animal
+variant 123 Torso  Sheep  Animal
+variant 29 Ear  Sheep  Animal
+variant 29 Ear  Sheep  Animal
+variant 54 Head  Sheep  Animal
+variant 105 Sheep  Animal
+variant 123 Torso  Sheep  Animal
+variant 82 Muzzle  Sheep  Animal
+variant 37 Eye  Sheep  Animal
+variant 29 Ear  Sheep  Animal
+variant 29 Ear  Sheep  Animal
+variant 54 Head  Sheep  Animal
+variant 105 Sheep  Animal
+variant 123 Torso  Sheep  Animal
+variant 82 Muzzle  Sheep  Animal
+variant 37 Eye  Sheep  Animal
+variant 29 Ear  Sheep  Animal
+variant 29 Ear  Sheep  Animal
+variant 54 Head  Sheep  Animal

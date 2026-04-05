@@ -1,13 +1,13 @@
-Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Nose  Person  Animal
-Eye  Person  Animal
-Head  Person  Animal
-Dog  Animal
-Torso  Dog  Animal
-Nose  Dog  Animal
-Muzzle  Dog  Animal
-Eye  Dog  Animal
-Eye  Dog  Animal
-Head  Dog  Animal
+variant 98 Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 95 Nose  Person  Animal
+variant 32 Eye  Person  Animal
+variant 55 Head  Person  Animal
+variant 22 Dog  Animal
+variant 116 Torso  Dog  Animal
+variant 94 Nose  Dog  Animal
+variant 83 Muzzle  Dog  Animal
+variant 34 Eye  Dog  Animal
+variant 34 Eye  Dog  Animal
+variant 48 Head  Dog  Animal

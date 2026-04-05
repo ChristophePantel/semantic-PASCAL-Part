@@ -1,45 +1,45 @@
-Horse  Animal
-Leg  Horse  Animal
-Leg  Horse  Animal
-Leg  Horse  Animal
-Torso  Horse  Animal
-Head  Horse  Animal
-Horse  Animal
-Leg  Horse  Animal
-Hoof  Horse  Animal
-Leg  Horse  Animal
-Leg  Horse  Animal
-Leg  Horse  Animal
-Torso  Horse  Animal
-Head  Horse  Animal
-Horse  Animal
-Leg  Horse  Animal
-Leg  Horse  Animal
-Leg  Horse  Animal
-Hoof  Horse  Animal
-Leg  Horse  Animal
-Torso  Horse  Animal
-Head  Horse  Animal
-Horse  Animal
-Hoof  Horse  Animal
-Leg  Horse  Animal
-Leg  Horse  Animal
-Torso  Horse  Animal
-Muzzle  Horse  Animal
-Head  Horse  Animal
-Horse  Animal
-Leg  Horse  Animal
-Hoof  Horse  Animal
-Leg  Horse  Animal
-Torso  Horse  Animal
-Muzzle  Horse  Animal
-Head  Horse  Animal
-Horse  Animal
-Leg  Horse  Animal
-Leg  Horse  Animal
-Leg  Horse  Animal
-Hoof  Horse  Animal
-Leg  Horse  Animal
-Torso  Horse  Animal
-Muzzle  Horse  Animal
-Head  Horse  Animal
+variant 64 Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 115 Torso  Horse  Animal
+variant 51 Head  Horse  Animal
+variant 64 Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 61 Hoof  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 115 Torso  Horse  Animal
+variant 51 Head  Horse  Animal
+variant 64 Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 61 Hoof  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 115 Torso  Horse  Animal
+variant 51 Head  Horse  Animal
+variant 64 Horse  Animal
+variant 61 Hoof  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 115 Torso  Horse  Animal
+variant 81 Muzzle  Horse  Animal
+variant 51 Head  Horse  Animal
+variant 64 Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 61 Hoof  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 115 Torso  Horse  Animal
+variant 81 Muzzle  Horse  Animal
+variant 51 Head  Horse  Animal
+variant 64 Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 61 Hoof  Horse  Animal
+variant 71 Leg  Horse  Animal
+variant 115 Torso  Horse  Animal
+variant 81 Muzzle  Horse  Animal
+variant 51 Head  Horse  Animal

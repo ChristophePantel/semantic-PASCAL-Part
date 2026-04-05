@@ -1,1 +1,1 @@
-Aeroplane  Vehicle
+variant 0 Aeroplane  Vehicle

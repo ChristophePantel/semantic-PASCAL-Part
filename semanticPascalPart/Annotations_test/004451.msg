@@ -1,37 +1,37 @@
-Car  Vehicle
-Bodywork  Car  Vehicle
-Car  Vehicle
-Window  Car  Vehicle
-Wheel  Car  Vehicle
-Bodywork  Car  Vehicle
-Car  Vehicle
-Headlight  Car  Vehicle
-Car  Vehicle
-Wheel  Car  Vehicle
-Bodywork  Car  Vehicle
-Car  Vehicle
-Window  Car  Vehicle
-Mirror  Car  Vehicle
-Bodywork  Car  Vehicle
-License_Plate  Car  Vehicle
-Car  Vehicle
-Window  Car  Vehicle
-Headlight  Car  Vehicle
-Bodywork  Car  Vehicle
-License_Plate  Car  Vehicle
-Car  Vehicle
-Headlight  Car  Vehicle
-Mirror  Car  Vehicle
-Bodywork  Car  Vehicle
-License_Plate  Car  Vehicle
-Car  Vehicle
-Mirror  Car  Vehicle
-Mirror  Car  Vehicle
-Bodywork  Car  Vehicle
-License_Plate  Car  Vehicle
-Aeroplane  Vehicle
-Stern  Aeroplane  Vehicle
-Wheel  Aeroplane  Vehicle
-Artifact_Wing  Aeroplane  Vehicle
-Artifact_Wing  Aeroplane  Vehicle
-Body  Aeroplane  Vehicle
+variant 15 Car  Vehicle
+variant 11 Bodywork  Car  Vehicle
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle
+variant 15 Car  Vehicle
+variant 59 Headlight  Car  Vehicle
+variant 15 Car  Vehicle
+variant 125 Wheel  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 78 Mirror  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle
+variant 74 License_Plate  Car  Vehicle
+variant 15 Car  Vehicle
+variant 131 Window  Car  Vehicle
+variant 59 Headlight  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle
+variant 74 License_Plate  Car  Vehicle
+variant 15 Car  Vehicle
+variant 59 Headlight  Car  Vehicle
+variant 78 Mirror  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle
+variant 74 License_Plate  Car  Vehicle
+variant 15 Car  Vehicle
+variant 78 Mirror  Car  Vehicle
+variant 78 Mirror  Car  Vehicle
+variant 11 Bodywork  Car  Vehicle
+variant 74 License_Plate  Car  Vehicle
+variant 0 Aeroplane  Vehicle
+variant 107 Stern  Aeroplane  Vehicle
+variant 127 Wheel  Aeroplane  Vehicle
+variant 3 Artifact_Wing  Aeroplane  Vehicle
+variant 3 Artifact_Wing  Aeroplane  Vehicle
+variant 9 Body  Aeroplane  Vehicle

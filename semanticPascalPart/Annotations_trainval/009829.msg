@@ -1,10 +1,10 @@
-Train  Vehicle
-Coach  Train  Vehicle
-Coach  Train  Vehicle
-Coach  Train  Vehicle
-Coach  Train  Vehicle
-Coach  Train  Vehicle
-Train  Vehicle
-Coach  Train  Vehicle
-Coach  Train  Vehicle
-Coach  Train  Vehicle
+variant 124 Train  Vehicle
+variant 19 Coach  Train  Vehicle
+variant 19 Coach  Train  Vehicle
+variant 19 Coach  Train  Vehicle
+variant 19 Coach  Train  Vehicle
+variant 19 Coach  Train  Vehicle
+variant 124 Train  Vehicle
+variant 19 Coach  Train  Vehicle
+variant 19 Coach  Train  Vehicle
+variant 19 Coach  Train  Vehicle

@@ -1,15 +1,15 @@
-Boat  Vehicle
-Boat  Vehicle
-Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Person  Animal
-Arm  Person  Animal
-Arm  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
-Person  Animal
-Leg  Person  Animal
-Leg  Person  Animal
-Torso  Person  Animal
-Head  Person  Animal
+variant 7 Boat  Vehicle
+variant 7 Boat  Vehicle
+variant 98 Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 2 Arm  Person  Animal
+variant 2 Arm  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
+variant 98 Person  Animal
+variant 67 Leg  Person  Animal
+variant 67 Leg  Person  Animal
+variant 122 Torso  Person  Animal
+variant 55 Head  Person  Animal
