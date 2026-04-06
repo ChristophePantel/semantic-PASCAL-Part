@@ -471,8 +471,11 @@ class PASCALPart_annotations:
         abstract_codes = km.class_names_to_codes( abstracts, class_to_code)
         full_composition = km.resolve(class_codes,coded_part_hierarchy,coded_class_hierarchy)
         inverted_full_composition = km.invert_relation(full_composition)
+        # Build Composition variants
         class_variants, variant_to_class = km.variants(class_codes,abstract_codes,inverted_full_composition)
+        # Add Inheritance relation
         generalized_class_variants = km.generalize(class_codes,class_variants,coded_class_hierarchy)
+        # variant_names = ...
         encoded_class_variants = km.encode_variants(class_number, generalized_class_variants)
 
         # class_codes = get_yolo_class_codes()

@@ -2,6 +2,9 @@
 
 import torch
 
+class VariantNotFound(Exception):
+    pass
+
 def get_class_names():
     class_names = frozenset({
         'Aeroplane', #00

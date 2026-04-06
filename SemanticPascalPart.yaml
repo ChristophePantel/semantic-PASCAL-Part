@@ -107,13 +107,13 @@ composition:
   59 : [32 , 18 , 38]
 
 variants:
-  # Variant number 0 (Aeroplane) : Aeroplane , Vehicle
+  # Variant number 0 (Aeroplane<Vehicle) : Aeroplane , Vehicle
   0 : [0 , 60]
-  # Variant number 1 (Animal_Wing) : Animal , Animal_Wing , Bird
+  # Variant number 1 (Animal_Wing:Bird<Animal) : Animal , Animal_Wing , Bird
   1 : [1 , 2 , 7]
   # Variant number 2 (Arm) : Animal , Arm , Person
   2 : [1 , 3 , 47]
-  # Variant number 3 (Artifact_Wing) : Aeroplane , Vehicle , Artifact_Wing
+  # Variant number 3 (Artifact_Wing:Aeroplane<Vehicle) : Aeroplane , Vehicle , Artifact_Wing
   3 : [0 , 60 , 4]
   # Variant number 4 (Beak) : Animal , Beak , Bird
   4 : [1 , 5 , 7]
