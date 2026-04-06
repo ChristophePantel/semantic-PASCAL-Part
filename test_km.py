@@ -2,6 +2,7 @@
 import km 
 import torch 
 import torch.nn as nn
+
 def encode_variants(class_number, class_variants):
     result = torch.zeros((len(class_variants),class_number))
     for variant_index in class_variants:
@@ -12,10 +13,30 @@ def encode_variants(class_number, class_variants):
 def generate_distance_matrix(class_number, class_variants, distance):
     # calcule la distance de chaque variant à chaque variant en utilisant la fuzzy logic ou la bce
     encoded_variants = encode_variants(class_number, class_variants)
-    result = distance(encoded_variants, encoded_variants)
+    simulated_variants = 0.2 * encoded_variants + 0.4
+    result = distance(simulated_variants, encoded_variants)
     return result 
 
-def scores_fuzzy_equiv(batch_scores, prediction_scores, alpha=0.9, power=3):
+def scores_bce(batch_scores, prediction_scores):
+    """Compute binary cross entropy between expected scores and predicted scores.
+    
+    Args:
+    
+    Returns:
+    """
+    bce_calculator = nn.BCELoss(reduction="none")
+    batch_range = batch_scores.shape[0]
+    prediction_range = prediction_scores.shape[0]
+    batch_scores_sum = torch.sum(batch_scores,1)
+    aligned_batch_scores_sum = torch.unsqueeze(batch_scores_sum, 0).expand(prediction_range,-1)
+    aligned_batch_scores = torch.unsqueeze(batch_scores, 0).expand(prediction_range,-1,-1)
+    aligned_prediction_scores = torch.unsqueeze(prediction_scores, 1).expand(-1,batch_range,-1)
+    bce_per_class = bce_calculator(aligned_prediction_scores,aligned_batch_scores) 
+    bce = torch.sum(bce_per_class,2) / batch_scores_sum
+    # detected = torch.where(bce < 1)
+    return bce
+
+def scores_fuzzy_equiv(batch_scores, prediction_scores, alpha=0.5, power=3):
     """Compute fuzzy equivalence between expected scores and predicted scores.
     
     Args:
@@ -75,4 +96,7 @@ generalized_class_variants = km.generalize(class_codes,class_variants,coded_clas
 encoded_class_variants = km.encode_variants(class_number, generalized_class_variants)
 
 result = generate_distance_matrix(class_number, class_variants, lambda a, b : scores_fuzzy_equiv( a, b, 0.9, 3 ))
+print(result)
+
+result = generate_distance_matrix(class_number, class_variants, scores_bce)
 print(result)
