@@ -10,11 +10,14 @@ def encode_variants(class_number, class_variants):
             result[variant_index,class_index] = 1.0
     return result
 
+import pandas as pd
+
 def generate_distance_matrix(class_number, class_variants, distance):
     # calcule la distance de chaque variant à chaque variant en utilisant la fuzzy logic ou la bce
     encoded_variants = encode_variants(class_number, class_variants)
     simulated_variants = 0.2 * encoded_variants + 0.4
     result = distance(simulated_variants, encoded_variants)
+
     return result 
 
 def scores_bce(batch_scores, prediction_scores):
@@ -36,7 +39,7 @@ def scores_bce(batch_scores, prediction_scores):
     # detected = torch.where(bce < 1)
     return bce
 
-def scores_fuzzy_equiv(batch_scores, prediction_scores, alpha=0.5, power=3):
+def scores_fuzzy_equiv(batch_scores, prediction_scores, alpha=0.9, power=3):
     """Compute fuzzy equivalence between expected scores and predicted scores.
     
     Args:
@@ -98,5 +101,17 @@ encoded_class_variants = km.encode_variants(class_number, generalized_class_vari
 result = generate_distance_matrix(class_number, class_variants, lambda a, b : scores_fuzzy_equiv( a, b, 0.9, 3 ))
 print(result)
 
+# convert array into dataframe
+DF = pd.DataFrame(result)
+
+# save the dataframe as a csv file
+DF.to_csv("/data/christophe/hierarchical/semantic-PASCAL-Part/data_fuzzy.csv")
+
 result = generate_distance_matrix(class_number, class_variants, scores_bce)
 print(result)
+
+# convert array into dataframe
+DF = pd.DataFrame(result)
+
+# save the dataframe as a csv file
+DF.to_csv("/data/christophe/hierarchical/semantic-PASCAL-Part/data_bce.csv")
