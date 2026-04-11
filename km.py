@@ -1,6 +1,8 @@
 # Christophe Pantel, IRIT, Toulouse Université
 
 import torch
+import scipy.sparse as sps
+import scipy.sparse.csgraph as spsg
 
 class VariantNotFound(Exception):
     pass
@@ -327,3 +329,18 @@ def get_candidate_variants(variant_classes, variant_to_classes):
             variant_set = variant_set.intersection(class_to_variants[other_class])
             #print(variant_set)
     return variant_set
+
+def get_class_compatibility_matrix(class_number, coded_class_hierarchy, coded_part_hierarchy):
+    g = sps.lil_array((class_number,class_number))
+
+    for origin in coded_class_hierarchy.keys():
+        for destination in coded_class_hierarchy[origin]:
+            g[origin, destination] = 1 
+            g[destination, origin] = 1 
+    t = spsg.dijkstra(g)
+    
+    for origin in coded_part_hierarchy.keys():
+        for destination in coded_part_hierarchy[origin]:
+            g[origin, destination] = 1
+            g[destination, origin] = 1 
+    t = spsg.dijkstra(g)

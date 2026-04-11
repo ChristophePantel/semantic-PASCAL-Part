@@ -87,6 +87,36 @@ coded_part_hierarchy = km.associate_codes_to_hierarchies(class_to_code, part_hie
 coded_class_hierarchy = km.associate_codes_to_hierarchies(class_to_code, extended_class_hierarchy)
 coded_class_hierarchy_inverted = km.invert_relation(coded_class_hierarchy)
 
+print(coded_class_hierarchy)
+
+import scipy.sparse as sps
+import scipy.sparse.csgraph as spsg
+
+g = sps.lil_array((class_number,class_number))
+
+for origin in coded_class_hierarchy.keys():
+    for destination in coded_class_hierarchy[origin]:
+        g[origin, destination] = 1 
+        g[destination, origin] = 1 
+t = spsg.dijkstra(g)
+
+for origin in coded_part_hierarchy.keys():
+    for destination in coded_part_hierarchy[origin]:
+        g[origin, destination] = 1
+        g[destination, origin] = 1 
+t = spsg.dijkstra(g)
+
+print(t)
+
+# convert array into dataframe
+DF = pd.DataFrame(t)
+
+# save the dataframe as a csv file
+DF.to_csv("/data/christophe/hierarchical/semantic-PASCAL-Part/data_g.csv")
+
+
+
+
 class_codes = frozenset(code_to_class.keys())
 abstract_codes = km.class_names_to_codes( abstracts, class_to_code)
 full_composition = km.resolve(class_codes,coded_part_hierarchy,coded_class_hierarchy)
